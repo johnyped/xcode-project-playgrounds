@@ -5,430 +5,327 @@
 //  Created by IntrodexMac on 17/5/2567 BE.
 //
 
+import DGCharts
 import Foundation
 import SnapKit
 import UIKit
 
 class CustomViewController: UIViewController {
-
-    lazy var nameLabel: UILabel = {
-        let element = UILabel()
-        element.text = "Hello world"
-        element.textAlignment = .left
+    // MARK: - Views
+    lazy var chartContainerView: UIStackView = {
+        let element = UIStackView()
+        element.axis = .horizontal
+        element.alignment = .fill
+        element.distribution = .fill
+        element.spacing = 0
         return element
     }()
+    
+    lazy var priceChartView: CombinedChartView = {
+        let element = CombinedChartView()
+        element.isUserInteractionEnabled = true
+        element.accessibilityIdentifier = "assetInfo_chart_view"
+        element.doubleTapToZoomEnabled = false
+        element.highlightPerTapEnabled = true
+        element.scaleXEnabled = false
+        element.scaleYEnabled = false
+        element.chartDescription.enabled = false
+        element.dragYEnabled = false
+        element.dragXEnabled = false
+        element.pinchZoomEnabled = false
+        element.noDataText = ""
+        element.noDataTextColor = UIColor.clear
 
-    // MARK: Popup Button
-    lazy var popUpButton: UIButton = {
-        let element = UIButton(type: .system)
-        element.setTitle("Menu", for: .normal)
-        element.setTitleColor(.white, for: .normal)
-        element.backgroundColor = .darkGray
-        element.layer.cornerRadius = 5
-        element.clipsToBounds = true
+        element.leftAxis.enabled = false
+        element.rightAxis.enabled = false
+        element.xAxis.drawAxisLineEnabled = false
+        element.xAxis.drawGridLinesEnabled = false
+        element.leftAxis.drawAxisLineEnabled = false
+        element.xAxis.drawLabelsEnabled = false
 
-        let menu = UIMenu(
-            image: nil,
-            options: .displayInline,
-            children: [
-                UIAction(
-                    title: "Action 1",
-                    image: nil,
-                    selectedImage: nil,
-                    state: .on,
-                    handler: popUpButton1Action),
-                UIAction(
-                    title: "Action 2Action 2Action 2Action 2Action 2Action 2Action 2Action 2Action 2",
-                    image: nil,
-                    selectedImage: nil,
-                    handler: popUpButton2Action),
-            UIAction(
-                title: "Action 3",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 4",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 5",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 6",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 7",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 8",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 9",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 10",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 11",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 12",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 13",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 14",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 15",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 16",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 17",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 18",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 19",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 20",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action),
-            UIAction(
-                title: "Action 21",
-                image: nil,
-                selectedImage: nil,
-                handler: popUpButton2Action)
-            ])
+        element.drawGridBackgroundEnabled = false
+        element.drawBordersEnabled = false
 
-        element.menu = menu
-        element.showsMenuAsPrimaryAction = true
-        element.changesSelectionAsPrimaryAction = true
+        element.legend.form = .none
+        element.setScaleEnabled(false)
+
+        element.maxVisibleCount = 5000
+        element.rightAxis.axisMaximum = 100
+        element.rightAxis.axisMinimum = 0
+
+        element.setScaleMinima(1,
+                               scaleY: 1)
+        element.setViewPortOffsets(left: 0,
+                                   top: 10,
+                                   right: 0,
+                                   bottom: 20)
+        element.backgroundColor = .lightGray
+        element.layer.borderWidth = 1
+        element.layer.borderColor = UIColor.black.cgColor
 
         return element
     }()
 
-    lazy var popUp2Button: UIButton = {
-        let element = UIButton(type: .system)
-        element.setTitle("Menu 2", for: .normal)
-        element.setTitleColor(.white, for: .normal)
-        element.backgroundColor = .darkGray
-        element.layer.cornerRadius = 5
-        element.clipsToBounds = true
-        //element.addTarget(self, action: #selector(presentCustomMenu(from:)), for: .touchUpInside)
-        element.addTarget(self, action: #selector(showMenu(from:)), for: .touchUpInside)
+    lazy var priceTargetChartView: PTChartView = {
+        let element = PTChartView()
+        element.backgroundColor = .clear
         return element
     }()
 
-    lazy var popUp3Button: UIButton = {
-        let element = UIButton(type: .system)
-        element.setTitle("Menu 3", for: .normal)
-        element.setTitleColor(.white, for: .normal)
-        element.backgroundColor = .darkGray
-        element.layer.cornerRadius = 5
-        element.clipsToBounds = true
-        element.addTarget(self, action: #selector(toggleDropdown), for: .touchUpInside)
+    lazy var priceTargetCapsulesView: UIView = {
+        let element = UIView()
+        element.backgroundColor = .clear
         return element
     }()
-
-    let tableView = UITableView()
-    let transparentView = UIView()
-
-    let menus: [String] = ["Menu 1", "Menu 2", "Menu 3", "Menu 4"]
-    func addTableView(frames: CGRect) {
-        transparentView.backgroundColor = UIColor.clear
-        transparentView.frame = self.view.frame
-        self.view.addSubview(transparentView)
-
-        tableView.rowHeight = 40
-        let tableVeiwHeight = (menus.count > 3) ? 120.0 : CGFloat(menus.count) * tableView.rowHeight
-        tableView.frame = CGRect(
-            x: frames.origin.x, y: frames.origin.y + frames.height, width: frames.width,
-            height: tableVeiwHeight)
-        self.view.addSubview(tableView)
-
-        tableView.layer.cornerRadius = 5
-        tableView.separatorStyle = .none
-        tableView.layer.borderColor = UIColor.systemGray5.cgColor
-        tableView.layer.borderWidth = 1.0
-
-        tableView.selectRow(
-            at: IndexPath(row: 0, section: 0), animated: false, scrollPosition: .none)
-
-        popUp3Button.setTitle(menus[0], for: .normal)
-
-        let tapgesture = UITapGestureRecognizer(
-            target: self,
-            action: #selector(hideTableView))
-        transparentView.addGestureRecognizer(tapgesture)
-
-        tableView.isHidden = true
-        transparentView.isHidden = true
-    }
-
-    private func showTableView(frames: CGRect) {
-
-        tableView.frame = CGRect(
-            x: frames.origin.x,
-            y: frames.origin.y + frames.height,
-            width: frames.width,
-            height: tableView.frame.height)
-        tableView.isHidden = false
-        transparentView.isHidden = false
-    }
-
-    @objc private func hideTableView() {
-        tableView.isHidden = true
-        transparentView.isHidden = true
-    }
-
-    @objc
-    func popUpButton1Action(_ sender: UIAction) {
-        print("Selected item: popUpButton1Action")
-    }
-
-    @objc
-    func popUpButton2Action(_ sender: UIAction) {
-        print("Selected item: popUpButton2Action")
-    }
-
-    //MARK : availabel on iPad
-    @objc
-    func presentCustomMenu(from button: UIButton) {
-        let customMenuVC = MenuViewController(sourceFrame: .zero)
-        customMenuVC.modalPresentationStyle = .popover
-
-        if let popoverController = customMenuVC.popoverPresentationController {
-            popoverController.sourceView = button
-            popoverController.sourceRect = button.bounds
-            popoverController.permittedArrowDirections = .up
-            popoverController.backgroundColor = UIColor.systemGray6  // Set popover background color
-        }
-
-        self.present(customMenuVC, animated: true)
-    }
-
-    @objc
-    func showMenu(from button: UIButton) {
-        let buttonFrame = popUp2Button.frame
-
-        // Pass the button's frame to the custom menu view controller
-        let menuVC = MenuViewController(sourceFrame: buttonFrame)
-        menuVC.modalPresentationStyle = .overFullScreen  // Present over current context
-        menuVC.modalTransitionStyle = .crossDissolve  // Smooth transition
-
-        // Callback to update button title when an item is selected
-        menuVC.onSelection = { [weak self] selectedItem in
-            self?.popUp2Button.setTitle(selectedItem, for: .normal)
-        }
-
-        // Present the custom menu
-        present(menuVC, animated: false)
-    }
-
-    @objc
-    func showTableMenu(from button: UIButton) {
-
-    }
-
+    
+    // MARK: - Data Stores
+    var priceTarget: PriceTargetResult?
+    var priceChartDataSet: LineChartDataSet?
+    var priceTargetChartDataSet: ScatterChartDataSet?
+    var OHLCs: [OHLC] = []
+    
+    var capsuleSize: CGSize = .init(width: 0,
+                                    height: 18)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         initViews()
         initConstriantLayout()
-
-        //setupDropdownButton()
-        setupDropdownTableView()
+        fetchChartData()
     }
-
+    
+    private func fetchChartData() {
+        Task {
+            let priceOHLCs = OHLC.Stub.simple1
+            guard
+                let currentPrice = priceOHLCs.last?.close,
+                let priceTarget = MockPriceTargetGenerator().generateMockData(currentPrice: currentPrice).response.result
+            else {
+                print("No data")
+                return
+            }
+            
+            self.OHLCs = priceOHLCs
+            self.priceTarget = priceTarget
+            
+            fetchDataSuccess(priceTarget: priceTarget,
+                                   OHLCs: priceOHLCs)
+        }
+    }
+    
+    @MainActor
+    func fetchDataSuccess(priceTarget: PriceTargetResult,
+                          OHLCs: [OHLC]) {
+        guard
+            let currentPrice = OHLCs.last?.close
+        else {
+            print("No data")
+            return
+        }
+        
+        priceChartDataSet = createPriceChartDataSet(prices: OHLCs)
+        priceTargetChartDataSet = createPriceTargetChartDataSet(priceTarget: priceTarget,
+                                                                currentPrice: currentPrice)
+        initChart()
+    }
+    
+    private func createPriceChartDataSet(prices: [OHLC]) -> LineChartDataSet {
+        let priceChartEntries = prices.enumerated().map { (index, item) in
+            ChartDataEntry(x: Double(index),
+                           y: item.close)
+        }
+        
+        let dataSet = LineChartDataSet(entries: priceChartEntries,
+                                       label: "Historical Price")
+        dataSet.colors = [NSUIColor.blue]
+        dataSet.valueColors = [NSUIColor.black]
+        
+        return dataSet
+    }
+    
+    private func createPriceTargetChartDataSet(priceTarget: PriceTargetResult,
+                                               currentPrice: Double) -> ScatterChartDataSet? {
+        let summaryPriceTarget = priceTarget.priceTargetSummary
+        
+        guard
+            let averagePriceTarget = Double(summaryPriceTarget.average)
+        else {
+            return nil
+        }
+        
+        // scatter chart (target price)
+        let priceTargetAmount = priceTarget.items
+            .map({ $0.priceTarget })
+            .map({ Double($0) ?? 0 })
+        
+        let priceTargetWithSummaryAmount = priceTargetAmount + [averagePriceTarget, currentPrice]
+        let targetChartEntries = priceTargetWithSummaryAmount.map({ ChartDataEntry(x: 0, y: $0) })
+        
+        let dataSet = ScatterChartDataSet(entries: targetChartEntries,
+                                          label: "")
+        dataSet.colors = [NSUIColor.clear]
+        dataSet.scatterShapeSize = 0
+        dataSet.drawValuesEnabled = false
+        dataSet.drawIconsEnabled = false
+        dataSet.drawVerticalHighlightIndicatorEnabled = false
+        dataSet.drawHorizontalHighlightIndicatorEnabled = false
+        return dataSet
+    }
+    
     private func initViews() {
-        self.view.backgroundColor = .white
-
-        self.view.addSubview(nameLabel)
-        self.view.addSubview(popUpButton)
-        self.view.addSubview(popUp2Button)
-        self.view.addSubview(popUp3Button)
+        view.backgroundColor = .white
+        view.addSubview(chartContainerView)
+        chartContainerView.addArrangedSubview(priceChartView)
+        chartContainerView.addArrangedSubview(priceTargetChartView)
+        chartContainerView.addArrangedSubview(priceTargetCapsulesView)
+        chartContainerView.setCustomSpacing(6, after: priceTargetChartView)
     }
 
     private func initConstriantLayout() {
-        nameLabel.snp.makeConstraints({ make in
+        chartContainerView.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
-            make.centerX.equalToSuperview()
-        })
+            make.left.right.equalToSuperview()
+        }
+        
+        priceChartView.snp.makeConstraints { make in
+            make.height.equalTo(300)
+        }
 
-        popUpButton.snp.makeConstraints({ make in
-            make.top.equalToSuperview().offset(100)
-            make.width.equalTo(200)
-            make.height.equalTo(30)
-            make.right.equalToSuperview().offset(-20)
-        })
+        priceTargetChartView.snp.makeConstraints { make in
+            make.top.bottom.equalTo(priceChartView)
+            make.width.equalTo(30)
+        }
 
-        popUp2Button.snp.makeConstraints({ make in
-            make.top.equalTo(popUpButton.snp.bottom).offset(20)
-            make.width.equalTo(200)
-            make.height.equalTo(30)
-            make.right.equalToSuperview().offset(-20)
-        })
-
-        popUp3Button.snp.makeConstraints({ make in
-            make.top.equalTo(popUp2Button.snp.bottom).offset(20)
-            make.width.equalTo(200)
-            make.height.equalTo(30)
-            make.right.equalToSuperview().offset(-20)
-        })
+        priceTargetCapsulesView.snp.makeConstraints { make in
+            make.top.bottom.equalTo(priceChartView)
+            make.width.equalTo(capsuleSize.width)
+        }
     }
-
-    // UI Elements
-    let dropdownTableView = UITableView()
-    let dropdownBGView = UIView()
-
-    // Data
-    let options = ["Option 1", "Option 2", "Option 3", "Option 4"]
-    var isDropdownOpen = false
-
-    func setupDropdownTableView() {
-        // dropdownBGView
-        dropdownBGView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(toggleDropdown)))
-        dropdownBGView.backgroundColor = UIColor.black.withAlphaComponent(0.4)
-        dropdownBGView.isHidden = true
-        
-        view.addSubview(dropdownBGView)
-        dropdownBGView.snp.makeConstraints({ make in
-            make.top.bottom.left.right.equalToSuperview()
-        })
-        
-        // Register the MenuTableCell with the table view
-        dropdownTableView.register(MenuTableCell.self, forCellReuseIdentifier: "MenuTableCell")
-
-        // Configure dropdown table view
-        dropdownTableView.delegate = self
-        dropdownTableView.dataSource = self
-        dropdownTableView.layer.borderWidth = 1
-        dropdownTableView.layer.borderColor = UIColor.systemGray.cgColor
-        dropdownTableView.layer.cornerRadius = 8
-        dropdownTableView.isHidden = true
-        dropdownTableView.allowsMultipleSelection = false
-
-        // Layout dropdown table view
-        dropdownTableView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(dropdownTableView)
-
-        dropdownTableView.snp.makeConstraints({ make in
-            make.top.equalTo(popUp3Button.snp.bottom).offset(20)
-            make.width.equalTo(200)
-            make.height.equalTo(200)
-            make.right.equalToSuperview().offset(-20)
-        })
-             
+    
+    private func initChart() {
+        renderPriceChart()
+        renderPriceTargetChart()
+        renderPriceTargetCapsules()
     }
-
-    @objc func toggleDropdown() {
-        isDropdownOpen.toggle()
+    
+    private func createChartRenderer() -> RKetCombinedChartRenderer? {
+        guard
+            let priceChartDataSet,
+            let priceTargetChartDataSet
+        else { return nil }
         
-        dropdownTableView.isHidden = !isDropdownOpen
-        dropdownBGView.isHidden = !isDropdownOpen
+        let combine = priceChartDataSet.entries + priceTargetChartDataSet.entries
+        let maxColsePriceOfChart = combine.map { $0.y }.max() ?? 0
+        let minClosePriceOfChart = combine.map { $0.y }.min() ?? 0
+        let renderer = RKetCombinedChartRenderer(chart: priceChartView,
+                                                 animator: priceChartView.chartAnimator,
+                                                 viewPortHandler: priceChartView.viewPortHandler,
+                                                 maxPrice: maxColsePriceOfChart,
+                                                 minPrice: minClosePriceOfChart)
+        return renderer
+    }
+    
+    private func renderPriceChart() {
+        guard
+            let priceChartDataSet,
+            let priceTargetChartDataSet
+        else { return }
+
+        let lineChartData = LineChartData(dataSet: priceChartDataSet)
+        let scatterChartData = ScatterChartData(dataSets: [priceTargetChartDataSet])
+
+        let combinedChartData = CombinedChartData()
+        combinedChartData.lineData = lineChartData
+        combinedChartData.scatterData = scatterChartData
+
+        priceChartView.data = combinedChartData
+        priceChartView.renderer = createChartRenderer()
+    }
+    
+    func renderPriceTargetChart() {
+        guard
+            let priceTargetChartDataSet,
+            let priceTargetSummary = priceTarget?.priceTargetSummary,
+            let avg = Double(priceTargetSummary.average),
+            let now = OHLCs.last?.close
+        else { return }
+        
+        guard
+            let nowChartDataEntry = priceTargetChartDataSet.entries.first(where: { $0.y == now }),
+            let avgChartDataEntry = priceTargetChartDataSet.entries.first(where: { $0.y == avg })
+        else { return }
+        
+        let startPos: CGPoint = .init(x: 0,
+                                      y: getChartPos(entry: nowChartDataEntry).y)
+        let endX: CGFloat = priceTargetChartView.bounds.width
+        let entries = priceTargetChartDataSet.entries
+        
+        let yValues: [CGFloat] = self.getPositions(entries: entries,
+                                                   in: self.priceChartView).map({ CGFloat($0.y) })
+        
+        let vm = PTChartVM(startPoint: startPos,
+                               endX: endX,
+                               yValues: yValues,
+                               yAvg: getChartPos(entry: avgChartDataEntry).y)
+        
+        priceTargetChartView.bind(vm)
+    }
+    
+    func getPositions(entries: [ChartDataEntry],
+                      in chartView: BarLineChartViewBase) -> [CGPoint]
+    {
+        entries.map {
+            let p = chartView.getPosition(entry: $0,
+                                          axis: .left)
+            return p
+        }
+    }
+    
+    func getChartPos(entry: ChartDataEntry) -> CGPoint {
+        let p = priceChartView.getPosition(entry: entry,
+                                      axis: .left)
+        return p
     }
 
 }
 
-// MARK: - UITableViewDelegate and UITableViewDataSource Methods
-extension CustomViewController: UITableViewDelegate, UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return options.count
-    }
+// MARK: Stub Chart Data
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell =
-            tableView.dequeueReusableCell(withIdentifier: "MenuTableCell") as? MenuTableCell
-            ?? MenuTableCell(style: .default, reuseIdentifier: "MenuTableCell")
-        cell.titleLabel.text = options[indexPath.row]
-        return cell
-    }
-
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let selectedOption = options[indexPath.row]
-        popUp3Button.setTitle(selectedOption, for: .normal)
-
-        // Toggle the highlight color of the selected cell
-        if let cell = tableView.cellForRow(at: indexPath) {
-            cell.contentView.backgroundColor = cell.isSelected ? UIColor.lightGray : UIColor.clear
+extension CustomViewController {
+    enum Stub {
+        static func generateEntries(avg: Double,
+                                    now: Double,
+                                    other: [Double]) -> (minEntry: ChartDataEntry?,
+                                                         maxEntry: ChartDataEntry?,
+                                                         avgEntry: ChartDataEntry?,
+                                                         nowEntry: ChartDataEntry?,
+                                                         other: [ChartDataEntry]) {
+            let x = Double(0)
+            let avgEntry = ChartDataEntry(x: x,
+                                          y: avg,
+                                          data: avg)
+            let nowEntry = ChartDataEntry(x: x,
+                                          y: now,
+                                          data: now)
+            var otherEntries = other.sorted().enumerated().map { ref -> ChartDataEntry in
+                ChartDataEntry(x: x,
+                               y: ref.element,
+                               data: Double(ref.element))
+            }
+            
+            let minEntry = otherEntries.first
+            let maxEntry = otherEntries.last
+            
+            otherEntries.removeLast()
+            otherEntries.removeFirst()
+            
+            return (minEntry,
+                    maxEntry,
+                    avgEntry,
+                    nowEntry,
+                    otherEntries)
         }
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-            self.toggleDropdown()
-        }
-    }
-
-    // Optional: Reset cell background color when deselected
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        if let cell = tableView.cellForRow(at: indexPath) {
-            cell.contentView.backgroundColor = UIColor.clear
-        }
-    }
-}
-
-class MenuTableCell: UITableViewCell {
-    let titleLabel: UILabel = {
-        let label = UILabel()
-        label.textAlignment = .left
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.addSubview(titleLabel)
-        setupConstraints()
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-    private func setupConstraints() {
-        titleLabel.snp.makeConstraints { make in
-            make.leading.equalTo(contentView).offset(16)
-            make.trailing.equalTo(contentView).offset(-16)
-            make.top.equalTo(contentView)
-            make.bottom.equalTo(contentView)
-        }
+        
     }
 }

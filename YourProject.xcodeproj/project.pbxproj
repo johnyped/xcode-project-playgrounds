@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3660A3F32CBE5CB300E3B4C6 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660A3F22CBE5CAE00E3B4C6 /* MenuVC.swift */; };
-		3684147F2CBF6F75004B977E /* PopUpAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3684147E2CBF6F6E004B977E /* PopUpAction.swift */; };
-		368414812CBF6FF3004B977E /* PopUpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368414802CBF6FEF004B977E /* PopUpMenu.swift */; };
-		368414832CBF78D8004B977E /* POCPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368414822CBF78D0004B977E /* POCPopUpViewController.swift */; };
-		368414852CBFBD4C004B977E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368414842CBFBD4B004B977E /* MenuView.swift */; };
+		364029012CC608EA004D745F /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 364029002CC608EA004D745F /* DGCharts */; };
+		364029042CC60B8B004D745F /* RKetCombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029032CC60B85004D745F /* RKetCombinedChartRenderer.swift */; };
+		364029062CC60BA1004D745F /* RKLineChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029052CC60BA0004D745F /* RKLineChartRenderer.swift */; };
+		364029082CC60BCF004D745F /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029072CC60BCB004D745F /* TextHelper.swift */; };
+		3640290C2CC74325004D745F /* OHLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640290B2CC74323004D745F /* OHLC.swift */; };
+		3640290E2CC74FC3004D745F /* PTChartVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640290D2CC74FC0004D745F /* PTChartVM.swift */; };
+		364029102CC754AC004D745F /* PriceTargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640290F2CC754AA004D745F /* PriceTargetTests.swift */; };
+		364029122CC78575004D745F /* PTChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029112CC7856F004D745F /* PTChartView.swift */; };
+		36514F582CCA2D0800838B37 /* PTCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F572CCA2D0000838B37 /* PTCapsuleView.swift */; };
+		36514F5A2CCA2EB000838B37 /* PTCapsuleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F592CCA2EAC00838B37 /* PTCapsuleVM.swift */; };
+		36514F5C2CCA2FB400838B37 /* CustomViewController+Capsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F5B2CCA2FB100838B37 /* CustomViewController+Capsule.swift */; };
+		36514F5E2CCA4CDC00838B37 /* ResponseMocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F5D2CCA4CD800838B37 /* ResponseMocker.swift */; };
 		36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C22BF73F1600D523D0 /* AppDelegate.swift */; };
 		36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C42BF73F1600D523D0 /* SceneDelegate.swift */; };
 		36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C62BF73F1600D523D0 /* ViewController.swift */; };
@@ -23,6 +30,7 @@
 		36B587E62BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */; };
 		36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587F22BF73F4900D523D0 /* CustomViewController.swift */; };
 		36B587F62BF73FF800D523D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36B587F52BF73FF800D523D0 /* SnapKit */; };
+		36D5D0CB2CCB4644003EC772 /* DrawShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5D0CA2CCB463D003EC772 /* DrawShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3660A3F22CBE5CAE00E3B4C6 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
-		3684147E2CBF6F6E004B977E /* PopUpAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAction.swift; sourceTree = "<group>"; };
-		368414802CBF6FEF004B977E /* PopUpMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpMenu.swift; sourceTree = "<group>"; };
-		368414822CBF78D0004B977E /* POCPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCPopUpViewController.swift; sourceTree = "<group>"; };
-		368414842CBFBD4B004B977E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		364029032CC60B85004D745F /* RKetCombinedChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKetCombinedChartRenderer.swift; sourceTree = "<group>"; };
+		364029052CC60BA0004D745F /* RKLineChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKLineChartRenderer.swift; sourceTree = "<group>"; };
+		364029072CC60BCB004D745F /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
+		3640290B2CC74323004D745F /* OHLC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHLC.swift; sourceTree = "<group>"; };
+		3640290D2CC74FC0004D745F /* PTChartVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTChartVM.swift; sourceTree = "<group>"; };
+		3640290F2CC754AA004D745F /* PriceTargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTargetTests.swift; sourceTree = "<group>"; };
+		364029112CC7856F004D745F /* PTChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTChartView.swift; sourceTree = "<group>"; };
+		36514F572CCA2D0000838B37 /* PTCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTCapsuleView.swift; sourceTree = "<group>"; };
+		36514F592CCA2EAC00838B37 /* PTCapsuleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTCapsuleVM.swift; sourceTree = "<group>"; };
+		36514F5B2CCA2FB100838B37 /* CustomViewController+Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomViewController+Capsule.swift"; sourceTree = "<group>"; };
+		36514F5D2CCA4CD800838B37 /* ResponseMocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMocker.swift; sourceTree = "<group>"; };
 		36B587BF2BF73F1600D523D0 /* YourProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B587C22BF73F1600D523D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36B587C42BF73F1600D523D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +76,7 @@
 		36B587E32BF73F1900D523D0 /* YourProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectUITests.swift; sourceTree = "<group>"; };
 		36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		36B587F22BF73F4900D523D0 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		36D5D0CA2CCB463D003EC772 /* DrawShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364029012CC608EA004D745F /* DGCharts in Frameworks */,
 				36B587F62BF73FF800D523D0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,14 +106,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3684147B2CBF6F3D004B977E /* PopUpMenu */ = {
+		364028FF2CC608EA004D745F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3684147E2CBF6F6E004B977E /* PopUpAction.swift */,
-				368414802CBF6FEF004B977E /* PopUpMenu.swift */,
-				368414842CBFBD4B004B977E /* MenuView.swift */,
 			);
-			path = PopUpMenu;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		364029022CC60B80004D745F /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				36514F5D2CCA4CD800838B37 /* ResponseMocker.swift */,
+				36514F562CCA2CA700838B37 /* Capsule */,
+				364029112CC7856F004D745F /* PTChartView.swift */,
+				3640290D2CC74FC0004D745F /* PTChartVM.swift */,
+				3640290B2CC74323004D745F /* OHLC.swift */,
+				364029032CC60B85004D745F /* RKetCombinedChartRenderer.swift */,
+				364029052CC60BA0004D745F /* RKLineChartRenderer.swift */,
+				364029072CC60BCB004D745F /* TextHelper.swift */,
+				36D5D0CA2CCB463D003EC772 /* DrawShapeView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		36514F562CCA2CA700838B37 /* Capsule */ = {
+			isa = PBXGroup;
+			children = (
+				36514F572CCA2D0000838B37 /* PTCapsuleView.swift */,
+				36514F592CCA2EAC00838B37 /* PTCapsuleVM.swift */,
+			);
+			path = Capsule;
 			sourceTree = "<group>";
 		};
 		36B587B62BF73F1600D523D0 = {
@@ -106,6 +144,7 @@
 				36B587C12BF73F1600D523D0 /* YourProject */,
 				36B587D82BF73F1900D523D0 /* YourProjectTests */,
 				36B587E22BF73F1900D523D0 /* YourProjectUITests */,
+				364028FF2CC608EA004D745F /* Frameworks */,
 				36B587C02BF73F1600D523D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,9 +165,8 @@
 				36B587C22BF73F1600D523D0 /* AppDelegate.swift */,
 				36B587C42BF73F1600D523D0 /* SceneDelegate.swift */,
 				36B587F22BF73F4900D523D0 /* CustomViewController.swift */,
-				368414822CBF78D0004B977E /* POCPopUpViewController.swift */,
-				3660A3F22CBE5CAE00E3B4C6 /* MenuVC.swift */,
-				3684147B2CBF6F3D004B977E /* PopUpMenu */,
+				36514F5B2CCA2FB100838B37 /* CustomViewController+Capsule.swift */,
+				364029022CC60B80004D745F /* Chart */,
 				36B587C62BF73F1600D523D0 /* ViewController.swift */,
 				36B587C82BF73F1600D523D0 /* Main.storyboard */,
 				36B587CB2BF73F1800D523D0 /* Assets.xcassets */,
@@ -141,6 +179,7 @@
 		36B587D82BF73F1900D523D0 /* YourProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				3640290F2CC754AA004D745F /* PriceTargetTests.swift */,
 				36B587D92BF73F1900D523D0 /* YourProjectTests.swift */,
 			);
 			path = YourProjectTests;
@@ -173,6 +212,7 @@
 			name = YourProject;
 			packageProductDependencies = (
 				36B587F52BF73FF800D523D0 /* SnapKit */,
+				364029002CC608EA004D745F /* DGCharts */,
 			);
 			productName = YourProject;
 			productReference = 36B587BF2BF73F1600D523D0 /* YourProject.app */;
@@ -248,7 +288,7 @@
 			mainGroup = 36B587B62BF73F1600D523D0;
 			packageReferences = (
 				36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				3660A3F42CBE626F00E3B4C6 /* XCRemoteSwiftPackageReference "Voodu" */,
+				364028FE2CC604B4004D745F /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 36B587C02BF73F1600D523D0 /* Products */;
 			projectDirPath = "";
@@ -293,15 +333,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364029062CC60BA1004D745F /* RKLineChartRenderer.swift in Sources */,
+				36514F5E2CCA4CDC00838B37 /* ResponseMocker.swift in Sources */,
 				36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */,
+				36514F582CCA2D0800838B37 /* PTCapsuleView.swift in Sources */,
+				364029122CC78575004D745F /* PTChartView.swift in Sources */,
 				36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */,
 				36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */,
+				36514F5A2CCA2EB000838B37 /* PTCapsuleVM.swift in Sources */,
+				364029042CC60B8B004D745F /* RKetCombinedChartRenderer.swift in Sources */,
+				36D5D0CB2CCB4644003EC772 /* DrawShapeView.swift in Sources */,
+				3640290E2CC74FC3004D745F /* PTChartVM.swift in Sources */,
+				36514F5C2CCA2FB400838B37 /* CustomViewController+Capsule.swift in Sources */,
 				36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */,
-				368414852CBFBD4C004B977E /* MenuView.swift in Sources */,
-				368414832CBF78D8004B977E /* POCPopUpViewController.swift in Sources */,
-				3684147F2CBF6F75004B977E /* PopUpAction.swift in Sources */,
-				368414812CBF6FF3004B977E /* PopUpMenu.swift in Sources */,
-				3660A3F32CBE5CB300E3B4C6 /* MenuVC.swift in Sources */,
+				3640290C2CC74325004D745F /* OHLC.swift in Sources */,
+				364029082CC60BCF004D745F /* TextHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364029102CC754AC004D745F /* PriceTargetTests.swift in Sources */,
 				36B587DA2BF73F1900D523D0 /* YourProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,12 +697,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3660A3F42CBE626F00E3B4C6 /* XCRemoteSwiftPackageReference "Voodu" */ = {
+		364028FE2CC604B4004D745F /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mitchtreece/Voodu";
+			repositoryURL = "https://github.com/ChartsOrg/Charts";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
+				minimumVersion = 5.1.0;
 			};
 		};
 		36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
@@ -669,6 +716,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		364029002CC608EA004D745F /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 364028FE2CC604B4004D745F /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
 		36B587F52BF73FF800D523D0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
