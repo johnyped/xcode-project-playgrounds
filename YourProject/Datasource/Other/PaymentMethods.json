@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Bank Transfer",
+    "sub_methods": []
+  },
+  {
+    "name": "Cash (Transfer)", 
+    "sub_methods": []
+  },
+  {
+    "name": "Cash On Arrival",
+    "sub_methods": []
+  },
+  {
+    "name": "Complimentary Room",
+    "sub_methods": []
+  },
+  {
+    "name": "Cheque",
+    "sub_methods": []
+  },
+  {
+    "name": "Credit Card",
+    "sub_methods": []
+  },
+  {
+    "name": "Debit Card",
+    "sub_methods": []
+  },
+  {
+    "name": "Fin Tech",
+    "sub_methods": [
+      {
+        "name": "Alipay",
+        "sub_methods": []
+      },
+      {
+        "name": "Apple Pay",
+        "sub_methods": []
+      },
+      {
+        "name": "Prompt pay",
+        "sub_methods": []
+      },
+      {
+        "name": "Samsung Pay",
+        "sub_methods": []
+      },
+      {
+        "name": "WeChat Pay",
+        "sub_methods": []
+      },
+      {
+        "name": "Paypal",
+        "sub_methods": []
+      }
+    ]
+  },
+  {
+    "name": "City Ledger",
+    "sub_methods": []
+  }
+]

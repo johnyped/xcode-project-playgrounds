@@ -3,21 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 74;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36013F902C481721001B0E52 /* FamlilyMemberClassifier_v1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 36013F8F2C481721001B0E52 /* FamlilyMemberClassifier_v1.mlmodel */; };
-		36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C22BF73F1600D523D0 /* AppDelegate.swift */; };
-		36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C42BF73F1600D523D0 /* SceneDelegate.swift */; };
-		36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C62BF73F1600D523D0 /* ViewController.swift */; };
-		36B587CA2BF73F1600D523D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36B587C92BF73F1600D523D0 /* Base */; };
-		36B587CC2BF73F1800D523D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B587CB2BF73F1800D523D0 /* Assets.xcassets */; };
-		36B587CF2BF73F1800D523D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36B587CE2BF73F1800D523D0 /* Base */; };
-		36B587DA2BF73F1900D523D0 /* YourProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587D92BF73F1900D523D0 /* YourProjectTests.swift */; };
-		36B587E42BF73F1900D523D0 /* YourProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587E32BF73F1900D523D0 /* YourProjectUITests.swift */; };
-		36B587E62BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */; };
-		36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587F22BF73F4900D523D0 /* CustomViewController.swift */; };
+		0F8167EC2D4BC9E50025B2B0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0F8167EB2D4BC9E50025B2B0 /* Alamofire */; };
+		0F819EC82D4BD4260025B2B0 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F819EC72D4BD4260025B2B0 /* KeychainSwift */; };
+		0F819F012D4F779F0025B2B0 /* Mockable in Frameworks */ = {isa = PBXBuildFile; productRef = 0F819F002D4F779F0025B2B0 /* Mockable */; };
+		0F819F042D4F77B40025B2B0 /* Mockable in Frameworks */ = {isa = PBXBuildFile; productRef = 0F819F032D4F77B40025B2B0 /* Mockable */; };
+		0FDD99E82D5EA9AA00836890 /* Mocker in Frameworks */ = {isa = PBXBuildFile; productRef = 0FDD99E72D5EA9AA00836890 /* Mocker */; };
+		0FE6996E2D5038ED00FC746E /* Mocker in Frameworks */ = {isa = PBXBuildFile; productRef = 0FE6996D2D5038ED00FC746E /* Mocker */; };
 		36B587F62BF73FF800D523D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36B587F52BF73FF800D523D0 /* SnapKit */; };
 /* End PBXBuildFile section */
 
@@ -39,29 +34,351 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36013F8F2C481721001B0E52 /* FamlilyMemberClassifier_v1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FamlilyMemberClassifier_v1.mlmodel; sourceTree = "<group>"; };
 		36B587BF2BF73F1600D523D0 /* YourProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36B587C22BF73F1600D523D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36B587C42BF73F1600D523D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36B587C62BF73F1600D523D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36B587C92BF73F1600D523D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36B587CB2BF73F1800D523D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		36B587CE2BF73F1800D523D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		36B587D02BF73F1800D523D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36B587D52BF73F1900D523D0 /* YourProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		36B587D92BF73F1900D523D0 /* YourProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectTests.swift; sourceTree = "<group>"; };
 		36B587DF2BF73F1900D523D0 /* YourProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		36B587E32BF73F1900D523D0 /* YourProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectUITests.swift; sourceTree = "<group>"; };
-		36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		36B587F22BF73F4900D523D0 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0F81401F2D4BC79F0025B2B0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/LaunchScreen.storyboard,
+				/Localized/Main.storyboard,
+				DataModels/Manager/FileService/UploadFileService.swift,
+				Info.plist,
+				Services/UserService/UserRemoteService.swift,
+				Services/UserService/UserServiceRequest.swift,
+				Services/UserService/UserServiceRouter.swift,
+			);
+			target = 36B587BE2BF73F1600D523D0 /* YourProject */;
+		};
+		0F819EEB2D4E08070025B2B0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DataModels/AppConfiguration.swift,
+				DataModels/AuthTokenResponse.swift,
+				DataModels/Calendar/Allotment/UnitTypeAllotment.swift,
+				DataModels/Calendar/Allotment/UnitTypeAllotments.swift,
+				DataModels/Calendar/BlackoutUnit/BlackoutUnit.swift,
+				DataModels/Calendar/BlackoutUnit/BlackoutUnits.swift,
+				DataModels/Calendar/CalendarEvent/CalendarEvent.swift,
+				DataModels/Calendar/CalendarEvent/CalendarEvents.swift,
+				DataModels/Calendar/ReservedDateRange.swift,
+				DataModels/CM/Calendar/CMCalendarItem.swift,
+				DataModels/CM/Calendar/CMCalendarItems.swift,
+				DataModels/CM/CMBooking.swift,
+				DataModels/CM/CMBookingRaw.swift,
+				DataModels/CM/CMBookings.swift,
+				DataModels/CM/CMChannel.swift,
+				DataModels/CM/CMChannels.swift,
+				DataModels/CM/CMInvoice.swift,
+				DataModels/CM/Rate/CMRate.swift,
+				"DataModels/CM/Rate/CMRate+Channels.swift",
+				"DataModels/CM/Rate/CMRate+RateCodes.swift",
+				DataModels/CM/Rate/CMRateCodes.swift,
+				DataModels/CM/Rate/CMRates.swift,
+				DataModels/CM/SyncAllotment/CMSyncAllotment.swift,
+				DataModels/Collection.swift,
+				DataModels/ExpenseIncome/Account/Account.swift,
+				DataModels/ExpenseIncome/Account/Accounts.swift,
+				DataModels/ExpenseIncome/AccountItem/AccountItem.swift,
+				DataModels/ExpenseIncome/AccountItem/AccountItems.swift,
+				DataModels/ExpenseIncome/AccountItemCategory/AccountItemCategories.swift,
+				DataModels/ExpenseIncome/AccountItemCategory/AccountItemCategory.swift,
+				DataModels/ExpenseIncome/AccountSubItemCategory/AccountSubItemCategories.swift,
+				DataModels/ExpenseIncome/AccountSubItemCategory/AccountSubItemCategory.swift,
+				DataModels/ExpenseIncome/Payee/Payee.swift,
+				DataModels/ExpenseIncome/Payee/Payees.swift,
+				"DataModels/Extension/Bool+.swift",
+				"DataModels/Extension/Date+.swift",
+				DataModels/Extension/DateHelper.swift,
+				"DataModels/Extension/Double+.swift",
+				"DataModels/Extension/Int+.swift",
+				"DataModels/Extension/String/String+.swift",
+				"DataModels/Extension/String/String+FuzzySearch.swift",
+				"DataModels/Extension/String/String+Validator.swift",
+				DataModels/Form/FormConfig.swift,
+				DataModels/Manager/APIManager/APIErrorResponse.swift,
+				DataModels/Manager/APIManager/APIManager.swift,
+				DataModels/Manager/APIManager/AuthInterceptor.swift,
+				DataModels/Manager/APIManager/JWTPayload.swift,
+				DataModels/Manager/APIManager/OAuthCredential.swift,
+				DataModels/Manager/LocalStorageManager/CryptographicHelper.swift,
+				DataModels/Manager/LocalStorageManager/KeyChainHelper.swift,
+				DataModels/Manager/LocalStorageManager/LocalFileStorageHelper.swift,
+				DataModels/Manager/LocalStorageManager/LocalStorageManager.swift,
+				DataModels/Manager/LocalStorageManager/Wrappers/DocumentFileWrapper.swift,
+				DataModels/Manager/LocalStorageManager/Wrappers/KeychainWrapper.swift,
+				DataModels/Manager/LocalStorageManager/Wrappers/SecureEnclaveWrapper.swift,
+				DataModels/Manager/LocalStorageManager/Wrappers/UserDefaultsWrapper.swift,
+				DataModels/Paginator/Paginator.swift,
+				DataModels/Paginator/PaginatorDatastore.swift,
+				DataModels/Property/BankAccount/BankAccount.swift,
+				DataModels/Property/BankAccount/BankAccounts.swift,
+				DataModels/Property/HotelInfo/Beds24Config.swift,
+				DataModels/Property/HotelInfo/ChannelManagerFeature.swift,
+				DataModels/Property/HotelInfo/ColorProfile.swift,
+				DataModels/Property/HotelInfo/GeoLocation.swift,
+				DataModels/Property/HotelInfo/Hotel/Hotel.swift,
+				DataModels/Property/HotelInfo/Hotel/Hotels.swift,
+				DataModels/Property/HotelInfo/HotelShort/HotelShort.swift,
+				DataModels/Property/HotelInfo/HotelShort/HotelsShort.swift,
+				DataModels/Property/HotelInfo/NotificationItem/NotificationItem.swift,
+				DataModels/Property/HotelInfo/NotificationItem/NotificationItemCount.swift,
+				DataModels/Property/HotelInfo/NotificationItem/NotificationItems.swift,
+				DataModels/Property/HotelInfo/PDPA/Pdpa.swift,
+				DataModels/Property/HotelInfo/PDPA/Pdpas.swift,
+				DataModels/Property/HotelInfo/PropertyRule.swift,
+				DataModels/Property/HSDocuments/HSDocument.swift,
+				DataModels/Property/HSDocuments/HSDocuments.swift,
+				DataModels/Property/LinkUnitType/LinkUnitType.swift,
+				DataModels/Property/PriceCard/LocalPriceCard.swift,
+				DataModels/Property/PriceCard/LocalPriceCards.swift,
+				DataModels/Property/PriceCard/PeriodDate.swift,
+				DataModels/Property/RoomType/Room.swift,
+				DataModels/Property/RoomType/RoomInventory.swift,
+				DataModels/Property/RoomType/Rooms.swift,
+				DataModels/Property/RoomType/RoomType.swift,
+				DataModels/Property/RoomType/RoomTypes.swift,
+				DataModels/Property/RoomType/RoomTypeWithRooms.swift,
+				DataModels/Property/Staff/Staff.swift,
+				DataModels/Property/Staff/Staffs.swift,
+				DataModels/Property/Version/AppVersion.swift,
+				DataModels/Property/Version/Version.swift,
+				DataModels/Reservation/Additional/Additional.swift,
+				DataModels/Reservation/Additional/AdditionalItem.swift,
+				DataModels/Reservation/Additional/AdditionalItems.swift,
+				DataModels/Reservation/Additional/Additionals.swift,
+				DataModels/Reservation/Additional/Categories.swift,
+				DataModels/Reservation/Additional/Category.swift,
+				DataModels/Reservation/Additional/Folio.swift,
+				DataModels/Reservation/Additional/Folios.swift,
+				DataModels/Reservation/BookingChannel/BookingChannel.swift,
+				DataModels/Reservation/BookingChannel/BookingChannels.swift,
+				DataModels/Reservation/Contact/Address.swift,
+				DataModels/Reservation/Contact/Company/Companies.swift,
+				DataModels/Reservation/Contact/Company/Company.swift,
+				DataModels/Reservation/Contact/Contact/Contact.swift,
+				DataModels/Reservation/Contact/Contact/Contacts.swift,
+				DataModels/Reservation/Contact/Guest/Guest.swift,
+				DataModels/Reservation/Contact/Guest/GuestProfile.swift,
+				DataModels/Reservation/Contact/Guest/Guests.swift,
+				DataModels/Reservation/Contact/Nationality.swift,
+				DataModels/Reservation/FinancialRecord/FinancialRecord.swift,
+				DataModels/Reservation/FinancialRecord/FinancialRecords.swift,
+				DataModels/Reservation/FolioForm/FolioForm.swift,
+				DataModels/Reservation/FolioForm/FolioForms.swift,
+				DataModels/Reservation/GuestRegisterCard/GuestRegisterCard.swift,
+				DataModels/Reservation/GuestRegisterCard/GuestRegisterCards.swift,
+				DataModels/Reservation/PreviewAndExport/ImageUrl.swift,
+				DataModels/Reservation/PreviewAndExport/PdfUrl.swift,
+				DataModels/Reservation/PreviewAndExport/PreviewUrl.swift,
+				DataModels/Reservation/Product/Product.swift,
+				DataModels/Reservation/Product/Products.swift,
+				DataModels/Reservation/Product/ProductUnit.swift,
+				DataModels/Reservation/Product/ProductUnits.swift,
+				DataModels/Reservation/Receipt/Receipt.swift,
+				DataModels/Reservation/Receipt/Receipts.swift,
+				DataModels/Reservation/Reservation.swift,
+				DataModels/Reservation/ReservationDetail.swift,
+				DataModels/Reservation/ReservationItem/ReservationItem.swift,
+				DataModels/Reservation/ReservationItem/ReservationItems.swift,
+				DataModels/Reservation/ReservationItem/ReservationWithItem.swift,
+				DataModels/Reservation/ReservationItem/ReservationWithItems.swift,
+				DataModels/Reservation/ReservationLog/ReservationLog.swift,
+				DataModels/Reservation/ReservationLog/ReservationLogs.swift,
+				DataModels/Reservation/Reservations.swift,
+				DataModels/SortOrder.swift,
+				DataModels/User/Creator.swift,
+				DataModels/User/Device/Device.swift,
+				DataModels/User/Device/Devices.swift,
+				DataModels/User/Me.swift,
+				DataModels/User/NotificationSetting.swift,
+				DataModels/User/Support/SupportVersion.swift,
+				Datasource/DataModels/CountryList.swift,
+				Datasource/DataModels/NameTitles.swift,
+				Datasource/DataModels/PaymentMethods.swift,
+				Datasource/JsonFile.swift,
+				Services/AccountItemCategoryService/AccountItemCategoryRemoteService.swift,
+				Services/AccountItemCategoryService/AccountItemCategoryServiceRequest.swift,
+				Services/AccountItemCategoryService/AccountItemCategoryServiceRouter.swift,
+				Services/AccountItemService/AccountItemRemoteService.swift,
+				Services/AccountItemService/AccountItemServiceRequest.swift,
+				Services/AccountItemService/AccountItemServiceRouter.swift,
+				Services/AccountService/AccountRemoteService.swift,
+				Services/AccountService/AccountServiceRequest.swift,
+				Services/AccountService/AccountServiceResponse.swift,
+				Services/AccountService/AccountServiceRouter.swift,
+				Services/AccountSubItemCategoryService/AccountSubItemCategoryRemoteService.swift,
+				Services/AccountSubItemCategoryService/AccountSubItemCategoryServiceRequest.swift,
+				Services/AccountSubItemCategoryService/AccountSubItemCategoryServiceRouter.swift,
+				Services/ActivityLogService/ActivityLogRemoteService.swift,
+				Services/ActivityLogService/ActivityLogServiceRequest.swift,
+				Services/ActivityLogService/ActivityLogServiceRouter.swift,
+				Services/AdditionalService/AdditionalRemoteService.swift,
+				Services/AdditionalService/AdditionalServiceRequest.swift,
+				Services/AdditionalService/AdditionalServiceRouter.swift,
+				Services/AllotmentService/AllotmentRemoteService.swift,
+				Services/AllotmentService/AllotmentServiceRequest.swift,
+				Services/AllotmentService/AllotmentServiceResponse.swift,
+				Services/AllotmentService/AllotmentServiceRouter.swift,
+				Services/AuthService/AuthRemoteService.swift,
+				Services/AuthService/AuthServiceRequest.swift,
+				Services/AuthService/AuthServiceRouter.swift,
+				Services/BankAccountService/BankAccountRemoteService.swift,
+				Services/BankAccountService/BankAccountServiceRequest.swift,
+				Services/BankAccountService/BankAccountServiceRouter.swift,
+				Services/BlackoutCalendarService/BlackoutCalendarRemoteService.swift,
+				Services/BlackoutCalendarService/BlackoutCalendarServiceRequest.swift,
+				Services/BlackoutCalendarService/BlackoutCalendarServiceResponse.swift,
+				Services/BlackoutCalendarService/BlackoutCalendarServiceRouter.swift,
+				Services/BlackoutService/BlackoutRemoteService.swift,
+				Services/BlackoutService/BlackoutServiceRequest.swift,
+				Services/BlackoutService/BlackoutServiceRouter.swift,
+				Services/BookingChannelService/BookingChannelRemoteService.swift,
+				Services/BookingChannelService/BookingChannelServiceRequest.swift,
+				Services/BookingChannelService/BookingChannelServiceRouter.swift,
+				Services/CalendarEventService/CalendarEventRemoteService.swift,
+				Services/CalendarEventService/CalendarEventServiceRequest.swift,
+				Services/CalendarEventService/CalendarEventServiceRouter.swift,
+				Services/CalendarService/CalendarRemoteService.swift,
+				Services/CalendarService/CalendarReserviceResponse.swift,
+				Services/CalendarService/CalendarServiceRequest.swift,
+				Services/CalendarService/CalendarServiceRouter.swift,
+				Services/CategoryService/CategoryRemoteService.swift,
+				Services/CategoryService/CategoryServiceRequest.swift,
+				Services/CategoryService/CategoryServiceRouter.swift,
+				Services/CMBookingService/CMBookingRemoteService.swift,
+				Services/CMBookingService/CMBookingServiceRequest.swift,
+				Services/CMBookingService/CMBookingServiceRouter.swift,
+				Services/CMCalendarService/CMCalendarRemoteService.swift,
+				Services/CMCalendarService/CMCalendarServiceRequest.swift,
+				Services/CMCalendarService/CMCalendarServiceResponse.swift,
+				Services/CMCalendarService/CMCalendarServiceRouter.swift,
+				Services/CMChannelService/CMChannelRemoteService.swift,
+				Services/CMChannelService/CMChannelServiceRequest.swift,
+				Services/CMChannelService/CMChannelServiceRouter.swift,
+				Services/CMRateService/CMRateRemoteService.swift,
+				Services/CMRateService/CMRateServiceRequest.swift,
+				Services/CMRateService/CMRateServiceRouter.swift,
+				Services/CompanyService/CompanyRemoteService.swift,
+				Services/CompanyService/CompanyServiceRequest.swift,
+				Services/CompanyService/CompanyServiceRouter.swift,
+				Services/ContactService/ContactRemoteService.swift,
+				Services/ContactService/ContactServiceRequest.swift,
+				Services/ContactService/ContactServiceRouter.swift,
+				Services/DeviceService/DeviceRemoteService.swift,
+				Services/DeviceService/DeviceServiceRequest.swift,
+				Services/DeviceService/DeviceServiceRouter.swift,
+				Services/FinancialRecordService/FinancialRecordRemoteService.swift,
+				Services/FinancialRecordService/FinancialRecordServiceRequest.swift,
+				Services/FinancialRecordService/FinancialRecordServiceRouter.swift,
+				Services/FolioFormService/FolioFormRemoteService.swift,
+				Services/FolioFormService/FolioFormServiceRequest.swift,
+				Services/FolioFormService/FolioFormServiceResponse.swift,
+				Services/FolioFormService/FolioFormServiceRouter.swift,
+				Services/FolioService/FolioRemoteService.swift,
+				Services/FolioService/FolioServiceRequest.swift,
+				Services/FolioService/FolioServiceRouter.swift,
+				Services/GuestRegisterCardService/GuestRegisterCardRemoteService.swift,
+				Services/GuestRegisterCardService/GuestRegisterCardServiceRequest.swift,
+				Services/GuestRegisterCardService/GuestRegisterCardServiceRouter.swift,
+				Services/GuestService/GuestRemoteService.swift,
+				Services/GuestService/GuestServiceRequest.swift,
+				Services/GuestService/GuestServiceRouter.swift,
+				Services/HSDocumentService/HSDocumentRemoteService.swift,
+				Services/HSDocumentService/HSDocumentServiceRequest.swift,
+				Services/HSDocumentService/HSDocumentServiceResponse.swift,
+				Services/HSDocumentService/HSDocumentServiceRouter.swift,
+				Services/MeService/MeRemoteService.swift,
+				Services/MeService/MeServiceRequest.swift,
+				Services/MeService/MeServiceRouter.swift,
+				Services/NotificationItemService/NotificationItemRemoteService.swift,
+				Services/NotificationItemService/NotificationItemServiceRequest.swift,
+				Services/NotificationItemService/NotificationItemServiceRouter.swift,
+				Services/PayeeService/PayeeRemoteService.swift,
+				Services/PayeeService/PayeeServiceRequest.swift,
+				Services/PayeeService/PayeeServiceRouter.swift,
+				Services/PDPAService/PDPARemoteService.swift,
+				Services/PDPAService/PDPAServiceRequest.swift,
+				Services/PDPAService/PDPAServiceRouter.swift,
+				Services/PriceCardService/PriceCardRemoteService.swift,
+				Services/PriceCardService/PriceCardServiceRequest.swift,
+				Services/PriceCardService/PriceCardServiceRouter.swift,
+				Services/ProductService/ProductRemoteService.swift,
+				Services/ProductService/ProductServiceRequest.swift,
+				Services/ProductService/ProductServiceRouter.swift,
+				Services/ProductUnitService/ProductUnitRemoteService.swift,
+				Services/ProductUnitService/ProductUnitServiceRequest.swift,
+				Services/ProductUnitService/ProductUnitServiceRouter.swift,
+				Services/PropertyRuleService/PropertyRuleRemoteService.swift,
+				Services/PropertyRuleService/PropertyRuleServiceRequest.swift,
+				Services/PropertyRuleService/PropertyRuleServiceRouter.swift,
+				Services/ReceiptService/ReceiptRemoteService.swift,
+				Services/ReceiptService/ReceiptServiceRequest.swift,
+				Services/ReceiptService/ReceiptServiceResponse.swift,
+				Services/ReceiptService/ReceiptServiceRouter.swift,
+				Services/ReservableDateRangeService/ReservableDateRangeRemoteService.swift,
+				Services/ReservableDateRangeService/ReservableDateRangeServiceRequest.swift,
+				Services/ReservableDateRangeService/ReservableDateRangeServiceResponse.swift,
+				Services/ReservableDateRangeService/ReservableDateRangeServiceRouter.swift,
+				Services/ReservationItemService/ReservationItemRemoteService.swift,
+				Services/ReservationItemService/ReservationItemServiceRequest.swift,
+				Services/ReservationItemService/ReservationItemServiceRouter.swift,
+				Services/ReservationLogService/ReservationLogRemoteService.swift,
+				Services/ReservationLogService/ReservationLogServiceRequest.swift,
+				Services/ReservationLogService/ReservationLogServiceRouter.swift,
+				Services/ReservationService/ReservationRemoteService.swift,
+				Services/ReservationService/ReservationServiceRequest.swift,
+				Services/ReservationService/ReservationServiceResponse.swift,
+				"Services/ReservationService/ReservationServiceRouter .swift",
+				Services/RoomService/RoomRemoteService.swift,
+				Services/RoomService/RoomServiceRequest.swift,
+				Services/RoomService/RoomServiceRouter.swift,
+				Services/RoomTypeService/RoomTypeRemoteService.swift,
+				Services/RoomTypeService/RoomTypeServiceRequest.swift,
+				Services/RoomTypeService/RoomTypeServiceRouter.swift,
+				Services/StaffService/StaffRemoteService.swift,
+				Services/StaffService/StaffServiceRequest.swift,
+				Services/StaffService/StaffServiceRouter.swift,
+				Services/SupportService/SupportRemoteService.swift,
+				Services/SupportService/SupportServiceRequest.swift,
+				Services/SupportService/SupportServiceRouter.swift,
+				Services/SyncAllotmentService/SyncAllotmentRemoteService.swift,
+				Services/SyncAllotmentService/SyncAllotmentServiceRequest.swift,
+				Services/SyncAllotmentService/SyncAllotmentServiceRouter.swift,
+			);
+			target = 36B587D42BF73F1900D523D0 /* YourProjectTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		0F8140202D4BC79F0025B2B0 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 36B587BD2BF73F1600D523D0 /* Resources */;
+			membershipExceptions = (
+				Base.lproj/LaunchScreen.storyboard,
+				Base.lproj/Main.storyboard,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0F8140142D4BC79F0025B2B0 /* YourProject */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (0F81401F2D4BC79F0025B2B0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 0F8140202D4BC79F0025B2B0 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, 0F819EEB2D4E08070025B2B0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = YourProject; sourceTree = "<group>"; };
+		0F8140222D4BC7A30025B2B0 /* YourProjectTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = YourProjectTests; sourceTree = "<group>"; };
+		0F8140262D4BC7A50025B2B0 /* YourProjectUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = YourProjectUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		36B587BC2BF73F1600D523D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F819EC82D4BD4260025B2B0 /* KeychainSwift in Frameworks */,
 				36B587F62BF73FF800D523D0 /* SnapKit in Frameworks */,
+				0F819F012D4F779F0025B2B0 /* Mockable in Frameworks */,
+				0F8167EC2D4BC9E50025B2B0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +386,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F819F042D4F77B40025B2B0 /* Mockable in Frameworks */,
+				0FE6996E2D5038ED00FC746E /* Mocker in Frameworks */,
+				0FDD99E82D5EA9AA00836890 /* Mocker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +402,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F819F022D4F77B40025B2B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		36B587B62BF73F1600D523D0 = {
 			isa = PBXGroup;
 			children = (
-				36B587C12BF73F1600D523D0 /* YourProject */,
-				36B587D82BF73F1900D523D0 /* YourProjectTests */,
-				36B587E22BF73F1900D523D0 /* YourProjectUITests */,
+				0F8140142D4BC79F0025B2B0 /* YourProject */,
+				0F8140222D4BC7A30025B2B0 /* YourProjectTests */,
+				0F8140262D4BC7A50025B2B0 /* YourProjectUITests */,
+				0F819F022D4F77B40025B2B0 /* Frameworks */,
 				36B587C02BF73F1600D523D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,39 +428,6 @@
 				36B587DF2BF73F1900D523D0 /* YourProjectUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		36B587C12BF73F1600D523D0 /* YourProject */ = {
-			isa = PBXGroup;
-			children = (
-				36013F8F2C481721001B0E52 /* FamlilyMemberClassifier_v1.mlmodel */,
-				36B587C22BF73F1600D523D0 /* AppDelegate.swift */,
-				36B587C42BF73F1600D523D0 /* SceneDelegate.swift */,
-				36B587F22BF73F4900D523D0 /* CustomViewController.swift */,
-				36B587C62BF73F1600D523D0 /* ViewController.swift */,
-				36B587C82BF73F1600D523D0 /* Main.storyboard */,
-				36B587CB2BF73F1800D523D0 /* Assets.xcassets */,
-				36B587CD2BF73F1800D523D0 /* LaunchScreen.storyboard */,
-				36B587D02BF73F1800D523D0 /* Info.plist */,
-			);
-			path = YourProject;
-			sourceTree = "<group>";
-		};
-		36B587D82BF73F1900D523D0 /* YourProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				36B587D92BF73F1900D523D0 /* YourProjectTests.swift */,
-			);
-			path = YourProjectTests;
-			sourceTree = "<group>";
-		};
-		36B587E22BF73F1900D523D0 /* YourProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				36B587E32BF73F1900D523D0 /* YourProjectUITests.swift */,
-				36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */,
-			);
-			path = YourProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +445,15 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				0F8140142D4BC79F0025B2B0 /* YourProject */,
+			);
 			name = YourProject;
 			packageProductDependencies = (
 				36B587F52BF73FF800D523D0 /* SnapKit */,
+				0F8167EB2D4BC9E50025B2B0 /* Alamofire */,
+				0F819EC72D4BD4260025B2B0 /* KeychainSwift */,
+				0F819F002D4F779F0025B2B0 /* Mockable */,
 			);
 			productName = YourProject;
 			productReference = 36B587BF2BF73F1600D523D0 /* YourProject.app */;
@@ -171,6 +472,9 @@
 			dependencies = (
 				36B587D72BF73F1900D523D0 /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				0F8140222D4BC7A30025B2B0 /* YourProjectTests */,
+			);
 			name = YourProjectTests;
 			productName = YourProjectTests;
 			productReference = 36B587D52BF73F1900D523D0 /* YourProjectTests.xctest */;
@@ -188,6 +492,9 @@
 			);
 			dependencies = (
 				36B587E12BF73F1900D523D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0F8140262D4BC7A50025B2B0 /* YourProjectUITests */,
 			);
 			name = YourProjectUITests;
 			productName = YourProjectUITests;
@@ -218,7 +525,6 @@
 				};
 			};
 			buildConfigurationList = 36B587BA2BF73F1600D523D0 /* Build configuration list for PBXProject "YourProject" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -228,7 +534,12 @@
 			mainGroup = 36B587B62BF73F1600D523D0;
 			packageReferences = (
 				36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0F8167EA2D4BC9E50025B2B0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0F819EC62D4BD4260025B2B0 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				0F819EFF2D4F779F0025B2B0 /* XCRemoteSwiftPackageReference "Mockable" */,
+				0FE6996C2D5038ED00FC746E /* XCRemoteSwiftPackageReference "Mocker" */,
 			);
+			preferredProjectObjectVersion = 56;
 			productRefGroup = 36B587C02BF73F1600D523D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,9 +556,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B587CC2BF73F1800D523D0 /* Assets.xcassets in Resources */,
-				36B587CF2BF73F1800D523D0 /* Base in Resources */,
-				36B587CA2BF73F1600D523D0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +580,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */,
-				36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */,
-				36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */,
-				36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */,
-				36013F902C481721001B0E52 /* FamlilyMemberClassifier_v1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +587,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B587DA2BF73F1900D523D0 /* YourProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +594,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B587E42BF73F1900D523D0 /* YourProjectUITests.swift in Sources */,
-				36B587E62BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,25 +611,6 @@
 			targetProxy = 36B587E02BF73F1900D523D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		36B587C82BF73F1600D523D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36B587C92BF73F1600D523D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		36B587CD2BF73F1800D523D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36B587CE2BF73F1800D523D0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		36B587E72BF73F1900D523D0 /* Debug */ = {
@@ -389,8 +670,9 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited) MOCKING";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -461,7 +743,6 @@
 				DEVELOPMENT_TEAM = 3346223HX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YourProject/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture video.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -490,7 +771,6 @@
 				DEVELOPMENT_TEAM = 3346223HX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YourProject/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture video.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -512,7 +792,6 @@
 		36B587ED2BF73F1900D523D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -532,7 +811,6 @@
 		36B587EE2BF73F1900D523D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -552,7 +830,6 @@
 		36B587F02BF73F1900D523D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3346223HX4;
@@ -570,7 +847,6 @@
 		36B587F12BF73F1900D523D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3346223HX4;
@@ -627,6 +903,38 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0F8167EA2D4BC9E50025B2B0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		0F819EC62D4BD4260025B2B0 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+		0F819EFF2D4F779F0025B2B0 /* XCRemoteSwiftPackageReference "Mockable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kolos65/Mockable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		0FE6996C2D5038ED00FC746E /* XCRemoteSwiftPackageReference "Mocker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WeTransfer/Mocker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
 		36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -638,6 +946,36 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0F8167EB2D4BC9E50025B2B0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F8167EA2D4BC9E50025B2B0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0F819EC72D4BD4260025B2B0 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F819EC62D4BD4260025B2B0 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		0F819F002D4F779F0025B2B0 /* Mockable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F819EFF2D4F779F0025B2B0 /* XCRemoteSwiftPackageReference "Mockable" */;
+			productName = Mockable;
+		};
+		0F819F032D4F77B40025B2B0 /* Mockable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F819EFF2D4F779F0025B2B0 /* XCRemoteSwiftPackageReference "Mockable" */;
+			productName = Mockable;
+		};
+		0FDD99E72D5EA9AA00836890 /* Mocker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FE6996C2D5038ED00FC746E /* XCRemoteSwiftPackageReference "Mocker" */;
+			productName = Mocker;
+		};
+		0FE6996D2D5038ED00FC746E /* Mocker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FE6996C2D5038ED00FC746E /* XCRemoteSwiftPackageReference "Mocker" */;
+			productName = Mocker;
+		};
 		36B587F52BF73FF800D523D0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */;

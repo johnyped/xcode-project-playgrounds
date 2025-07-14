@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "en_title": "Business Travelers",
+        "en_description": "CEOs, managers, sales representatives, analysts, consultants, etc.",
+        "th_description": "CEO, ผู้จัดการ, ตัวแทนขาย, นักวิเคราะห์, ที่ปรึกษา, ฯลฯ",
+        "th_title": "นักท่องเที่ยวเพื่อธุรกิจ",
+        "key": "BUSINESS TRAVELERS"
+    },
+    {
+        "id": 2,
+        "en_title": "Conference Attendees",
+        "en_description": "Academics, scientists, engineers, medical professionals, etc.",
+        "th_description": "นักวิชาการ, นักวิทยาศาสตร์, วิศวกร, ผู้เชี่ยวชาญด้านการแพทย์, ฯลฯ",
+        "th_title": "ผู้เข้าร่วมการประชุม",
+        "key": "CONFERENCE ATTENDEES"
+    },
+    {
+        "id": 3,
+        "en_title": "Entertainment Industry",
+        "en_description": "Musicians, actors, directors, producers, technical crew members, etc.",
+        "th_description": "นักดนตรี, นักแสดง, ผู้กำกับ, ผู้ผลิต, สมาชิกทีมงานทางเทคนิค, ฯลฯ",
+        "th_title": "อุตสาหกรรมบันเทิง",
+        "key": "ENTERTAINMENT INDUSTRY"
+    },
+    {
+        "id": 4,
+        "en_title": "Sports Industry",
+        "en_description": "Athletes, coaches, team managers, sports journalists, etc.",
+        "th_description": "นักกีฬา, โค้ช, ผู้จัดการทีม, นักข่าวกีฬา, ฯลฯ",
+        "th_title": "อุตสาหกรรมกีฬา",
+        "key": "SPORTS INDUSTRY"
+    },
+    {
+        "id": 5,
+        "en_title": "Travel & Tourism",
+        "en_description": "Travel agents, tour guides, adventure guides, etc.",
+        "th_description": "ตัวแทนการท่องเที่ยว, มัคคุเทศก์, มัคคุเทศก์ผจญภัย, ฯลฯ",
+        "th_title": "การท่องเที่ยวและการท่องเที่ยว",
+        "key": "TRAVEL AND TOURISM"
+    },
+    {
+        "id": 6,
+        "en_title": "Event Planners",
+        "en_description": "Wedding planners, corporate event coordinators, etc.",
+        "th_description": "ผู้วางแผนงานแต่งงาน, ผู้ประสานงานกิจกรรมบริษัท, ฯลฯ",
+        "th_title": "ผู้วางแผนงานอีเวนต์",
+        "key": "EVENT PLANNERS"
+    },
+    {
+        "id": 7,
+        "en_title": "Government Officials",
+        "en_description": "Politicians, diplomats, public servants, etc.",
+        "th_description": "นักการเมือง, นักการทูต, ข้าราชการ, ฯลฯ",
+        "th_title": "ข้าราชการ",
+        "key": "GOVERNMENT OFFICIALS"
+    },
+    {
+        "id": 8,
+        "en_title": "Media & Journalism",
+        "en_description": "Journalists, authors, bloggers, photographers, etc.",
+        "th_description": "นักข่าว, นักเขียน, บล็อกเกอร์, ช่างภาพ, ฯลฯ",
+        "th_title": "สื่อและการเขียนข่าว",
+        "key": "MEDIA AND JOURNALISM"
+    },
+    {
+        "id": 9,
+        "en_title": "Transportation",
+        "en_description": "Pilots, flight attendants, truck drivers, etc.",
+        "th_description": "นักบิน, พนักงานบิน, คนขับรถบรรทุก, ฯลฯ",
+        "th_title": "การขนส่ง",
+        "key": "TRANSPORTATION"
+    },
+    {
+        "id": 10,
+        "en_title": "Contractors & Tradespeople",
+        "en_description": "Construction workers, maintenance workers, electricians, plumbers, etc.",
+        "th_description": "คนงานก่อสร้าง, คนงานซ่อมบำรุง, ช่างไฟ, ช่างประปา, ฯลฯ",
+        "th_title": "ผู้รับเหมาและคนงานทั้งหลาย",
+        "key": "CONTRACTORS AND TRADESPEOPLE"
+    },
+    {
+        "id": 11,
+        "en_title": "Education",
+        "en_description": "Teachers, professors, university administrators, conference attendees, etc.",
+        "th_description": "ครู, อาจารย์, เจ้าหน้าที่บริหารมหาวิทยาลัย, ผู้เข้าร่วมการประชุม, ฯลฯ",
+        "th_title": "การศึกษา",
+        "key": "EDUCATION"
+    },
+    {
+        "id": 12,
+        "en_title": "Healthcare Professionals",
+        "en_description": "Doctors, nurses, medical researchers, etc.",
+        "th_description": "แพทย์, พยาบาล, นักวิจัยทางการแพทย์, ฯลฯ",
+        "th_title": "ผู้เชี่ยวชาญด้านการดูแลสุขภาพ",
+        "key": "HEALTHCARE PROFESSIONALS"
+    },
+    {
+        "id": 13,
+        "en_title": "Legal Profession",
+        "en_description": "Lawyers, judges, legal assistants, etc.",
+        "th_description": "ทนายความ, ผู้พิพากษา, ผู้ช่วยด้านกฎหมาย, ฯลฯ",
+        "th_title": "วิชาชีพด้านกฎหมาย",
+        "key": "LEGAL PROFESSION"
+    },
+    {
+        "id": 14,
+        "en_title": "IT & Tech",
+        "en_description": "Software developers, IT consultants, tech startup founders, etc.",
+        "th_description": "นักพัฒนาซอฟต์แวร์, ที่ปรึกษาด้าน IT, ผู้ก่อตั้งสตาร์ทอัพเทคโนโลยี, ฯลฯ",
+        "th_title": "IT และเทคโนโลยี",
+        "key": "IT AND TECH"
+    },
+    {
+        "id": 15,
+        "en_title": "Military Personnel",
+        "en_description": "Soldiers, officers, etc.",
+        "th_description": "ทหาร, นายทหาร, ฯลฯ",
+        "th_title": "บุคลากรทางทหาร",
+        "key": "MILITARY PERSONNEL"
+    },
+    {
+        "id": 16,
+        "en_title": "Artists",
+        "en_description": "Painters, sculptors, performance artists, etc.",
+        "th_description": "ช่างจิตรกรรม, ช่างปั้น, ศิลปินการแสดง, ฯลฯ",
+        "th_title": "ศิลปิน",
+        "key": "ARTISTS"
+    },
+    {
+        "id": 17,
+        "en_title": "Freelancers",
+        "en_description": "Remote workers who can work from anywhere.",
+        "th_description": "พนักงานระยะไกลที่สามารถทำงานจากทุกที่",
+        "th_title": "ฟรีแลนซ์",
+        "key": "FREELANCERS"
+    },
+    {
+        "id": 18,
+        "en_title": "Students",
+        "en_description": "Those traveling for internships, study abroad programs, etc.",
+        "th_description": "ผู้ที่เดินทางไปฝึกงาน, โปรแกรมเรียนต่อต่างประเทศ, ฯลฯ",
+        "th_title": "นักเรียน",
+        "key": "STUDENTS"
+    },
+    {
+        "id": 19,
+        "en_title": "Retirees",
+        "en_description": "Those traveling for leisure.",
+        "th_description": "ผู้ที่เดินทางเพื่อความสนุกสนาน",
+        "th_title": "ผู้เกษียณ",
+        "key": "RETIREES"
+    },
+    {
+        "id": 20,
+        "en_title": "Non-Profit Workers",
+        "en_description": "Charity workers, humanitarian aid workers, etc.",
+        "th_description": "คนงานองค์กรการกุศล, คนงานการช่วยเหลือมนุษยธรรม, ฯลฯ",
+        "th_title": "คนงานไม่แสวงหาผลกำไร",
+        "key": "NON-PROFIT WORKERS"
+    },
+    {
+        "id": 21,
+        "en_title": "Insurance Professionals",
+        "en_description": "Insurance agents, risk assessors, etc.",
+        "th_description": "ตัวแทนประกัน, ผู้ประเมินความเสี่ยง, ฯลฯ",
+        "th_title": "ผู้เชี่ยวชาญด้านประกันภัย",
+        "key": "INSURANCE PROFESSIONALS"
+    },
+    {
+        "id": 22,
+        "en_title": "Real Estate",
+        "en_description": "Realtors, property developers, investors, etc.",
+        "th_description": "นายหน้าอสังหาริมทรัพย์, ผู้พัฒนาอสังหาริมทรัพย์, นักลงทุน, ฯลฯ",
+        "th_title": "อสังหาริมทรัพย์",
+        "key": "REAL ESTATE"
+    },
+    {
+        "id": 23,
+        "en_title": "Architects",
+        "en_description": "Both traveling for business or pleasure.",
+        "th_description": "ทั้งการเดินทางเพื่อธุรกิจหรือความ Vergnügen",
+        "th_title": "สถาปนิก",
+        "key": "ARCHITECTS"
+    },
+    {
+        "id": 24,
+        "en_title": "Social Workers",
+        "en_description": "Often travel between regions.",
+        "th_description": "บ่อยครั้งเดินทางระหว่างภูมิภาค",
+        "th_title": "นักสังคมสงเคราะห์",
+        "key": "SOCIAL WORKERS"
+    },
+    {
+        "id": 25,
+        "en_title": "Marketing & PR Professionals",
+        "en_description": "Advertising executives, brand managers, public relations consultants, etc.",
+        "th_description": "ผู้บริหารโฆษณา, ผู้จัดการแบรนด์, ที่ปรึกษาด้านประชาสัมพันธ์, ฯลฯ",
+        "th_title": "ผู้เชี่ยวชาญด้านการตลาดและประชาสัมพันธ์",
+        "key": "MARKETING AND PR PROFESSIONALS"
+    },
+    {
+        "id": 26,
+        "en_title": "Financial Services",
+        "en_description": "Bankers, investment specialists, financial advisors, etc.",
+        "th_description": "นักธนาคาร, ผู้เชี่ยวชาญด้านการลงทุน, ที่ปรึกษาทางการเงิน, ฯลฯ",
+        "th_title": "บริการทางการเงิน",
+        "key": "FINANCIAL SERVICES"
+    },
+    {
+        "id": 27,
+        "en_title": "Culinary Professionals",
+        "en_description": "Chefs, sommeliers, food critics, etc.",
+        "th_description": "เชฟ, ซอมมิลเย, นักวิจารณ์อาหาร, ฯลฯ",
+        "th_title": "ผู้เชี่ยวชาญด้านการทำอาหาร",
+        "key": "CULINARY PROFESSIONALS"
+    },
+    {
+        "id": 28,
+        "en_title": "Retail Buyers",
+        "en_description": "People who travel to different locations to purchase items for retail.",
+        "th_description": "ผู้ที่เดินทางไปยังสถานที่ต่างๆเพื่อซื้อสินค้าเพื่อการขายปลีก",
+        "th_title": "ผู้ซื้อสินค้าปลีก",
+        "key": "RETAIL BUYERS"
+    },
+    {
+        "id": 29,
+        "en_title": "Fashion Industry",
+        "en_description": "Designers, models, photographers, buyers, etc.",
+        "th_description": "นักออกแบบ, นางแบบ, ช่างภาพ, ผู้ซื้อ, ฯลฯ",
+        "th_title": "อุตสาหกรรมแฟชั่น",
+        "key": "FASHION INDUSTRY"
+    },
+    {
+        "id": 30,
+        "en_title": "Energy sector workers",
+        "en_description": "Oil, gas and renewable energy workers who are on the move.",
+        "th_description": "พนักงานในภาคพลังงาน น้ำมัน ก๊าซ และพลังงานหมุนเวียนที่กำลังเคลื่อนไหว",
+        "th_title": "พนักงานภาคพลังงาน",
+        "key": "ENERGY SECTOR WORKERS"
+    },
+    {
+        "id": 31,
+        "en_title": "Researchers",
+        "en_description": "People conducting field research in various industries or academia.",
+        "th_description": "ผู้ที่ทำการวิจัยในสาขาต่างๆ หรือในวงการวิชาการ",
+        "th_title": "นักวิจัย",
+        "key": "RESEARCHERS"
+    },
+    {
+        "id": 32,
+        "en_title": "Environmental Consultants",
+        "en_description": "Those who advise businesses on environmental matters.",
+        "th_description": "ผู้ที่ให้คำปรึกษากับธุรกิจเกี่ยวกับเรื่องสิ่งแวดล้อม",
+        "th_title": "ที่ปรึกษาด้านสิ่งแวดล้อม",
+        "key": "ENVIRONMENTAL CONSULTANTS"
+    },
+    {
+        "id": 33,
+        "en_title": "Human Resources Professionals",
+        "en_description": "Those travelling for recruitment or corporate events.",
+        "th_description": "ผู้ที่เดินทางเพื่อการรับสมัครงานหรือกิจกรรมภายในองค์กร",
+        "th_title": "ผู้เชี่ยวชาญด้านทรัพยากรมนุษย์",
+        "key": "HUMAN RESOURCES PROFESSIONALS"
+    },
+    {
+        "id": 34,
+        "en_title": "Personal Coaches or Trainers",
+        "en_description": "Fitness, wellness, life coaches on the move to cater to remote clients.",
+        "th_description": "โค้ชส่วนตัวหรือฝึกสอนที่เดินทางไปหาลูกค้าที่อยู่ห่างไกลในด้านฟิตเนส สุขภาพ และชีวิต",
+        "th_title": "โค้ชส่วนตัวหรือฝึกสอน",
+        "key": "PERSONAL COACHES OR TRAINERS"
+    },
+    {
+        "id": 35,
+        "en_title": "Psychologists & Therapists",
+        "en_description": "May travel for conferences, research, or to see specific patients.",
+        "th_description": "อาจเดินทางไปเข้าประชุม ทำการวิจัย หรือไปเยี่ยมผู้ป่วยที่เฉพาะเจาะจง",
+        "th_title": "นักจิตวิทยาและนักบำบัด",
+        "key": "PSYCHOLOGISTS AND THERAPISTS"
+    },
+    {
+        "id": 36,
+        "en_title": "Cosmetologists",
+        "en_description": "Hair stylists, makeup artists who travel for events or trainings.",
+        "th_description": "ช่างทำผม, ช่างแต่งหน้าที่เดินทางไปร่วมงานหรืออบรม",
+        "th_title": "นักเสริมสวย",
+        "key": "COSMETOLOGISTS"
+    },
+    {
+        "id": 37,
+        "en_title": "Aviation Inspectors",
+        "en_description": "Travel a lot to carry out inspections on aircrafts.",
+        "th_description": "เดินทางมากเพื่อทำการตรวจสอบอากาศยาน",
+        "th_title": "ผู้ตรวจสอบการบิน",
+        "key": "AVIATION INSPECTORS"
+    },
+    {
+        "id": 38,
+        "en_title": "Scientists",
+        "en_description": "May travel for research or conferences.",
+        "th_description": "อาจเดินทางไปทำการวิจัยหรือเข้าประชุม",
+        "th_title": "นักวิทยาศาสตร์",
+        "key": "SCIENTISTS"
+    },
+    {
+        "id": 39,
+        "en_title": "Military Inspectors",
+        "en_description": "Often travel between bases.",
+        "th_description": "เดินทางระหว่างฐานทัพบ่อยครั้ง",
+        "th_title": "ผู้ตรวจสอบทางทหาร",
+        "key": "MILITARY INSPECTORS"
+    },
+    {
+        "id": 40,
+        "en_title": "Private Security Personnel",
+        "en_description": "Travel with the people they guard.",
+        "th_description": "เดินทางไปกับบุคคลที่พวกเขาป้องกัน",
+        "th_title": "พนักงานรักษาความปลอดภัยส่วนตัว",
+        "key": "PRIVATE SECURITY PERSONNEL"
+    },
+    {
+        "id": 41,
+        "en_title": "Archaeologists",
+        "en_description": "Travel to excavation sites.",
+        "th_description": "เดินทางไปยังแหล่งขุดค้น",
+        "th_title": "นักโบราณคดี",
+        "key": "ARCHAEOLOGISTS"
+    },
+    {
+        "id": 42,
+        "en_title": "Environmental Scientists",
+        "en_description": "Fieldwork in diverse locations.",
+        "th_description": "งานภาคสนามในที่ต่างๆ",
+        "th_title": "นักวิทยาศาสตร์ด้านสิ่งแวดล้อม",
+        "key": "ENVIRONMENTAL SCIENTISTS"
+    },
+    {
+        "id": 43,
+        "en_title": "Astronomers",
+        "en_description": "Travel for specific observing conditions.",
+        "th_description": "เดินทางเพื่อสังเกตเงื่อนไขที่เฉพาะเจาะจง",
+        "th_title": "นักดาราศาสตร์",
+        "key": "ASTRONOMERS"
+    },
+    {
+        "id": 44,
+        "en_title": "Maritime Workers",
+        "en_description": "Including sailors, marine biologists, etc.",
+        "th_description": "รวมถึงกะลาสี, นักชีววิทยาทะเล, ฯลฯ",
+        "th_title": "พนักงานด้านการเดินเรือ",
+        "key": "MARITIME WORKERS"
+    },
+    {
+        "id": 45,
+        "en_title": "Mining Professionals",
+        "en_description": "Especially when exploration sites are remote.",
+        "th_description": "โดยเฉพาะเมื่อแหล่งสำรวจอยู่ในที่ห่างไกล",
+        "th_title": "ผู้เชี่ยวชาญด้านการทำเหมือง",
+        "key": "MINING PROFESSIONALS"
+    },
+    {
+        "id": 46,
+        "en_title": "Forestry Professionals",
+        "en_description": "Including park rangers, wildlife conservationists, etc.",
+        "th_description": "รวมถึงพนักงานอุทยาน, นักอนุรักษ์สัตว์ป่า, ฯลฯ",
+        "th_title": "ผู้เชี่ยวชาญด้านป่าไม้",
+        "key": "FORESTRY PROFESSIONALS"
+    },
+    {
+        "id": 47,
+        "en_title": "Film Crew Members",
+        "en_description": "Directors of photography, sound engineers, script supervisors, makeup artists, etc.",
+        "th_description": "ผู้กำกับภาพ, วิศวกรเสียง, ผู้ควบคุมบท, ช่างแต่งหน้า, ฯลฯ",
+        "th_title": "สมาชิกทีมงานภาพยนตร์",
+        "key": "FILM CREW MEMBERS"
+    },
+    {
+        "id": 48,
+        "en_title": "Stage Performers",
+        "en_description": "Dancers, opera singers, theatre actors, etc.",
+        "th_description": "นักเต้น, นักร้องโอเปร่า, นักแสดงละคร, ฯลฯ",
+        "th_title": "ศิลปินการแสดงบนเวที",
+        "key": "STAGE PERFORMERS"
+    },
+    {
+        "id": 49,
+        "en_title": "Writers",
+        "en_description": "Including novelists, biographers, screenwriters, etc.",
+        "th_description": "รวมถึงนักเขียนนวนิยาย, นักเขียนชีวประวัติ, นักเขียนบทภาพยนตร์, ฯลฯ",
+        "th_title": "นักเขียน",
+        "key": "WRITERS"
+    },
+    {
+        "id": 50,
+        "en_title": "Sculptors",
+        "en_description": "For exhibitions or installations.",
+        "th_description": "สำหรับการจัดแสดงหรือการติดตั้ง",
+        "th_title": "ช่างปั้น",
+        "key": "SCULPTORS"
+    },
+    {
+        "id": 51,
+        "en_title": "Stand-Up Comedians",
+        "en_description": "Traveling for different gigs.",
+        "th_description": "เดินทางไปแสดงในงานต่างๆ",
+        "th_title": "นักแสดงตลกสแตนด์อัพ",
+        "key": "STAND-UP COMEDIANS"
+    },
+    {
+        "id": 52,
+        "en_title": "Videographers",
+        "en_description": "Travel for assignments or projects.",
+        "th_description": "เดินทางเพื่องานหรือโครงการ",
+        "th_title": "ช่างวิดีโอ",
+        "key": "VIDEOGRAPHERS"
+    },
+    {
+        "id": 53,
+        "en_title": "Patent Examiners",
+        "en_description": "May travel for conventions or seminars.",
+        "th_description": "อาจเดินทางไปเข้าประชุมหรือสัมมนา",
+        "th_title": "ผู้ตรวจสอบสิทธิบัตร",
+        "key": "PATENT EXAMINERS"
+    },
+    {
+        "id": 54,
+        "en_title": "Tax Consultants",
+        "en_description": "Visit clients or attend conferences.",
+        "th_description": "เยี่ยมเยียนลูกค้าหรือเข้าประชุม",
+        "th_title": "ที่ปรึกษาด้านภาษี",
+        "key": "TAX CONSULTANTS"
+    },
+    {
+        "id": 55,
+        "en_title": "Personal Shoppers",
+        "en_description": "Travel to various cities for shopping.",
+        "th_description": "เดินทางไปเมืองต่างๆเพื่อช็อปปิ้ง",
+        "th_title": "ผู้ช็อปปิ้งส่วนตัว",
+        "key": "PERSONAL SHOPPERS"
+    },
+    {
+        "id": 56,
+        "en_title": "Pharmacists",
+        "en_description": "Attend medical conferences or seminars.",
+        "th_description": "เข้าร่วมการประชุมหรือสัมมนาทางการแพทย์",
+        "th_title": "เภสัชกร",
+        "key": "PHARMACISTS"
+    },
+    {
+        "id": 57,
+        "en_title": "Security Officers",
+        "en_description": "Attend training sessions or assignments.",
+        "th_description": "เข้าร่วมการฝึกอบรมหรืองานที่ได้รับมอบหมาย",
+        "th_title": "เจ้าหน้าที่รักษาความปลอดภัย",
+        "key": "SECURITY OFFICERS"
+    },
+    {
+        "id": 58,
+        "en_title": "Philanthropists",
+        "en_description": "Travel for various charity events.",
+        "th_description": "เดินทางไปร่วมงานการกุศลต่างๆ",
+        "th_title": "นักกุศล",
+        "key": "PHILANTHROPISTS"
+    },
+    {
+        "id": 59,
+        "en_title": "Private Tutors",
+        "en_description": "Visit students or attend seminars.",
+        "th_description": "ไปเยี่ยมนักเรียนหรือเข้าร่วมสัมมนา",
+        "th_title": "ติวเตอร์ส่วนตัว",
+        "key": "PRIVATE TUTORS"
+    },
+    {
+        "id": 60,
+        "en_title": "Quality Assurance (QA) Specialists",
+        "en_description": "Travel for audits or inspections.",
+        "th_description": "เดินทางเพื่อการตรวจสอบหรือการตรวจตรา",
+        "th_title": "ผู้เชี่ยวชาญด้านประกันคุณภาพ (QA)",
+        "key": "QUALITY ASSURANCE (QA) SPECIALISTS"
+    },
+    {
+        "id": 61,
+        "en_title": "Railway workers",
+        "en_description": "Particularly those on long-haul routes.",
+        "th_description": "เฉพาะผู้ที่ทำงานบนเส้นทางระยะไกล",
+        "th_title": "พนักงานรถไฟ",
+        "key": "RAILWAY WORKERS"
+    },
+    {
+        "id": 62,
+        "en_title": "Religious Workers",
+        "en_description": "Pastors, priests, and other religious figures.",
+        "th_description": "พระ, นักบวช, และบุคคลทางศาสนาอื่นๆ",
+        "th_title": "ผู้ปฏิบัติงานทางศาสนา",
+        "key": "RELIGIOUS WORKERS"
+    },
+    {
+        "id": 63,
+        "en_title": "Truck Drivers",
+        "en_description": "Long-haul drivers often stop at hotels for rest.",
+        "th_description": "คนขับรถบรรทุกระยะไกลมักหยุดพักที่โรงแรม",
+        "th_title": "คนขับรถบรรทุก",
+        "key": "TRUCK DRIVERS"
+    },
+    {
+        "id": 64,
+        "en_title": "Air Traffic Controllers",
+        "en_description": "Attend training workshops or seminars.",
+        "th_description": "เข้าร่วมการฝึกอบรมหรือสัมมนา",
+        "th_title": "ผู้ควบคุมการจราจรทางอากาศ",
+        "key": "AIR TRAFFIC CONTROLLERS"
+    },
+    {
+        "id": 65,
+        "en_title": "Event Organizers",
+        "en_description": "Travel for organizing various events.",
+        "th_description": "เดินทางเพื่อจัดงานต่างๆ",
+        "th_title": "ผู้จัดงานอีเวนต์",
+        "key": "EVENT ORGANIZERS"
+    },
+    {
+        "id": 66,
+        "en_title": "Horticulturists",
+        "en_description": "Visit botanical gardens or attend conferences.",
+        "th_description": "เยี่ยมชมสวนพฤกษศาสตร์หรือเข้าร่วมการประชุม",
+        "th_title": "นักวิชาการด้านการเกษตร",
+        "key": "HORTICULTURISTS"
+    },
+    {
+        "id": 67,
+        "en_title": "Logistic Managers",
+        "en_description": "Site visits or trade meetings.",
+        "th_description": "เยี่ยมชมสถานที่หรือการประชุมธุรกิจ",
+        "th_title": "ผู้จัดการด้านโลจิสติกส์",
+        "key": "LOGISTIC MANAGERS"
+    },
+    {
+        "id": 68,
+        "en_title": "Fishermen",
+        "en_description": "Especially those who are part of large-scale operations.",
+        "th_description": "เฉพาะผู้ที่เป็นส่วนหนึ่งของการประมงขนาดใหญ่",
+        "th_title": "ชาวประมง",
+        "key": "FISHERMEN"
+    },
+    {
+        "id": 69,
+        "en_title": "Literature Professors",
+        "en_description": "Attend conferences or guest lectures.",
+        "th_description": "เข้าร่วมการประชุมหรือบรรยายพิเศษ",
+        "th_title": "ศาสตราจารย์ทางวรรณคดี",
+        "key": "LITERATURE PROFESSORS"
+    },
+    {
+        "id": 70,
+        "en_title": "Neurologists",
+        "en_description": "Attend medical conferences or seminars.",
+        "th_description": "เข้าร่วมการประชุมหรือสัมมนาทางการแพทย์",
+        "th_title": "นักประสาทวิทยา",
+        "key": "NEUROLOGISTS"
+    },
+    {
+        "id": 71,
+        "en_title": "Optometrists",
+        "en_description": "Attend medical conferences or seminars.",
+        "th_description": "เข้าร่วมการประชุมหรือสัมมนาทางการแพทย์",
+        "th_title": "นักวัดสายตา",
+        "key": "OPTOMETRISTS"
+    },
+    {
+        "id": 72,
+        "en_title": "Paralegals",
+        "en_description": "Travel with attorneys or for data collection.",
+        "th_description": "เดินทางกับทนายหรือเพื่อการเก็บข้อมูล",
+        "th_title": "ผู้ช่วยทนาย",
+        "key": "PARALEGALS"
+    },
+    {
+        "id": 73,
+        "en_title": "Paramedics",
+        "en_description": "Attend training sessions or workshops.",
+        "th_description": "เข้าร่วมการฝึกอบรมหรือเวิร์กช็อป",
+        "th_title": "พารามีดิก",
+        "key": "PARAMEDICS"
+    },
+    {
+        "id": 74,
+        "en_title": "Physiotherapists",
+        "en_description": "Attend medical conferences or seminars.",
+        "th_description": "เข้าร่วมการประชุมหรือสัมมนาทางการแพทย์",
+        "th_title": "นักกายภาพบำบัด",
+        "key": "PHYSIOTHERAPISTS"
+    },
+    {
+        "id": 75,
+        "en_title": "Tourist Information Managers",
+        "en_description": "Familiarization tours or site inspections.",
+        "th_description": "ทัวร์แนะนำหรือการตรวจสอบสถานที่",
+        "th_title": "ผู้จัดการข้อมูลท่องเที่ยว",
+        "key": "TOURIST INFORMATION MANAGERS"
+    },
+    {
+        "id": 76,
+        "en_title": "Zoologists",
+        "en_description": "Fieldwork or attend conferences.",
+        "th_description": "งานภาคสนามหรือเข้าร่วมการประชุม",
+        "th_title": "นักสัตววิทยา",
+        "key": "ZOOLOGISTS"
+    },
+    {
+        "id": 77,
+        "en_title": "Television Presenters",
+        "en_description": "Location shoots or promotional tours.",
+        "th_description": "ถ่ายทำที่สถานที่ต่างๆหรือทัวร์โปรโมชั่น",
+        "th_title": "พิธีกรโทรทัศน์",
+        "key": "TELEVISION PRESENTERS"
+    },
+    {
+        "id": 78,
+        "en_title": "Surveyors",
+        "en_description": "Travel to different sites for surveys.",
+        "th_description": "เดินทางไปสถานที่ต่างๆเพื่อทำการสำรวจ",
+        "th_title": "นักสำรวจ",
+        "key": "SURVEYORS"
+    },
+    {
+        "id": 79,
+        "en_title": "Geographers",
+        "en_description": "Location visits or field studies.",
+        "th_description": "เยี่ยมชมสถานที่หรือศึกษาภาคสนาม",
+        "th_title": "นักภูมิศาสตร์",
+        "key": "GEOGRAPHERS"
+    },
+    {
+        "id": 80,
+        "en_title": "Spy or Secret Agents",
+        "en_description": "Travel for assignments.",
+        "th_description": "เดินทางเพื่องานที่ได้รับมอบหมาย",
+        "th_title": "สายลับหรือสายลับ",
+        "key": "SPY OR SECRET AGENTS"
+    },
+    {
+        "id": 81,
+        "en_title": "Eminence Personnel",
+        "en_description": "Speakers at a seminar or workshop.",
+        "th_description": "วิทยากรในสัมมนาหรือเวิร์กช็อป",
+        "th_title": "บุคคลสำคัญ",
+        "key": "EMINENCE PERSONNEL"
+    },
+    {
+        "id": 82,
+        "en_title": "Dieticians",
+        "en_description": "Attend health and wellness workshops.",
+        "th_description": "เข้าร่วมเวิร์กช็อปด้านสุขภาพและความงาม",
+        "th_title": "นักโภชนาการ",
+        "key": "DIETICIANS"
+    },
+    {
+        "id": 83,
+        "en_title": "Wedding Officiants",
+        "en_description": "Travel for destination weddings.",
+        "th_description": "เดินทางเพื่อการแต่งงานในสถานที่หมายปลายทาง",
+        "th_title": "ผู้ทำพิธีแต่งงาน",
+        "key": "WEDDING OFFICIANTS"
+    },
+    {
+        "id": 84,
+        "en_title": "Tattoo Artists",
+        "en_description": "Attend tattoo expos or guest spots.",
+        "th_description": "เข้าร่วมงานแสดงสินค้ารอยสักหรือจุดรับแขก",
+        "th_title": "ศิลปินรอยสัก",
+        "key": "TATTOO ARTISTS"
+    },
+    {
+        "id": 85,
+        "en_title": "Sound mixers",
+        "en_description": "Travel for recording sessions.",
+        "th_description": "เดินทางเพื่อการบันทึกเสียง",
+        "th_title": "นักผสมเสียง",
+        "key": "SOUND MIXERS"
+    },
+    {
+        "id": 86,
+        "en_title": "Travel Show Hosts",
+        "en_description": "Travel for filming.",
+        "th_description": "เดินทางเพื่อการถ่ายทำ",
+        "th_title": "พิธีกรรายการท่องเที่ยว",
+        "key": "TRAVEL SHOW HOSTS"
+    },
+    {
+        "id": 87,
+        "en_title": "Fashion Show Organizers",
+        "en_description": "Travel for various fashion weeks or shows.",
+        "th_description": "เดินทางเพื่อสัปดาห์แฟชั่นหรืองานแสดงต่างๆ",
+        "th_title": "ผู้จัดงานแฟชั่นโชว์",
+        "key": "FASHION SHOW ORGANIZERS"
+    },
+    {
+        "id": 88,
+        "en_title": "Musicians",
+        "en_description": "Tours, roadshows or recording sessions.",
+        "th_description": "ทัวร์, โรดโชว์หรือการบันทึกเสียง",
+        "th_title": "นักดนตรี",
+        "key": "MUSICIANS"
+    },
+    {
+        "id": 89,
+        "en_title": "Garden Designers",
+        "en_description": "Visit gardens or exhibitions.",
+        "th_description": "เยี่ยมชมสวนหรืองานแสดง",
+        "th_title": "นักออกแบบสวน",
+        "key": "GARDEN DESIGNERS"
+    },
+    {
+        "id": 90,
+        "en_title": "Photojournalists",
+        "en_description": "Travel for assignments.",
+        "th_description": "เดินทางเพื่องานที่ได้รับมอบหมาย",
+        "th_title": "นักข่าวภาพ",
+        "key": "PHOTOJOURNALISTS"
+    },
+    {
+        "id": 91,
+        "en_title": "Linguists",
+        "en_description": "Attend language symposiums or workshops.",
+        "th_description": "เข้าร่วมสัมมนาหรือเวิร์กช็อปทางด้านภาษา",
+        "th_title": "นักภาษาศาสตร์",
+        "key": "LINGUISTS"
+    },
+    {
+        "id": 92,
+        "en_title": "Broadcast Journalists",
+        "en_description": "Travel for news coverage.",
+        "th_description": "เดินทางเพื่อการประกวดข่าว",
+        "th_title": "นักข่าวกระจายเสียง",
+        "key": "BROADCAST JOURNALISTS"
+    },
+    {
+        "id": 93,
+        "en_title": "Fitness Trainers",
+        "en_description": "Travel for fitness expos or client training.",
+        "th_description": "เดินทางเพื่องานแสดงสินค้าด้านฟิตเนสหรือการฝึกอบรมลูกค้า",
+        "th_title": "ผู้ฝึกสอนฟิตเนส",
+        "key": "FITNESS TRAINERS"
+    },
+    {
+        "id": 94,
+        "en_title": "Pastry Chef",
+        "en_description": "Travel for culinary exhibitions or guest chef events.",
+        "th_description": "เดินทางเพื่องานแสดงสินค้าทางการทำอาหารหรืองานที่มีเชฟเป็นแขกรับเชิญ",
+        "th_title": "เชฟเบเกอรี่",
+        "key": "PASTRY CHEF"
+    },
+    {
+        "id": 95,
+        "en_title": "Petroleum engineers",
+        "en_description": "Visit drilling sites or attend conferences.",
+        "th_description": "เยี่ยมชมสถานที่ขุดเจาะหรือเข้าร่วมการประชุม",
+        "th_title": "วิศวกรด้านปิโตรเลียม",
+        "key": "PETROLEUM ENGINEERS"
+    },
+    {
+        "id": 96,
+        "en_title": "Game Designers",
+        "en_description": "Attend industry conferences or expos.",
+        "th_description": "เข้าร่วมการประชุมหรืองานแสดงสินค้าในอุตสาหกรรม",
+        "th_title": "นักออกแบบเกม",
+        "key": "GAME DESIGNERS"
+    },
+    {
+        "id": 97,
+        "en_title": "Drone Operators",
+        "en_description": "Travel for assignments.",
+        "th_description": "เดินทางเพื่องานที่ได้รับมอบหมาย",
+        "th_title": "ผู้ควบคุมโดรน",
+        "key": "DRONE OPERATORS"
+    },
+    {
+        "id": 98,
+        "en_title": "Wine Makers",
+        "en_description": "Attend wine tasting events.",
+        "th_description": "เข้าร่วมงานทดลองรสไวน์",
+        "th_title": "ผู้ผลิตไวน์",
+        "key": "WINE MAKERS"
+    },
+    {
+        "id": 99,
+        "en_title": "Sommelier",
+        "en_description": "Travel for wine tasting events.",
+        "th_description": "เดินทางเพื่องานทดลองรสไวน์",
+        "th_title": "ซอมเมลีเย",
+        "key": "SOMMELIER"
+    },
+    {
+        "id": 100,
+        "en_title": "Alpinists/Mountain Climbers",
+        "en_description": "Travel for expeditions.",
+        "th_description": "เดินทางเพื่อการสำรวจ",
+        "th_title": "นักปีนเขา/นักปีนเขา",
+        "key": "ALPINISTS MOUNTAIN CLIMBERS"
+    }
+]

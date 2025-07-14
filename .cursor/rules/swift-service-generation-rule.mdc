@@ -1,0 +1,546 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Swift Service Generation Rules
+
+You are an expert Swift developer for a hotel management system. When generating service files and tests, follow these established patterns exactly.
+
+## Service Architecture Pattern
+
+### Required File Structure
+For each service, generate exactly 4 main files and 4 test files:
+
+**Service Files:**
+1. `{ServiceName}ServiceRequest.swift` - All request structures
+2. `{ServiceName}ServiceResponse.swift` - All response structures (if needed)
+3. `{ServiceName}RemoteService.swift` - Protocol and implementation
+4. `{ServiceName}ServiceRouter.swift` - Routing logic
+
+**Test Files:**
+1. `{ServiceName}ServiceRequestTests.swift` - Request structure tests
+2. `{ServiceName}ServiceResponseTests.swift` - Response structure tests
+3. `{ServiceName}RemoteServiceTests.swift` - Service implementation tests
+4. `{ServiceName}RouterServiceTests.swift` - Router tests
+
+## Request File Pattern (`{ServiceName}ServiceRequest.swift`)
+
+```swift
+//
+//  {ServiceName}ServiceRequest.swift
+//  YourProject
+//
+//  Created by AI Assistant
+//
+
+import Foundation
+
+struct {ServiceName}ServiceRequest {
+    // MARK: - Type Aliases
+    typealias FetchById = ByID
+    typealias Delete{ServiceName} = ByID
+    
+    struct ByID { let id: Int }
+    
+    // MARK: - Enums
+    enum SortedBy: String {
+        case id = "ID"
+        case createdAt = "CREATED_AT"
+        case updatedAt = "UPDATED_AT"
+    }
+    
+    // MARK: - Request Structures
+    struct Fetch{ServiceName}s: Encodable {
+        let hotelId: Int
+        let page: Int?
+        let perPage: PerPage?
+        let sortedBy: SortedBy?
+        let sortedOrder: ServiceSortedOrder?
+        
+        enum CodingKeys: String, CodingKey {
+            case hotelId = "hotel_id"
+            case page
+            case perPage = "per_page"
+            case sortedBy = "sorted_by"
+            case sortedOrder = "sorted_order"
+        }
+        
+        func encode(to encoder: Encoder) throws {
+            var container = encoder.container(keyedBy: CodingKeys.self)
+            try container.encode(hotelId, forKey: .hotelId)
+            if let page = page, page >= 1 {
+                try container.encode(page, forKey: .page)
+            }
+            if let perPage = perPage {
+                try container.encode(perPage.rawValue, forKey: .perPage)
+            }
+            if let sortedBy = sortedBy {
+                try container.encode(sortedBy.rawValue, forKey: .sortedBy)
+            }
+            if let sortedOrder = sortedOrder {
+                try container.encode(sortedOrder.rawValue, forKey: .sortedOrder)
+            }
+        }
+        
+        var parameters: [String: Any]? {
+            guard let data = try? JSONEncoder().encode(self),
+                  let dict = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
+                return nil
+            }
+            return dict
+        }
+    }
+    
+    struct Create{ServiceName}: Encodable {
+        let hotelId: Int
+        // Add other required fields
+        
+        enum CodingKeys: String, CodingKey {
+            case hotelId = "hotel_id"
+            // Add other snake_case mappings
+        }
+        
+        var body: Data? {
+            return try? JSONEncoder().encode(self)
+        }
+    }
+}
+```
+
+## Response File Pattern (`{ServiceName}ServiceResponse.swift`)
+
+```swift
+//
+//  {ServiceName}ServiceResponse.swift
+//  YourProject
+//
+//  Created by AI Assistant
+//
+
+import Foundation
+
+struct {ServiceName}ServiceResponse {
+    
+    struct CustomResponse: Decodable {
+        let info: ResponseInfo
+        
+        init(info: ResponseInfo) {
+            self.info = info
+        }
+        
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            info = try container.decode(ResponseInfo.self, forKey: .info)
+        }
+        
+        enum CodingKeys: String, CodingKey {
+            case info = "response_info"
+        }
+    }
+}
+```
+
+## Remote Service Pattern (`{ServiceName}RemoteService.swift`)
+
+```swift
+//
+//  {ServiceName}RemoteService.swift
+//  YourProject
+//
+//  Created by AI Assistant
+//
+
+import Foundation
+import Mockable
+
+@Mockable
+protocol {ServiceName}ServiceProtocol: AnyObject {
+    func fetch{ServiceName}s(request: {ServiceName}ServiceRequest.Fetch{ServiceName}s) async throws -> Paginator<{ServiceName}>
+    func fetch{ServiceName}ById(request: {ServiceName}ServiceRequest.FetchById) async throws -> {ServiceName}
+    func create{ServiceName}(request: {ServiceName}ServiceRequest.Create{ServiceName}) async throws -> {ServiceName}
+    func delete{ServiceName}(request: {ServiceName}ServiceRequest.Delete{ServiceName}) async throws
+}
+
+class {ServiceName}RemoteService: {ServiceName}ServiceProtocol {
+    private var localStorage: LocalStorageManagerProtocal
+    private let apiManager: APIManagerProtocal
+    
+    init(localStorage: LocalStorageManagerProtocal = LocalStorageManager(),
+         apiManager: APIManagerProtocal = APIManager.shared) {
+        self.localStorage = localStorage
+        self.apiManager = apiManager
+    }
+    
+    func fetch{ServiceName}s(request: {ServiceName}ServiceRequest.Fetch{ServiceName}s) async throws -> Paginator<{ServiceName}> {
+        let router = {ServiceName}ServiceRouter.fetch{ServiceName}s(request: request)
+        return try await apiManager.request(router: router, requiredAuthorization: true)
+    }
+    
+    func fetch{ServiceName}ById(request: {ServiceName}ServiceRequest.FetchById) async throws -> {ServiceName} {
+        let router = {ServiceName}ServiceRouter.fetch{ServiceName}ById(request: request)
+        return try await apiManager.request(router: router, requiredAuthorization: true)
+    }
+    
+    func create{ServiceName}(request: {ServiceName}ServiceRequest.Create{ServiceName}) async throws -> {ServiceName} {
+        let router = {ServiceName}ServiceRouter.create{ServiceName}(request: request)
+        return try await apiManager.request(router: router, requiredAuthorization: true)
+    }
+    
+    func delete{ServiceName}(request: {ServiceName}ServiceRequest.Delete{ServiceName}) async throws {
+        let router = {ServiceName}ServiceRouter.delete{ServiceName}(request: request)
+        try await apiManager.requestACK(router: router, requiredAuthorization: true)
+    }
+}
+```
+
+## Router Pattern (`{ServiceName}ServiceRouter.swift`)
+
+```swift
+//
+//  {ServiceName}ServiceRouter.swift
+//  YourProject
+//
+//  Created by AI Assistant
+//
+
+import Alamofire
+import Foundation
+
+enum {ServiceName}ServiceRouter: AlamofireBaseRouterProtocol {
+    case fetch{ServiceName}s(request: {ServiceName}ServiceRequest.Fetch{ServiceName}s)
+    case fetch{ServiceName}ById(request: {ServiceName}ServiceRequest.FetchById)
+    case create{ServiceName}(request: {ServiceName}ServiceRequest.Create{ServiceName})
+    case delete{ServiceName}(request: {ServiceName}ServiceRequest.Delete{ServiceName})
+
+    var domain: String {
+        return AppConfiguration.shared.baseURL
+    }
+
+    var path: String {
+        switch self {
+        case .fetch{ServiceName}s:
+            return "/v4/{service-name-plural}"
+        case .fetch{ServiceName}ById(let request):
+            return "/v4/{service-name-plural}/\(request.id)"
+        case .create{ServiceName}:
+            return "/v4/{service-name-plural}"
+        case .delete{ServiceName}(let request):
+            return "/v4/{service-name-plural}/\(request.id)"
+        }
+    }
+
+    var method: Alamofire.HTTPMethod {
+        switch self {
+        case .fetch{ServiceName}s, .fetch{ServiceName}ById:
+            return .get
+        case .create{ServiceName}:
+            return .post
+        case .delete{ServiceName}:
+            return .delete
+        }
+    }
+
+    var headers: [String: String]? {
+        return [
+            "Content-Type": "application/json"
+        ]
+    }
+
+    var parameters: [String: Any]? {
+        switch self {
+        case .fetch{ServiceName}s(let request):
+            return request.parameters
+        default:
+            return nil
+        }
+    }
+
+    var body: Data? {
+        switch self {
+        case .create{ServiceName}(let request):
+            return request.body
+        default:
+            return nil
+        }
+    }
+
+    func asURLRequest() throws -> URLRequest {
+        guard let url = URL(string: domain + path) else {
+            throw APIError.invalidURL
+        }
+        let encoding: ParameterEncoding = (method == .get) ? URLEncoding.default : JSONEncoding.default
+        var request = URLRequest(url: url)
+        request.httpMethod = method.rawValue
+        request.httpBody = body
+        headers?.forEach { request.addValue($0.value, forHTTPHeaderField: $0.key) }
+        return try encoding.encode(request, with: parameters)
+    }
+}
+```
+
+## Test Patterns
+
+### Request Tests (`{ServiceName}ServiceRequestTests.swift`)
+
+```swift
+//
+//  {ServiceName}ServiceRequestTests.swift
+//  YourProjectTests
+//
+//  Created by AI Assistant
+//
+
+import XCTest
+
+class {ServiceName}ServiceRequestTests: XCTestCase {
+    
+    // MARK: - Fetch{ServiceName}s Tests
+    
+    func test_fetch{ServiceName}s_withAllParameters_correctSerialization() throws {
+        // Arrange
+        let request = {ServiceName}ServiceRequest.Fetch{ServiceName}s(
+            hotelId: 105,
+            page: 1,
+            perPage: .twenty,
+            sortedBy: .id,
+            sortedOrder: .ascending
+        )
+        
+        // Act
+        let parameters = request.parameters
+        
+        // Assert
+        XCTAssertNotNil(parameters)
+        XCTAssertEqual(parameters?["hotel_id"] as? Int, 105)
+        XCTAssertEqual(parameters?["page"] as? Int, 1)
+        XCTAssertEqual(parameters?["per_page"] as? String, "20")
+        XCTAssertEqual(parameters?["sorted_by"] as? String, "ID")
+        XCTAssertEqual(parameters?["sorted_order"] as? String, "ASC")
+    }
+    
+    func test_fetch{ServiceName}s_withMinimalParameters_correctSerialization() throws {
+        // Arrange
+        let request = {ServiceName}ServiceRequest.Fetch{ServiceName}s(
+            hotelId: 105,
+            page: nil,
+            perPage: nil,
+            sortedBy: nil,
+            sortedOrder: nil
+        )
+        
+        // Act
+        let parameters = request.parameters
+        
+        // Assert
+        XCTAssertNotNil(parameters)
+        XCTAssertEqual(parameters?["hotel_id"] as? Int, 105)
+        XCTAssertNil(parameters?["page"])
+        XCTAssertNil(parameters?["per_page"])
+        XCTAssertNil(parameters?["sorted_by"])
+        XCTAssertNil(parameters?["sorted_order"])
+    }
+}
+```
+
+### Remote Service Tests (`{ServiceName}RemoteServiceTests.swift`)
+
+```swift
+//
+//  {ServiceName}RemoteServiceTests.swift
+//  YourProjectTests
+//
+//  Created by AI Assistant
+//
+
+import XCTest
+import Mockable
+
+class {ServiceName}RemoteServiceTests: XCTestCase {
+    
+    var sut: {ServiceName}RemoteService!
+    var mockAPIManager: MockAPIManagerProtocal!
+    var mockLocalStorage: MockLocalStorageManagerProtocal!
+    
+    override func setUp() {
+        super.setUp()
+        mockAPIManager = MockAPIManagerProtocal()
+        mockLocalStorage = MockLocalStorageManagerProtocal()
+        sut = {ServiceName}RemoteService(localStorage: mockLocalStorage, apiManager: mockAPIManager)
+    }
+    
+    override func tearDown() {
+        sut = nil
+        mockAPIManager = nil
+        mockLocalStorage = nil
+        super.tearDown()
+    }
+    
+    // MARK: - Test fetch{ServiceName}s
+    
+    func test_fetch{ServiceName}s_success() async throws {
+        // Arrange
+        let request = {ServiceName}ServiceRequest.Fetch{ServiceName}s(
+            hotelId: 105,
+            page: 1,
+            perPage: .twenty,
+            sortedBy: .id,
+            sortedOrder: .ascending
+        )
+        
+        let expected{ServiceName}s = createMock{ServiceName}sPaginator()
+        
+        given(mockAPIManager)
+            .request(router: .any, requiredAuthorization: .any)
+            .willReturn(expected{ServiceName}s)
+        
+        // Act
+        let result = try await sut.fetch{ServiceName}s(request: request)
+        
+        // Assert
+        XCTAssertEqual(result.totalItems, expected{ServiceName}s.totalItems)
+        XCTAssertEqual(result.items.first?.id, expected{ServiceName}s.items.first?.id)
+        
+        verify(mockAPIManager)
+            .request(router: .any, requiredAuthorization: .value(true))
+            .called(1)
+    }
+    
+    func test_fetch{ServiceName}s_failure() async throws {
+        // Arrange
+        let request = {ServiceName}ServiceRequest.Fetch{ServiceName}s(
+            hotelId: 105,
+            page: 1,
+            perPage: .twenty,
+            sortedBy: .id,
+            sortedOrder: .ascending
+        )
+        
+        let error = APIError.unknownError(title: "Stub Error", subtitle: nil, underlying: nil)
+        given(mockAPIManager)
+            .request(router: .any, requiredAuthorization: .any)
+            .willProduce { (a,b) -> Paginator<{ServiceName}> in
+                throw error
+            }
+        
+        // Act & Assert
+        do {
+            _ = try await sut.fetch{ServiceName}s(request: request)
+            XCTFail("Expected error to be thrown")
+        } catch {
+            switch error as? APIError {
+            case .unknownError(let title, _, _):
+                XCTAssertEqual(title, "Stub Error")
+            default:
+                XCTFail("Unexpected error type")
+            }
+        }
+        
+        verify(mockAPIManager)
+            .request(router: .any, requiredAuthorization: .value(true))
+            .called(1)
+    }
+    
+    // MARK: - Helper Methods
+    
+    private func createMock{ServiceName}sPaginator() -> Paginator<{ServiceName}> {
+        let {serviceName}s = [createMock{ServiceName}()]
+        return Paginator(
+            items: Collection(array: {serviceName}s),
+            totalItems: 1,
+            totalPages: 1,
+            perPage: 20,
+            page: 1
+        )
+    }
+    
+    private func createMock{ServiceName}() -> {ServiceName} {
+        return {ServiceName}(
+            id: 1,
+            // Add required fields with realistic mock data
+            hotelId: 105,
+            createdAt: Date(),
+            updatedAt: Date()
+        )
+    }
+}
+```
+
+### Router Tests (`{ServiceName}RouterServiceTests.swift`)
+
+```swift
+//
+//  {ServiceName}RouterServiceTests.swift
+//  YourProjectTests
+//
+//  Created by AI Assistant
+//
+
+import XCTest
+
+class {ServiceName}RouterServiceTests: XCTestCase {
+    
+    // MARK: - Test fetch{ServiceName}s
+    
+    func test_fetch{ServiceName}s_correctPath() throws {
+        // Arrange
+        let request = {ServiceName}ServiceRequest.Fetch{ServiceName}s(
+            hotelId: 105,
+            page: 1,
+            perPage: .twenty,
+            sortedBy: .id,
+            sortedOrder: .ascending
+        )
+        let router = {ServiceName}ServiceRouter.fetch{ServiceName}s(request: request)
+        
+        // Act
+        let urlRequest = try router.asURLRequest()
+        
+        // Assert
+        XCTAssertEqual(urlRequest.httpMethod, "GET")
+        XCTAssertTrue(urlRequest.url?.absoluteString.contains("/v4/{service-name-plural}") ?? false)
+        XCTAssertTrue(urlRequest.url?.absoluteString.contains("hotel_id=105") ?? false)
+        XCTAssertTrue(urlRequest.url?.absoluteString.contains("page=1") ?? false)
+        XCTAssertTrue(urlRequest.url?.absoluteString.contains("per_page=20") ?? false)
+        XCTAssertTrue(urlRequest.url?.absoluteString.contains("sorted_by=ID") ?? false)
+        XCTAssertTrue(urlRequest.url?.absoluteString.contains("sorted_order=ASC") ?? false)
+    }
+}
+```
+
+## Key Conventions
+
+### Naming Conventions
+- Service files: `{ServiceName}Service{FileType}.swift`
+- Test files: `{ServiceName}Service{FileType}Tests.swift` or `{ServiceName}RouterServiceTests.swift`
+- Request structs: `Fetch{ServiceName}s`, `Create{ServiceName}`, `Update{ServiceName}`, `Delete{ServiceName}`
+- Protocol: `{ServiceName}ServiceProtocol`
+- Implementation: `{ServiceName}RemoteService`
+
+### Code Style
+- Use MARK comments for organization
+- Snake_case for JSON keys in CodingKeys
+- ISO 3166-1 alpha-3 codes for nationality/country fields ("THA")
+- Consistent error handling with APIError
+- Given-When-Then pattern in tests
+- Use `@Mockable` for protocols
+- Test both success and failure scenarios
+- Include helper methods for mock data creation
+
+### Dependencies
+- Import Foundation for all files
+- Import Mockable for services and tests
+- Import Alamofire for routers
+- Import XCTest for tests
+
+### Test Data
+- Use realistic hotel IDs (105)
+- Use consistent user IDs (38)
+- Use realistic contact IDs (4)
+- Use ISO date formats where needed
+- Create comprehensive mock data in helper methods
+
+### Do not do
+- do not run xbuild , i will run it manually
+
+Follow these patterns exactly when generating new service files and tests. Maintain consistency with existing services like ReceiptService and BankAccountService. 

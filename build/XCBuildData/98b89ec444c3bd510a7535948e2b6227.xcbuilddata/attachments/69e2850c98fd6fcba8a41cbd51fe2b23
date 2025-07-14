@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/SwiftCompilerPlugin-master.dia",
+    "emit-module-dependencies" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/SwiftCompilerPlugin-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/SwiftCompilerPlugin-master-emit-module.dia",
+    "swift-dependencies" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/SwiftCompilerPlugin-master.swiftdeps"
+  },
+  "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/Sources/SwiftCompilerPlugin/CompilerPlugin.swift" : {
+    "const-values" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.swiftconstvalues",
+    "dependencies" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.d",
+    "diagnostics" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.o",
+    "llvm-bc" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.bc",
+    "object" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.o",
+    "swift-dependencies" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin.swiftdeps",
+    "swiftmodule" : "/Users/introdexmac/Library/Developer/Xcode/DerivedData/YourProject-gbnnnpasrjzmtocctdalxbrcqwzh/SourcePackages/checkouts/swift-syntax/build/swift-syntax.build/Debug-iphonesimulator/SwiftCompilerPlugin.build/Objects-normal/arm64/CompilerPlugin~partial.swiftmodule"
+  }
+}
