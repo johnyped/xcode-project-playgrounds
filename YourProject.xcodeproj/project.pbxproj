@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369E6BA32CB7D2EA0086C189 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6BA22CB7D2E80086C189 /* Cells.swift */; };
+		369E6BA52CB7DAAD0086C189 /* Aray+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6BA42CB7DAA90086C189 /* Aray+.swift */; };
 		36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C22BF73F1600D523D0 /* AppDelegate.swift */; };
 		36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C42BF73F1600D523D0 /* SceneDelegate.swift */; };
-		36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C62BF73F1600D523D0 /* ViewController.swift */; };
 		36B587CA2BF73F1600D523D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36B587C92BF73F1600D523D0 /* Base */; };
 		36B587CC2BF73F1800D523D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B587CB2BF73F1800D523D0 /* Assets.xcassets */; };
 		36B587CF2BF73F1800D523D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36B587CE2BF73F1800D523D0 /* Base */; };
@@ -38,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		369E6BA22CB7D2E80086C189 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		369E6BA42CB7DAA90086C189 /* Aray+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aray+.swift"; sourceTree = "<group>"; };
 		36B587BF2BF73F1600D523D0 /* YourProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B587C22BF73F1600D523D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36B587C42BF73F1600D523D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36B587C62BF73F1600D523D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36B587C92BF73F1600D523D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36B587CB2BF73F1800D523D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36B587CE2BF73F1800D523D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		369E6BA12CB7D2E30086C189 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				369E6BA22CB7D2E80086C189 /* Cells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		36B587B62BF73F1600D523D0 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +116,8 @@
 				36B587C22BF73F1600D523D0 /* AppDelegate.swift */,
 				36B587C42BF73F1600D523D0 /* SceneDelegate.swift */,
 				36B587F22BF73F4900D523D0 /* CustomViewController.swift */,
-				36B587C62BF73F1600D523D0 /* ViewController.swift */,
+				369E6BA42CB7DAA90086C189 /* Aray+.swift */,
+				369E6BA12CB7D2E30086C189 /* Cells */,
 				36B587C82BF73F1600D523D0 /* Main.storyboard */,
 				36B587CB2BF73F1800D523D0 /* Assets.xcassets */,
 				36B587CD2BF73F1800D523D0 /* LaunchScreen.storyboard */,
@@ -269,10 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */,
 				36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */,
+				369E6BA32CB7D2EA0086C189 /* Cells.swift in Sources */,
 				36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */,
 				36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */,
+				369E6BA52CB7DAAD0086C189 /* Aray+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
