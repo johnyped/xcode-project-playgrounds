@@ -7,18 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		364029012CC608EA004D745F /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 364029002CC608EA004D745F /* DGCharts */; };
-		364029042CC60B8B004D745F /* RKetCombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029032CC60B85004D745F /* RKetCombinedChartRenderer.swift */; };
-		364029062CC60BA1004D745F /* RKLineChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029052CC60BA0004D745F /* RKLineChartRenderer.swift */; };
-		364029082CC60BCF004D745F /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029072CC60BCB004D745F /* TextHelper.swift */; };
-		3640290C2CC74325004D745F /* OHLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640290B2CC74323004D745F /* OHLC.swift */; };
-		3640290E2CC74FC3004D745F /* PTChartVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640290D2CC74FC0004D745F /* PTChartVM.swift */; };
-		364029102CC754AC004D745F /* PriceTargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640290F2CC754AA004D745F /* PriceTargetTests.swift */; };
-		364029122CC78575004D745F /* PTChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364029112CC7856F004D745F /* PTChartView.swift */; };
-		36514F582CCA2D0800838B37 /* PTCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F572CCA2D0000838B37 /* PTCapsuleView.swift */; };
-		36514F5A2CCA2EB000838B37 /* PTCapsuleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F592CCA2EAC00838B37 /* PTCapsuleVM.swift */; };
-		36514F5C2CCA2FB400838B37 /* CustomViewController+Capsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F5B2CCA2FB100838B37 /* CustomViewController+Capsule.swift */; };
-		36514F5E2CCA4CDC00838B37 /* ResponseMocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514F5D2CCA4CD800838B37 /* ResponseMocker.swift */; };
+		367AE0342C104F8100DD5A48 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 367AE0332C104F8100DD5A48 /* FloatingPanel */; };
+		367AE03C2C10632C00DD5A48 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367AE0382C10632C00DD5A48 /* GradientViewController.swift */; };
+		367AE03D2C10632C00DD5A48 /* UIView+rket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367AE0392C10632C00DD5A48 /* UIView+rket.swift */; };
+		367AE03E2C10632C00DD5A48 /* RKBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367AE03A2C10632C00DD5A48 /* RKBase.swift */; };
+		367AE03F2C10632C00DD5A48 /* SKGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367AE03B2C10632C00DD5A48 /* SKGradientLayer.swift */; };
 		36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C22BF73F1600D523D0 /* AppDelegate.swift */; };
 		36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C42BF73F1600D523D0 /* SceneDelegate.swift */; };
 		36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587C62BF73F1600D523D0 /* ViewController.swift */; };
@@ -30,7 +23,6 @@
 		36B587E62BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */; };
 		36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B587F22BF73F4900D523D0 /* CustomViewController.swift */; };
 		36B587F62BF73FF800D523D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36B587F52BF73FF800D523D0 /* SnapKit */; };
-		36D5D0CB2CCB4644003EC772 /* DrawShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5D0CA2CCB463D003EC772 /* DrawShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,17 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		364029032CC60B85004D745F /* RKetCombinedChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKetCombinedChartRenderer.swift; sourceTree = "<group>"; };
-		364029052CC60BA0004D745F /* RKLineChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKLineChartRenderer.swift; sourceTree = "<group>"; };
-		364029072CC60BCB004D745F /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
-		3640290B2CC74323004D745F /* OHLC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHLC.swift; sourceTree = "<group>"; };
-		3640290D2CC74FC0004D745F /* PTChartVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTChartVM.swift; sourceTree = "<group>"; };
-		3640290F2CC754AA004D745F /* PriceTargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTargetTests.swift; sourceTree = "<group>"; };
-		364029112CC7856F004D745F /* PTChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTChartView.swift; sourceTree = "<group>"; };
-		36514F572CCA2D0000838B37 /* PTCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTCapsuleView.swift; sourceTree = "<group>"; };
-		36514F592CCA2EAC00838B37 /* PTCapsuleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTCapsuleVM.swift; sourceTree = "<group>"; };
-		36514F5B2CCA2FB100838B37 /* CustomViewController+Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomViewController+Capsule.swift"; sourceTree = "<group>"; };
-		36514F5D2CCA4CD800838B37 /* ResponseMocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMocker.swift; sourceTree = "<group>"; };
+		367AE0382C10632C00DD5A48 /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		367AE0392C10632C00DD5A48 /* UIView+rket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+rket.swift"; sourceTree = "<group>"; };
+		367AE03A2C10632C00DD5A48 /* RKBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKBase.swift; sourceTree = "<group>"; };
+		367AE03B2C10632C00DD5A48 /* SKGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKGradientLayer.swift; sourceTree = "<group>"; };
 		36B587BF2BF73F1600D523D0 /* YourProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B587C22BF73F1600D523D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36B587C42BF73F1600D523D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +61,6 @@
 		36B587E32BF73F1900D523D0 /* YourProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectUITests.swift; sourceTree = "<group>"; };
 		36B587E52BF73F1900D523D0 /* YourProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		36B587F22BF73F4900D523D0 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
-		36D5D0CA2CCB463D003EC772 /* DrawShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364029012CC608EA004D745F /* DGCharts in Frameworks */,
 				36B587F62BF73FF800D523D0 /* SnapKit in Frameworks */,
+				367AE0342C104F8100DD5A48 /* FloatingPanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,36 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		364028FF2CC608EA004D745F /* Frameworks */ = {
+		367AE0322C104F8100DD5A48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		364029022CC60B80004D745F /* Chart */ = {
+		367AE0372C10631A00DD5A48 /* GradientView */ = {
 			isa = PBXGroup;
 			children = (
-				36514F5D2CCA4CD800838B37 /* ResponseMocker.swift */,
-				36514F562CCA2CA700838B37 /* Capsule */,
-				364029112CC7856F004D745F /* PTChartView.swift */,
-				3640290D2CC74FC0004D745F /* PTChartVM.swift */,
-				3640290B2CC74323004D745F /* OHLC.swift */,
-				364029032CC60B85004D745F /* RKetCombinedChartRenderer.swift */,
-				364029052CC60BA0004D745F /* RKLineChartRenderer.swift */,
-				364029072CC60BCB004D745F /* TextHelper.swift */,
-				36D5D0CA2CCB463D003EC772 /* DrawShapeView.swift */,
+				367AE0382C10632C00DD5A48 /* GradientViewController.swift */,
+				367AE03A2C10632C00DD5A48 /* RKBase.swift */,
+				367AE03B2C10632C00DD5A48 /* SKGradientLayer.swift */,
+				367AE0392C10632C00DD5A48 /* UIView+rket.swift */,
 			);
-			path = Chart;
-			sourceTree = "<group>";
-		};
-		36514F562CCA2CA700838B37 /* Capsule */ = {
-			isa = PBXGroup;
-			children = (
-				36514F572CCA2D0000838B37 /* PTCapsuleView.swift */,
-				36514F592CCA2EAC00838B37 /* PTCapsuleVM.swift */,
-			);
-			path = Capsule;
+			path = GradientView;
 			sourceTree = "<group>";
 		};
 		36B587B62BF73F1600D523D0 = {
@@ -144,8 +114,8 @@
 				36B587C12BF73F1600D523D0 /* YourProject */,
 				36B587D82BF73F1900D523D0 /* YourProjectTests */,
 				36B587E22BF73F1900D523D0 /* YourProjectUITests */,
-				364028FF2CC608EA004D745F /* Frameworks */,
 				36B587C02BF73F1600D523D0 /* Products */,
+				367AE0322C104F8100DD5A48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,8 +135,7 @@
 				36B587C22BF73F1600D523D0 /* AppDelegate.swift */,
 				36B587C42BF73F1600D523D0 /* SceneDelegate.swift */,
 				36B587F22BF73F4900D523D0 /* CustomViewController.swift */,
-				36514F5B2CCA2FB100838B37 /* CustomViewController+Capsule.swift */,
-				364029022CC60B80004D745F /* Chart */,
+				367AE0372C10631A00DD5A48 /* GradientView */,
 				36B587C62BF73F1600D523D0 /* ViewController.swift */,
 				36B587C82BF73F1600D523D0 /* Main.storyboard */,
 				36B587CB2BF73F1800D523D0 /* Assets.xcassets */,
@@ -179,7 +148,6 @@
 		36B587D82BF73F1900D523D0 /* YourProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				3640290F2CC754AA004D745F /* PriceTargetTests.swift */,
 				36B587D92BF73F1900D523D0 /* YourProjectTests.swift */,
 			);
 			path = YourProjectTests;
@@ -212,7 +180,7 @@
 			name = YourProject;
 			packageProductDependencies = (
 				36B587F52BF73FF800D523D0 /* SnapKit */,
-				364029002CC608EA004D745F /* DGCharts */,
+				367AE0332C104F8100DD5A48 /* FloatingPanel */,
 			);
 			productName = YourProject;
 			productReference = 36B587BF2BF73F1600D523D0 /* YourProject.app */;
@@ -288,7 +256,7 @@
 			mainGroup = 36B587B62BF73F1600D523D0;
 			packageReferences = (
 				36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				364028FE2CC604B4004D745F /* XCRemoteSwiftPackageReference "Charts" */,
+				367AE0312C104F2300DD5A48 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
 			);
 			productRefGroup = 36B587C02BF73F1600D523D0 /* Products */;
 			projectDirPath = "";
@@ -333,21 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364029062CC60BA1004D745F /* RKLineChartRenderer.swift in Sources */,
-				36514F5E2CCA4CDC00838B37 /* ResponseMocker.swift in Sources */,
 				36B587C72BF73F1600D523D0 /* ViewController.swift in Sources */,
-				36514F582CCA2D0800838B37 /* PTCapsuleView.swift in Sources */,
-				364029122CC78575004D745F /* PTChartView.swift in Sources */,
+				367AE03F2C10632C00DD5A48 /* SKGradientLayer.swift in Sources */,
 				36B587C32BF73F1600D523D0 /* AppDelegate.swift in Sources */,
+				367AE03E2C10632C00DD5A48 /* RKBase.swift in Sources */,
+				367AE03C2C10632C00DD5A48 /* GradientViewController.swift in Sources */,
 				36B587C52BF73F1600D523D0 /* SceneDelegate.swift in Sources */,
-				36514F5A2CCA2EB000838B37 /* PTCapsuleVM.swift in Sources */,
-				364029042CC60B8B004D745F /* RKetCombinedChartRenderer.swift in Sources */,
-				36D5D0CB2CCB4644003EC772 /* DrawShapeView.swift in Sources */,
-				3640290E2CC74FC3004D745F /* PTChartVM.swift in Sources */,
-				36514F5C2CCA2FB400838B37 /* CustomViewController+Capsule.swift in Sources */,
+				367AE03D2C10632C00DD5A48 /* UIView+rket.swift in Sources */,
 				36B587F32BF73F4900D523D0 /* CustomViewController.swift in Sources */,
-				3640290C2CC74325004D745F /* OHLC.swift in Sources */,
-				364029082CC60BCF004D745F /* TextHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364029102CC754AC004D745F /* PriceTargetTests.swift in Sources */,
 				36B587DA2BF73F1900D523D0 /* YourProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -697,12 +657,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		364028FE2CC604B4004D745F /* XCRemoteSwiftPackageReference "Charts" */ = {
+		367AE0312C104F2300DD5A48 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ChartsOrg/Charts";
+			repositoryURL = "https://github.com/scenee/FloatingPanel";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
+				minimumVersion = 2.8.2;
 			};
 		};
 		36B587F42BF73FF800D523D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
@@ -716,10 +676,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		364029002CC608EA004D745F /* DGCharts */ = {
+		367AE0332C104F8100DD5A48 /* FloatingPanel */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 364028FE2CC604B4004D745F /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = DGCharts;
+			package = 367AE0312C104F2300DD5A48 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
 		};
 		36B587F52BF73FF800D523D0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
