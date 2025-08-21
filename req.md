@@ -370,12 +370,12 @@ localizedKeyPath[i].modes = Modes(modes: ["en": "Switch Profile", "th": "สล�
 - Localized is store of localize key use for mapping within Localizable.xcstrings's key
 ```
 struct Localized {
-   struct tvNavigationDrawer {
+   struct TvNavigationDrawer {
         static let switchProfile = "tv_navigation_drawer.switch_profile" // key 
         // more key 
    }
 
-   struct tvHomepage {
+   struct TvHomepage {
         static let premiumTv = "tv_homepage.premium_tv" // key 
         // more key 
    }

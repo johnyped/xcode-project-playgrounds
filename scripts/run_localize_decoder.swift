@@ -228,8 +228,8 @@ class LocalizedDecoder {
             
             // Generate nested structs
             for (index, component) in pathComponents.enumerated() {
-                let camelCaseName = toCamelCase(component)
-                swiftCode += "\(indent)struct \(camelCaseName) {\n"
+                let pascalCaseName = toPascalCase(component)
+                swiftCode += "\(indent)struct \(pascalCaseName) {\n"
                 indent += "   "
                 
                 // If this is the last level, add the keys
@@ -260,6 +260,12 @@ class LocalizedDecoder {
         
         let camelCase = firstComponent + remainingComponents.map { $0.prefix(1).uppercased() + $0.dropFirst() }.joined()
         return camelCase
+    }
+    
+    private func toPascalCase(_ string: String) -> String {
+        let components = string.components(separatedBy: "_")
+        let pascalCase = components.map { $0.prefix(1).uppercased() + $0.dropFirst() }.joined()
+        return pascalCase
     }
     
     // MARK: - Generate Localizable.xcstrings

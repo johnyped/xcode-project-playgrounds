@@ -37,18 +37,18 @@ localizedKeyPath[0].modes = Modes(modes: ["en": "Switch Profile", "th": "สล�
 2. ✅ **Creates/replaces Localized.swift** - Generated at same level as script
 3. ✅ **User can config expected output file at path** - ✅ IMPLEMENTED via `-s/--swift` option
 4. ✅ **Generates nested structs** - Follows path hierarchy correctly
-5. ✅ **CamelCase formatting** - Both struct names and key names
+5. ✅ **CamelCase formatting** - Struct names in PascalCase (CamelCase), property names in camelCase
 
 ### **Generated Structure Example:**
 ```swift
 struct Localized {
-   struct tvNavigationDrawer {
+   struct TvNavigationDrawer {
       static let switchProfile = "tv_navigation_drawer.switch_profile"
       static let searchMenu = "tv_navigation_drawer.search_menu"
       // ... more keys
    }
    
-   struct tvHomepage {
+   struct TvHomepage {
       static let premiumTv = "tv_homepage.premium_tv"
       static let watchNowButton = "tv_homepage.watch_now_button"
       // ... more keys
@@ -161,6 +161,11 @@ struct Config {
     let xcstringsOutputPath: String
 }
 ```
+
+### **Naming Conventions:**
+- **Struct names**: PascalCase (CamelCase starting with uppercase) - e.g., `TvNavigationDrawer`, `ContentDetail`
+- **Property names**: camelCase (starting with lowercase) - e.g., `switchProfile`, `searchMenu`
+- **Generated from**: Underscore-separated paths converted to proper Swift naming conventions
 
 ### **Key Functions:**
 1. **`decodeLocalizedData()`** - Main decoder function
