@@ -6,8 +6,18 @@
 - only use native apple framwork library
 - user need to paste json file in same directory as script file with name "variables.json"
 
-### demo of variable.json
-- json structure should be like this
+### Generator localize workflow step
+1. decode json file into struct 
+2. generate Localized.swift files
+3. generate xcode localized file (localized.xcstring)
+
+## Step 1: Decoder step: 
+1. read json file
+2. extract available language keys
+3. extract LocalizedKeyPaths as in the example
+4. print result to match the example
+
+# json structure of variable.json
 ```
 {
   "@localized": {
@@ -320,42 +330,9 @@
 }
 ```
 
-### Decoder step: 
-1. read json file
-2. extract available language keys
-3. extract LocalizedKeyPaths as in the example
-4. print result to match the example
-
-### example of output
-```
-
-```
-
-### swift struct 
-
+# swift struct 
 let allAvailableKeys = @localized.$collection_metadata.modes.keys // ["en", "th", "my"]
 
-```
-// json 
-"@localized": {
- "$tv_navigation_drawer": {
-      "switch_profile": {
-        "$type": "unknown",
-        "$value": "Switch Profile",
-        "$description": "",
-        "$variable_metadata": {
-          "name": "tv_navigation_drawer/switch_profile",
-          "figmaId": "VariableID:7353:158449",
-          "modes": {
-            "en": "Switch Profile",
-            "th": "สลับโปรไฟล์",
-            "my": "ပရိုဖိုင်ပြောင်းရန်"
-          }
-        }
-      }
-}
-```
-```
 // swift code
 struct Modes: Codable {
         let modes: [String: String]
@@ -363,11 +340,54 @@ struct Modes: Codable {
 
 struct LocalizedKeyPath: Codable {
         let paths: [String]
+        let key: String
         let modes: Modes
 }
 ```
 
-### example of decode mapper result
-localizedKeyPath[i].paths = ["tv_navigation_drawer", "switch_profile"]
+# example of decode mapper result
+private let foundPaths: [String] = ["tv_navigation_drawer", "switch_profile"]
+localizedKeyPath[i].paths = ["tv_navigation_drawer"] // ignore last value of foundPaths
+localizedKeyPath[i].key = "tv_navigation_drawer.switch_profile"
 localizedKeyPath[i].modes = Modes(modes: ["en": "Switch Profile", "th": "สลับโปรไฟล์", "my": "ပရိုဖိုင်ပြောင်းရန်"])
+
+- foundPaths compute from traverse json file
+- paths is array of string from foundPaths but remove last value
+- generate key from foundPaths.join(".") // result: tv_navigation_drawer.switch_profile
+
+# handle of edge case 
+- on case empty localizedKeyPath[i].paths will insert "Other" inside path
+
+## Step 2: Generate Localized.swift files
+1. reading value of localizedKeyPath from Step 1
+2. create new or replace exist file with file name "Localized.swift" at same lv of script file
+3. generate struct Localized follow this rule and condition:
+- generate nest struct from localizedKeyPath[i].paths, on case many path value this will efect multi nest struct
+- nest struct name is camelCase format // result: "tvNavigationDrawer"
+- key name is camelCase format // result: "switchProfile"
+```
+struct Localized {
+   struct tvNavigationDrawer {
+        static let switchProfile = "tv_navigation_drawer.switch_profile" // key 
+        // more key 
+   }
+
+   struct tvHomepage {
+        static let premiumTv = "tv_homepage.premium_tv" // key 
+        // more key 
+   }
+}
+```
+## Step 3: Generate xcode localized file (localized.xcstring)
+
+
+
+### example of output
+```
+
+```
+
+
+
+
 

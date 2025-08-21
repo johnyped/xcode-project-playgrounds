@@ -36,6 +36,7 @@ struct LocalizedItem: Codable {
 
 struct LocalizedKeyPath: Codable {
     let paths: [String]
+    let key: String
     let modes: [String: String]
 }
 
@@ -132,7 +133,16 @@ class LocalizedDecoder {
                 if let variableMetadata = itemDict["$variable_metadata"] as? [String: Any],
                    let modes = variableMetadata["modes"] as? [String: String] {
                     
-                    let keyPath = LocalizedKeyPath(paths: newPath, modes: modes)
+                    // Generate key from full path (join with dots)
+                    let fullKey = newPath.joined(separator: ".")
+                    
+                    // For paths, remove the last value (as per requirements)
+                    let pathsForStruct = newPath.count > 1 ? Array(newPath.dropLast()) : newPath
+                    
+                    // Handle edge case: if paths is empty, insert "Other"
+                    let finalPaths = pathsForStruct.isEmpty ? ["Other"] : pathsForStruct
+                    
+                    let keyPath = LocalizedKeyPath(paths: finalPaths, key: fullKey, modes: modes)
                     keyPaths.append(keyPath)
                 } else {
                     // Recursively traverse deeper
@@ -157,6 +167,7 @@ class LocalizedDecoder {
         print("Localized Key Paths:")
         for (index, keyPath) in keyPaths.enumerated() {
             print("localizedKeyPath[\(index)].paths = \(keyPath.paths)")
+            print("localizedKeyPath[\(index)].key = \(keyPath.key)")
             print("localizedKeyPath[\(index)].modes = Modes(modes: \(keyPath.modes))")
             print()
         }
