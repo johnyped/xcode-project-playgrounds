@@ -1,31 +1,54 @@
 # Localized Decoder
 
-A Swift-based tool for decoding and extracting localized strings from JSON files.
+A Swift-based tool for decoding and extracting localized strings from JSON files with configurable input and output paths.
 
 ## Overview
 
-This tool reads a `variables.json` file and extracts:
+This tool reads a JSON file (default: `variables.json`) and extracts:
 1. Available language keys from the collection metadata
 2. All localized key paths with their corresponding translations
 
 ## Requirements
 
 - macOS with Swift installed
-- `variables.json` file in the same directory as the script
+- JSON file with the required structure (default: `variables.json`)
 
 ## Usage
 
 ### Option 1: Run the shell script (Recommended)
 
 ```bash
+# Use default configuration
 ./run_decoder.sh
+
+# Customize input and output files
+./run_decoder.sh -i custom_variables.json -s CustomLocalized.swift -x CustomLocalizable.xcstrings
+
+# Show help
+./run_decoder.sh --help
 ```
 
 ### Option 2: Run the Swift script directly
 
 ```bash
+# Use default configuration
 swift run_localize_decoder.swift
+
+# Customize input and output files
+swift run_localize_decoder.swift -i custom_variables.json -s CustomLocalized.swift -x CustomLocalizable.xcstrings
+
+# Show help
+swift run_localize_decoder.swift --help
 ```
+
+## Configuration Options
+
+Both the shell script and Swift script support the following options:
+
+- `-i, --input <file>` - Input JSON file path (default: `variables.json`)
+- `-s, --swift <file>` - Output Localized.swift file path (default: `Localized.swift`)
+- `-x, --xcstrings <file>` - Output Localizable.xcstrings file path (default: `Localizable.xcstrings`)
+- `-h, --help` - Show help message
 
 ## Input Format
 

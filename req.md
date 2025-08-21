@@ -13,9 +13,10 @@
 
 ## Step 1: Decoder step: 
 1. read json file
-2. extract available language keys
-3. extract LocalizedKeyPaths as in the example
-4. print result to match the example
+2. user can config expected reading file at path for "variables.json"
+3. extract available language keys
+4. extract LocalizedKeyPaths as in the example
+5. print result to match the example
 
 # json structure of variable.json
 ```
@@ -361,10 +362,12 @@ localizedKeyPath[i].modes = Modes(modes: ["en": "Switch Profile", "th": "สล�
 ## Step 2: Generate Localized.swift files
 1. reading value of localizedKeyPath from Step 1
 2. create new or replace exist file with file name "Localized.swift" at same lv of script file
-3. generate struct Localized follow this rule and condition:
+3. user can config expected output file at path for "Localized.swift" 
+4. generate struct Localized follow this rule and condition:
 - generate nest struct from localizedKeyPath[i].paths, on case many path value this will efect multi nest struct
-- nest struct name is camelCase format // result: "tvNavigationDrawer"
-- key name is camelCase format // result: "switchProfile"
+- nest struct name is CamelCase format // result: "TvNavigationDrawer"
+- property key name is camelCase format // result: "switchProfile"
+- Localized is store of localize key use for mapping within Localizable.xcstrings's key
 ```
 struct Localized {
    struct tvNavigationDrawer {
@@ -378,16 +381,74 @@ struct Localized {
    }
 }
 ```
-## Step 3: Generate xcode localized file (localized.xcstring)
+## Step 3: Generate xcode localized file (Localizable.xcstrings)
+- user can config expected output file at path for "Localizable.xcstrings" 
+# Requirement for Generating Localizable.xcstrings
 
+1. **File Format**:  
+   The output must be a valid `.xcstrings` JSON file, following the Apple Xcode localization format.
 
+2. **Key Structure**:  
+   - Each localization entry must have a unique key, matching the dot-separated path (e.g., `"tv_navigation_drawer.switch_profile"`).
+   - The key should be mapped to an object containing:
+     - `"extractionState": "manual"`
+     - `"localizations"`: an object with language codes as keys (`"en"`, `"th"`, `"my"`), each mapping to:
+       - `"stringUnit"`: an object with:
+         - `"state": "translated"`
+         - `"value"`: the localized string for that language.
 
-### example of output
-```
+3. **Languages**:  
+   - For every key, provide translations for all available languages: English (`"en"`), Thai (`"th"`), and Burmese (`"my"`).
+   - The language codes must match the keys in the `modes` dictionary.
 
-```
+4. **Value Mapping**:  
+   - The `"value"` for each language is taken from the corresponding value in the `modes` dictionary for that key.
 
+5. **Edge Cases**:  
+   - If a key has no path (i.e., `paths` is empty), use `"Other"` as the path in the key (e.g., `"Other.keyName"`).
 
+6. **Output Example**:  
+   For a key with `paths = ["tv_navigation_drawer"]`, `key = "tv_navigation_drawer.switch_profile"`, and `modes = ["en": "Switch Profile", "th": "สลับโปรไฟล์", "my": "ပရိုဖိုင်ပြောင်းရန်"]`, the output should be:
+   ```
+   "tv_navigation_drawer.switch_profile": {
+     "extractionState": "manual",
+     "localizations": {
+       "en": {
+         "stringUnit": {
+           "state": "translated",
+           "value": "Switch Profile"
+         }
+       },
+       "th": {
+         "stringUnit": {
+           "state": "translated",
+           "value": "สลับโปรไฟล์"
+         }
+       },
+       "my": {
+         "stringUnit": {
+           "state": "translated",
+           "value": "ပရိုဖိုင်ပြောင်းရန်"
+         }
+       }
+     }
+   }
+   ```
+   - All entries must be comma-separated within the JSON object.
 
+7. **File Structure**:  
+   - The file should be a single JSON object with all keys at the top level.
+   - Ensure proper indentation and valid JSON syntax.
 
+8. **General**:  
+   - All keys and values must be properly escaped for JSON.
+   - The output must be ready to use as a `.xcstrings` file in Xcode.
 
+9. **Sequential Thinking**:  
+   - For each entry, process in order: determine the key, map the values for each language, and format as specified above.
+
+10. **Library/Format Updates**:  
+    - If the `.xcstrings` format changes, check the latest documentation to ensure compliance.
+
+# Summary:  
+Generate a valid `.xcstrings` JSON file where each key is mapped to its localized values for `"en"`, `"th"`, and `"my"`, following the structure and formatting shown in the example above.
