@@ -1,0 +1,4092 @@
+{
+  "@localized": {
+    "$collection_metadata": {
+      "name": "Localized",
+      "figmaId": "VariableCollectionId:807:35695",
+      "modes": [
+        {
+          "key": "en",
+          "name": "EN"
+        },
+        {
+          "key": "th",
+          "name": "TH"
+        },
+        {
+          "key": "my",
+          "name": "MY"
+        }
+      ]
+    },
+    "$tv_navigation_drawer": {
+      "switch_profile": {
+        "$type": "unknown",
+        "$value": "Switch Profile",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/switch_profile",
+          "figmaId": "VariableID:7353:158449",
+          "modes": {
+            "en": "Switch Profile",
+            "th": "สลับโปรไฟล์",
+            "my": "ပရိုဖိုင်ပြောင်းရန်"
+          }
+        }
+      },
+      "search_menu": {
+        "$type": "unknown",
+        "$value": "Search",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/search_menu",
+          "figmaId": "VariableID:7353:158450",
+          "modes": {
+            "en": "Search",
+            "th": "ค้นหา",
+            "my": "ရှာဖွေရန်"
+          }
+        }
+      },
+      "home_menu": {
+        "$type": "unknown",
+        "$value": "Home",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/home_menu",
+          "figmaId": "VariableID:7353:158451",
+          "modes": {
+            "en": "Home",
+            "th": "หน้าหลัก",
+            "my": "မူလစာမျက်နှာ"
+          }
+        }
+      },
+      "live_tv_menu": {
+        "$type": "unknown",
+        "$value": "Live TV",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/live_tv_menu",
+          "figmaId": "VariableID:7353:158452",
+          "modes": {
+            "en": "Live TV",
+            "th": "ทีวีออนไลน์",
+            "my": "တိုက်ရိုက်ထုတ်လွှင့်တီဗီ"
+          }
+        }
+      },
+      "movies_menu": {
+        "$type": "unknown",
+        "$value": "Movies",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/movies_menu",
+          "figmaId": "VariableID:8131:11277",
+          "modes": {
+            "en": "Movies",
+            "th": "ภาพยนตร์",
+            "my": "ရုပ်ရှင်များ"
+          }
+        }
+      },
+      "series_menu": {
+        "$type": "unknown",
+        "$value": "Series",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/series_menu",
+          "figmaId": "VariableID:8131:11278",
+          "modes": {
+            "en": "Series",
+            "th": "ซีรีส์",
+            "my": "စီးရီးများ"
+          }
+        }
+      },
+      "sports_menu": {
+        "$type": "unknown",
+        "$value": "Sports",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/sports_menu",
+          "figmaId": "VariableID:8131:11279",
+          "modes": {
+            "en": "Sports",
+            "th": "กีฬา",
+            "my": "အားကစားများ"
+          }
+        }
+      },
+      "new_on_now_menu": {
+        "$type": "unknown",
+        "$value": "New on NOW",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/new_on_now_menu",
+          "figmaId": "VariableID:7353:158453",
+          "modes": {
+            "en": "New on NOW",
+            "th": "ใหม่บน NOW",
+            "my": "အသစ်ဆုံး"
+          }
+        }
+      },
+      "my_lists_menu": {
+        "$type": "unknown",
+        "$value": "My Lists",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/my_lists_menu",
+          "figmaId": "VariableID:7353:158455",
+          "modes": {
+            "en": "My Lists",
+            "th": "รายการของฉัน",
+            "my": "ကျွန်ုပ်၏စာရင်းများ"
+          }
+        }
+      },
+      "profile_menu": {
+        "$type": "unknown",
+        "$value": "Profile",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/profile_menu",
+          "figmaId": "VariableID:12424:192066",
+          "modes": {
+            "en": "Profile",
+            "th": "โปรไฟล์",
+            "my": "ပရိုဖိုင်"
+          }
+        }
+      },
+      "setting_button": {
+        "$type": "unknown",
+        "$value": "Help & Settings",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/setting_button",
+          "figmaId": "VariableID:8131:11280",
+          "modes": {
+            "en": "Help & Settings",
+            "th": "ช่วยเหลือ และ ตั้งค่า",
+            "my": "အကူအညီနှင့် ဆက်တင်များ"
+          }
+        }
+      },
+      "exit_button": {
+        "$type": "unknown",
+        "$value": "Exit App",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_navigation_drawer/exit_button",
+          "figmaId": "VariableID:7353:158456",
+          "modes": {
+            "en": "Exit App",
+            "th": "ออกจากแอป",
+            "my": "အက်ပ်မှထွက်ရန်"
+          }
+        }
+      }
+    },
+    "$tv_homepage": {
+      "premium_tv": {
+        "$type": "unknown",
+        "$value": "Subscribe to TrueVisions Now to enjoy this content",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_homepage/premium_tv",
+          "figmaId": "VariableID:8177:37425",
+          "modes": {
+            "en": "Subscribe to TrueVisions Now to enjoy this content",
+            "th": "สมัครสมาชิกทรูวิชั่นส์ตอนนี้ เพื่อรับชมคอนเทนต์นี้",
+            "my": "ဤအကြောင်းအရာကိုကြည့်ရှုရန် TrueVisions သို့ စာရင်းသွင်းပါ။"
+          }
+        }
+      },
+      "live_time": {
+        "$type": "unknown",
+        "$value": "Live Time {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_homepage/live_time",
+          "figmaId": "VariableID:8177:37428",
+          "modes": {
+            "en": "Live Time {1}",
+            "th": "ถ่ายทอดสดเป็นเวลา {1}",
+            "my": "တိုက်ရိုက်ထုတ်လွှင့်ချိန် {1}"
+          }
+        }
+      },
+      "streaming": {
+        "$type": "unknown",
+        "$value": "Streaming {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_homepage/streaming",
+          "figmaId": "VariableID:8200:88498",
+          "modes": {
+            "en": "Streaming {1}",
+            "th": "สตรีมมิ่ง {1}",
+            "my": "စ့်ထရီးမင်း {1}"
+          }
+        }
+      },
+      "reminded_me_button": {
+        "$type": "unknown",
+        "$value": "Remind me",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_homepage/reminded_me_button",
+          "figmaId": "VariableID:8177:37431",
+          "modes": {
+            "en": "Remind me",
+            "th": "เตือนฉัน",
+            "my": "မှတ်မိစေပါ"
+          }
+        }
+      },
+      "reminded_set_button": {
+        "$type": "unknown",
+        "$value": "Reminder set",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_homepage/reminded_set_button",
+          "figmaId": "VariableID:8177:37432",
+          "modes": {
+            "en": "Reminder set",
+            "th": "ตั้งการแจ้งเตือนแล้ว",
+            "my": "မေ့မသွားအောင် မှတ်ပေးပါ"
+          }
+        }
+      },
+      "watch_now_button": {
+        "$type": "unknown",
+        "$value": "Watch Now",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "tv_homepage/watch_now_button",
+          "figmaId": "VariableID:12586:44389",
+          "modes": {
+            "en": "Watch Now",
+            "th": "รับชมตอนนี้",
+            "my": "အခုကြည့်ပါ "
+          }
+        }
+      }
+    },
+    "$sign_in_qr": {
+      "title": {
+        "$type": "unknown",
+        "$value": "Log in with QR Code",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "sign_in_qr/title",
+          "figmaId": "VariableID:7288:31769",
+          "modes": {
+            "en": "Log in with QR Code",
+            "th": "เข้าสู่ระบบด้วย QR Code",
+            "my": "QR Code ဖြင့် 로그인 ဝင်ရောက်ပါ။"
+          }
+        }
+      },
+      "log_in_desc": {
+        "$type": "unknown",
+        "$value": "1. Open the TrueVisions NOW app on your device. 2. Navigate to Settings and select Scan QR Code. 3. Use your phone to scan this QR code to confirm your login.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "sign_in_qr/log_in_desc",
+          "figmaId": "VariableID:7288:31770",
+          "modes": {
+            "en": "1. Open the TrueVisions NOW app on your device. 2. Navigate to Settings and select Scan QR Code. 3. Use your phone to scan this QR code to confirm your login.",
+            "th": "1. เปิดแอป TrueVisions NOW บนอุปกรณ์ของคุณ\n2. ไปที่ “การตั้งค่า” และเลือก “สแกน QR Code”\n3. ใช้โทรศัพท์ของคุณสแกน QR Code นี้เพื่อยืนยันการเข้าสู่ระบบ",
+            "my": "1. သင့်စက်တွင် TrueVisions NOW အက်ပ်ကိုဖွင့်ပါ။\n2. ဆက်တင်များသို့ သွားပြီး QR ကုဒ်ကို စကင်န်ဖတ်ရန် ရွေးချယ်ပါ။\n3. သင်၏လော့ဂ်အင်ကို အတည်ပြုရန် ဤ QR ကုဒ်ကို သင့်ဖုန်းဖြင့် စကင်န်ဖတ်ပါ။"
+          }
+        }
+      },
+      "language_button": {
+        "$type": "unknown",
+        "$value": "Language",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "sign_in_qr/language_button",
+          "figmaId": "VariableID:7288:31773",
+          "modes": {
+            "en": "Language",
+            "th": "เปลี่ยนภาษา",
+            "my": "ဘာသာစကားပြောင်းရန်"
+          }
+        }
+      },
+      "qr_session_expired": {
+        "$type": "unknown",
+        "$value": "Session Expired, Please refresh QR Code.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "sign_in_qr/qr_session_expired",
+          "figmaId": "VariableID:7288:42761",
+          "modes": {
+            "en": "Session Expired, Please refresh QR Code.",
+            "th": "เซสชันหมดอายุ\nกรุณารีเฟรช QR Code",
+            "my": "စက်ရှင်သက်တမ်းကုန်သွားပါပြီ၊ ကျေးဇူးပြု၍ QR ကုဒ်ကို ပြန်လည်စတင်ပါ။"
+          }
+        }
+      },
+      "qr_error": {
+        "$type": "unknown",
+        "$value": "An error occurred, Refresh QR Code.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "sign_in_qr/qr_error",
+          "figmaId": "VariableID:7288:42762",
+          "modes": {
+            "en": "An error occurred, Refresh QR Code.",
+            "th": "เกิดข้อผิดพลาด\nรีเฟรช QR Code",
+            "my": "အမှားအယွင်းတစ်ခု ဖြစ်ပွားခဲ့သည်၊ QR ကုဒ်ကို ပြန်လည်စတင်ပါ။"
+          }
+        }
+      }
+    },
+    "$scan_qr": {
+      "scan_qr_title": {
+        "$type": "unknown",
+        "$value": "Scan QR",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "scan_qr/scan_qr_title",
+          "figmaId": "VariableID:16571:39542",
+          "modes": {
+            "en": "Scan QR",
+            "th": "สแกน QR",
+            "my": "QR စကင်ဖတ်ပါ"
+          }
+        }
+      }
+    },
+    "$profile_display": {
+      "$profile_selection": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Who’s Watching?",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/title",
+            "figmaId": "VariableID:10300:5117",
+            "modes": {
+              "en": "Who’s Watching?",
+              "th": "เลือกผู้ชม",
+              "my": "ဘယ်သူ ကြည့်နေလဲ?"
+            }
+          }
+        },
+        "title_switch_profiles": {
+          "$type": "unknown",
+          "$value": "Switch Profiles",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/title_switch_profiles",
+            "figmaId": "VariableID:11307:181015",
+            "modes": {
+              "en": "Switch Profiles",
+              "th": "สลับโปรไฟล์",
+              "my": "ပရိုဖိုင်များ ပြောင်းရန်"
+            }
+          }
+        },
+        "kids_badge": {
+          "$type": "unknown",
+          "$value": "Kids",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/kids_badge",
+            "figmaId": "VariableID:10300:5118",
+            "modes": {
+              "en": "Kids",
+              "th": "Kids",
+              "my": "Kids"
+            }
+          }
+        },
+        "kids_profile_name": {
+          "$type": "unknown",
+          "$value": "Kids",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/kids_profile_name",
+            "figmaId": "VariableID:10300:5122",
+            "modes": {
+              "en": "Kids",
+              "th": "โปรไฟล์เด็ก",
+              "my": "ကလေးများ"
+            }
+          }
+        },
+        "add_profile": {
+          "$type": "unknown",
+          "$value": "Add Profile",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/add_profile",
+            "figmaId": "VariableID:10300:5123",
+            "modes": {
+              "en": "Add Profile",
+              "th": "เพิ่มโปรไฟล์",
+              "my": "ပရိုဖိုင်ထည့်ရန်"
+            }
+          }
+        },
+        "edit_button": {
+          "$type": "unknown",
+          "$value": "Edit",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/edit_button",
+            "figmaId": "VariableID:11307:172644",
+            "modes": {
+              "en": "Edit",
+              "th": "แก้ไข",
+              "my": "တည်းဖြတ်ရန်"
+            }
+          }
+        },
+        "done_button": {
+          "$type": "unknown",
+          "$value": "Done",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/profile_selection/done_button",
+            "figmaId": "VariableID:11307:181028",
+            "modes": {
+              "en": "Done",
+              "th": "เสร็จสิ้น",
+              "my": "ပြီးပါပြီ"
+            }
+          }
+        }
+      },
+      "$pin": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Enter PIN",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/pin/title",
+            "figmaId": "VariableID:10300:19528",
+            "modes": {
+              "en": "Enter PIN",
+              "th": "ป้อนหรัส PIN",
+              "my": "PIN ထည့်ပါ"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "Keep your profile private and secure with a simple PIN.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/pin/title_description",
+            "figmaId": "VariableID:10300:22096",
+            "modes": {
+              "en": "Keep your profile private and secure with a simple PIN.",
+              "th": "ตั้งรหัส PIN ง่าย ๆ เพื่อให้โปรไฟล์ของคุณเป็นส่วนตัวและปลอดภัย",
+              "my": "ရိုးရှင်းသော PIN တစ်ခုဖြင့် သင့်ပရိုဖိုင်ကို ကိုယ်ရေးလုံခြုံ သောလုံခြုံမှု ရှိစေပါ။"
+            }
+          }
+        },
+        "pin_error_profile_locked": {
+          "$type": "unknown",
+          "$value": "The profile is temporarily locked, you can try again in 5 minutes.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/pin/pin_error_profile_locked",
+            "figmaId": "VariableID:10300:21959",
+            "modes": {
+              "en": "The profile is temporarily locked, you can try again in 5 minutes.",
+              "th": "โปรไฟล์ถูกล็อกชั่วคราว คุณสามารถลองอีกครั้งในอีก 5 นาที",
+              "my": "ပရိုဖိုင်ကို ယာယီလော့ခ်ချထားသည်၊ သင် ၅ မိနစ်အတွင်း ထပ်မံကြိုးစားနိုင်သည်။"
+            }
+          }
+        },
+        "pin_not_valid": {
+          "$type": "unknown",
+          "$value": "Please enter the valid PIN.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/pin/pin_not_valid",
+            "figmaId": "VariableID:10340:99979",
+            "modes": {
+              "en": "Please enter the valid PIN.",
+              "th": "กรุณาใส่รหัส PIN ที่ถูกต้อง",
+              "my": "မှန်ကန်သော PIN ကို ထည့်ပါ။"
+            }
+          }
+        }
+      },
+      "$snack_bar": {
+        "pin_error_api": {
+          "$type": "unknown",
+          "$value": "Something went wrong. Please try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/pin_error_api",
+            "figmaId": "VariableID:10300:19798",
+            "modes": {
+              "en": "Something went wrong. Please try again later.",
+              "th": "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้งในภายหลัง",
+              "my": "တစ်ခုခု မှားယွင်းသွားပါသည်။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+            }
+          }
+        },
+        "profile_name_update_success": {
+          "$type": "unknown",
+          "$value": "Profile name updated successfully.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/profile_name_update_success",
+            "figmaId": "VariableID:10340:7223",
+            "modes": {
+              "en": "Profile name updated successfully.",
+              "th": "อัปเดตชื่อโปรไฟล์เรียบร้อยแล้ว",
+              "my": "ပရိုဖိုင်အမည်ကို အောင်မြင်စွာ အပ်ဒိတ်ပြီးပါပြီ။"
+            }
+          }
+        },
+        "profile_name_update_error": {
+          "$type": "unknown",
+          "$value": "Unable to update profile name. Please try again.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/profile_name_update_error",
+            "figmaId": "VariableID:10340:7229",
+            "modes": {
+              "en": "Unable to update profile name. Please try again.",
+              "th": "ไม่สามารถอัปเดตชื่อโปรไฟล์ได้ กรุณาลองใหม่อีกครั้ง",
+              "my": "ပရိုဖိုင်အမည်ကို မအပ်ဒိတ်နိုင်ပါ။ ထပ်ကြိုးစားကြည့်ပါ။"
+            }
+          }
+        },
+        "display_language_update_success": {
+          "$type": "unknown",
+          "$value": "Display language updated successfully.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/display_language_update_success",
+            "figmaId": "VariableID:10340:7225",
+            "modes": {
+              "en": "Display language updated successfully.",
+              "th": "อัปเดตภาษาสำหรับการแสดงผลเรียบร้อยแล้ว",
+              "my": "ပြသဘာသာစကားကို အောင်မြင်စွာ ပြောင်းလဲပြီးပါပြီ။"
+            }
+          }
+        },
+        "display_language_update_error": {
+          "$type": "unknown",
+          "$value": "Couldn’t change display language. Try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/display_language_update_error",
+            "figmaId": "VariableID:10340:7231",
+            "modes": {
+              "en": "Couldn’t change display language. Try again later.",
+              "th": "ไม่สามารถเปลี่ยนภาษาสำหรับการแสดงผลได้ กรุณาลองใหม่อีกครั้งในภายหลัง",
+              "my": "ပြသဘာသာစကား ပြောင်းလဲမရပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+            }
+          }
+        },
+        "profile_avatar_update_success": {
+          "$type": "unknown",
+          "$value": "Profile avatar updated successfully.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/profile_avatar_update_success",
+            "figmaId": "VariableID:10340:7227",
+            "modes": {
+              "en": "Profile avatar updated successfully.",
+              "th": "อัปเดตรูปโปรไฟล์เรียบร้อยแล้ว",
+              "my": "ပရိုဖိုင်ပုံကို အောင်မြင်စွာ အပ်ဒိတ်ပြီးပါပြီ။"
+            }
+          }
+        },
+        "profile_avatar_update_error": {
+          "$type": "unknown",
+          "$value": "Profile avatar update failed. Please try again.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/profile_avatar_update_error",
+            "figmaId": "VariableID:10340:7233",
+            "modes": {
+              "en": "Profile avatar update failed. Please try again.",
+              "th": "ไม่สามารถอัปเดตรูปโปรไฟล์ได้ กรุณาลองใหม่อีกครั้ง",
+              "my": "ပရိုဖိုင်ပုံကို အပ်ဒိတ်မလုပ်နိုင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+            }
+          }
+        },
+        "remove_profile_success": {
+          "$type": "unknown",
+          "$value": "{Maya} profile has been removed.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/remove_profile_success",
+            "figmaId": "VariableID:10340:7609",
+            "modes": {
+              "en": "{Maya} profile has been removed.",
+              "th": "โปรไฟล์ {Maya} ถูกลบเรียบร้อยแล้ว",
+              "my": "{Maya} ပရိုဖိုင်ကို ဖယ်ရှားပြီးပါပြီ။"
+            }
+          }
+        },
+        "remove_profile_error": {
+          "$type": "unknown",
+          "$value": "Unable to remove profile. Please try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/remove_profile_error",
+            "figmaId": "VariableID:10340:7608",
+            "modes": {
+              "en": "Unable to remove profile. Please try again later.",
+              "th": "ไม่สามารถลบโปรไฟล์ได้ กรุณาลองใหม่อีกครั้งในภายหลัง",
+              "my": "ပရိုဖိုင်ကို မဖယ်ရှားနိုင်ပါ။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+            }
+          }
+        },
+        "created_profile_success": {
+          "$type": "unknown",
+          "$value": "{Maya} profile has been created.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/created_profile_success",
+            "figmaId": "VariableID:10340:99704",
+            "modes": {
+              "en": "{Maya} profile has been created.",
+              "th": "สร้างโปรไฟล์ {Maya} เรียบร้อยแล้ว",
+              "my": "{Maya} ပရိုဖိုင်ကို ဖန်တီးပြီးပါပြီ။"
+            }
+          }
+        },
+        "created_profile_error": {
+          "$type": "unknown",
+          "$value": "Unable to create profile. Please try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/created_profile_error",
+            "figmaId": "VariableID:10340:99718",
+            "modes": {
+              "en": "Unable to create profile. Please try again later.",
+              "th": "ไม่สามารถสร้างโปรไฟล์ได้ กรุณาลองใหม่อีกครั้งในภายหลัง",
+              "my": "ပရိုဖိုင်ကို မဖန်တီးနိုင်ပါ။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+            }
+          }
+        },
+        "something_went_wrong": {
+          "$type": "unknown",
+          "$value": "Something went wrong. Please try again.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/snack_bar/something_went_wrong",
+            "figmaId": "VariableID:10488:6332",
+            "modes": {
+              "en": "Something went wrong. Please try again.",
+              "th": "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง",
+              "my": "တစ်ခုခု မှားယွင်းသွားပါသည်။ ထပ်ကြိုးစားကြည့်ပါ။"
+            }
+          }
+        }
+      },
+      "$add_profile": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Add a profile",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/title",
+            "figmaId": "VariableID:10300:19372",
+            "modes": {
+              "en": "Add a profile",
+              "th": "เพิ่มโปรไฟล์",
+              "my": "ပရိုဖိုင်တစ်ခုထည့်ရန်"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "Add a profile for another person watching TrueVisions NOW",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/title_description",
+            "figmaId": "VariableID:10300:19373",
+            "modes": {
+              "en": "Add a profile for another person watching TrueVisions NOW",
+              "th": "เพิ่มโปรไฟล์สำหรับผู้ใช้อีกคนที่รับชม TrueVisions NOW",
+              "my": "TrueVisions NOW ကိုကြည့်နေသူ အခြားသူတစ်ဦးအတွက် ပရိုဖိုင်ထည့်ရန်"
+            }
+          }
+        },
+        "input_label": {
+          "$type": "unknown",
+          "$value": "Profile Name",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/input_label",
+            "figmaId": "VariableID:10300:19374",
+            "modes": {
+              "en": "Profile Name",
+              "th": "ชื่อโปรไฟล์",
+              "my": "ပရိုဖိုင်အမည်"
+            }
+          }
+        },
+        "input_placeholder": {
+          "$type": "unknown",
+          "$value": "Profile Name",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/input_placeholder",
+            "figmaId": "VariableID:10300:19380",
+            "modes": {
+              "en": "Profile Name",
+              "th": "ชื่อโปรไฟล์",
+              "my": "ပရိုဖိုင်အမည်"
+            }
+          }
+        },
+        "kids_mode_title": {
+          "$type": "unknown",
+          "$value": "Kids Mode",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/kids_mode_title",
+            "figmaId": "VariableID:10300:19381",
+            "modes": {
+              "en": "Kids Mode",
+              "th": "มุมเด็ก",
+              "my": "ကလေးမုဒ်"
+            }
+          }
+        },
+        "kids_mode_description": {
+          "$type": "unknown",
+          "$value": "Only show kids-friendly TV Show and Movie.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/kids_mode_description",
+            "figmaId": "VariableID:10300:19388",
+            "modes": {
+              "en": "Only show kids-friendly TV Show and Movie.",
+              "th": "แสดงเฉพาะรายการทีวีและภาพยนตร์ที่เหมาะสำหรับเด็กเท่านั้น",
+              "my": "ကလေးများအတွက် သင့်လျော်သော တီဗွီရှိုးနှင့် ရုပ်ရှင်များသာ ပြပါ။"
+            }
+          }
+        },
+        "input_error_characters": {
+          "$type": "unknown",
+          "$value": "Profile name can't include special characters like @, #, %, or /.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/input_error_characters",
+            "figmaId": "VariableID:10300:19436",
+            "modes": {
+              "en": "Profile name can't include special characters like @, #, %, or /.",
+              "th": "ชื่อโปรไฟล์ต้องไม่มีอักขระพิเศษ เช่น @, #, % หรือ /",
+              "my": "ပရိုဖိုင်အမည်တွင် @, #, % သို့မဟုတ် / ကဲ့သို့သော အထူးအက္ခရာများ မပါရ။"
+            }
+          }
+        },
+        "input_error_empty": {
+          "$type": "unknown",
+          "$value": "Profile name can't be empty or contain spaces.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/input_error_empty",
+            "figmaId": "VariableID:10300:19437",
+            "modes": {
+              "en": "Profile name can't be empty or contain spaces.",
+              "th": "ชื่อโปรไฟล์ต้องไม่เว้นว่างหรือมีช่องว่าง",
+              "my": "ပရိုဖိုင်အမည်ကို လွတ်နေခြင်း သို့မဟုတ် အကွာအဝေးများ ပါဝင်ခြင်း မဖြစ်ရပါ။"
+            }
+          }
+        },
+        "create_button": {
+          "$type": "unknown",
+          "$value": "Create",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/create_button",
+            "figmaId": "VariableID:11307:181058",
+            "modes": {
+              "en": "Create",
+              "th": "สร้าง",
+              "my": "ဖန်တီးရန်"
+            }
+          }
+        },
+        "title_profile_settings": {
+          "$type": "unknown",
+          "$value": "Profile Settings",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/add_profile/title_profile_settings",
+            "figmaId": "VariableID:11307:181122",
+            "modes": {
+              "en": "Profile Settings",
+              "th": "ตั้งค่าโปรไฟล์",
+              "my": "ပရိုဖိုင်ဆက်တင်များ"
+            }
+          }
+        }
+      },
+      "$change_avatar": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Change Avatar",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/change_avatar/title",
+            "figmaId": "VariableID:10300:19438",
+            "modes": {
+              "en": "Change Avatar",
+              "th": "เปลี่ยนรูปโปรไฟล์",
+              "my": "ပရိုဖိုင်ပုံ ပြောင်းရန်"
+            }
+          }
+        },
+        "description": {
+          "$type": "unknown",
+          "$value": "Choose your profile avatar",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/change_avatar/description",
+            "figmaId": "VariableID:10300:19439",
+            "modes": {
+              "en": "Choose your profile avatar",
+              "th": "เลือกรูปโปรไฟล์ของคุณ",
+              "my": "သင့်ပရိုဖိုင်အာဗတာကို ရွေးချယ်ပါ"
+            }
+          }
+        }
+      },
+      "$edit_profile": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Edit Profile",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/title",
+            "figmaId": "VariableID:10340:7010",
+            "modes": {
+              "en": "Edit Profile",
+              "th": "แก้ไขโปรไฟล์",
+              "my": "ပရိုဖိုင် တည်းဖြတ်ရန်"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "Update this profile’s name or language for a personalized viewing experience on TrueVisions NOW.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/title_description",
+            "figmaId": "VariableID:10340:7398",
+            "modes": {
+              "en": "Update this profile’s name or language for a personalized viewing experience on TrueVisions NOW.",
+              "th": "อัปเดตชื่อโปรไฟล์หรือภาษาสำหรับประสบการณ์รับชมแบบเฉพาะบุคคลบน TrueVisions NOW",
+              "my": "TrueVisions NOW တွင် ပုဂ္ဂိုလ်ရေး လိုက်ဖက်သည့် ကြည့်ရှုမှုအတွေ့အကြုံအတွက် ဤပရိုဖိုင်၏ အမည် သို့မဟုတ် ဘာသာစကားကို ပြင်ဆင်ပါ။"
+            }
+          }
+        },
+        "profile_name_input_label": {
+          "$type": "unknown",
+          "$value": "Profile Name",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/profile_name_input_label",
+            "figmaId": "VariableID:10340:7011",
+            "modes": {
+              "en": "Profile Name",
+              "th": "ชื่อโปรไฟล์",
+              "my": "ပရိုဖိုင်အမည်"
+            }
+          }
+        },
+        "profile_name_input_error": {
+          "$type": "unknown",
+          "$value": "Profile name can't include special characters like @, #, %, or /.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/profile_name_input_error",
+            "figmaId": "VariableID:10340:7279",
+            "modes": {
+              "en": "Profile name can't include special characters like @, #, %, or /.",
+              "th": "ชื่อโปรไฟล์ต้องไม่มีอักขระพิเศษ เช่น @, #, % หรือ /",
+              "my": "ပရိုဖိုင်အမည်တွင် @, #, % သို့မဟုတ် / ကဲ့သို့သော အထူးအက္ခရာများ မပါရ။"
+            }
+          }
+        },
+        "kids_mode_title": {
+          "$type": "unknown",
+          "$value": "Kids Mode",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/kids_mode_title",
+            "figmaId": "VariableID:10340:7016",
+            "modes": {
+              "en": "Kids Mode",
+              "th": "มุมเด็ก",
+              "my": "ကလေးမုဒ်"
+            }
+          }
+        },
+        "kids_mode_status_off": {
+          "$type": "unknown",
+          "$value": "Off",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/kids_mode_status_off",
+            "figmaId": "VariableID:10340:7079",
+            "modes": {
+              "en": "Off",
+              "th": "เปิด",
+              "my": "ပိတ်ထား"
+            }
+          }
+        },
+        "kids_mode_status_on": {
+          "$type": "unknown",
+          "$value": "On",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/kids_mode_status_on",
+            "figmaId": "VariableID:10340:91313",
+            "modes": {
+              "en": "On",
+              "th": "ปิด",
+              "my": "ဖွင့်ထား"
+            }
+          }
+        },
+        "kids_mode_description": {
+          "$type": "unknown",
+          "$value": "Visit TrueVisions NOW on your mobile to continue.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/kids_mode_description",
+            "figmaId": "VariableID:10340:7080",
+            "modes": {
+              "en": "Visit TrueVisions NOW on your mobile to continue.",
+              "th": "ไปที่ TrueVisions NOW บนมือถือของคุณเพื่อดำเนินการต่อ",
+              "my": "ဆက်လုပ်ရန် သင့်မိုဘိုင်းတွင် TrueVisions NOW သို့ သွားပါ။"
+            }
+          }
+        },
+        "display_language": {
+          "$type": "unknown",
+          "$value": "Display Language",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/edit_profile/display_language",
+            "figmaId": "VariableID:10340:7081",
+            "modes": {
+              "en": "Display Language",
+              "th": "ภาษาการแสดงผล",
+              "my": "ပြသဘာသာစကား"
+            }
+          }
+        },
+        "$display_language": {
+          "title": {
+            "$type": "unknown",
+            "$value": "Display Language",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "profile_display/edit_profile/display_language/title",
+              "figmaId": "VariableID:10340:99885",
+              "modes": {
+                "en": "Display Language",
+                "th": "ภาษาการแสดงผล",
+                "my": "ပြသဘာသာစကား"
+              }
+            }
+          },
+          "title_discription": {
+            "$type": "unknown",
+            "$value": "Choose your preferred language to customize menus, audio, and subtitles across TrueVisions NOW.",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "profile_display/edit_profile/display_language/title_discription",
+              "figmaId": "VariableID:10340:99916",
+              "modes": {
+                "en": "Choose your preferred language to customize menus, audio, and subtitles across TrueVisions NOW.",
+                "th": "เลือกภาษาที่คุณต้องการเพื่อปรับแต่งเมนู เสียง และคำบรรยายทั่วทั้ง TrueVisions NOW",
+                "my": "TrueVisions NOW တစ်လျှောက် မီနူး၊ အသံနှင့် စာတန်းထိုးများကို ပြင်ဆင်ရန် သင်နှစ်သက်သော ဘာသာစကားကို ရွေးချယ်ပါ။"
+              }
+            }
+          }
+        }
+      },
+      "$button": {
+        "create": {
+          "$type": "unknown",
+          "$value": "Create",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/button/create",
+            "figmaId": "VariableID:10300:19389",
+            "modes": {
+              "en": "Create",
+              "th": "สร้าง",
+              "my": "ဖန်တီးရန်"
+            }
+          }
+        },
+        "cancel": {
+          "$type": "unknown",
+          "$value": "Cancel",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/button/cancel",
+            "figmaId": "VariableID:10300:19393",
+            "modes": {
+              "en": "Cancel",
+              "th": "ยกเลิก",
+              "my": "ပယ်ဖျက်ရန်"
+            }
+          }
+        },
+        "delete_profile": {
+          "$type": "unknown",
+          "$value": "Delete Profile",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/button/delete_profile",
+            "figmaId": "VariableID:10340:7088",
+            "modes": {
+              "en": "Delete Profile",
+              "th": "ลบโปรไฟล์",
+              "my": "ပရိုဖိုင် ဖျက်ရန်"
+            }
+          }
+        }
+      },
+      "$otp": {
+        "title_otp": {
+          "$type": "unknown",
+          "$value": "Enter OTP",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/otp/title_otp",
+            "figmaId": "VariableID:16597:46896",
+            "modes": {
+              "en": "Enter OTP",
+              "th": "ใส่ OTP",
+              "my": "OTP ထည့်ပါ"
+            }
+          }
+        },
+        "des_otp": {
+          "$type": "unknown",
+          "$value": "The system has sent an OTP code to",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/otp/des_otp",
+            "figmaId": "VariableID:16750:46158",
+            "modes": {
+              "en": "The system has sent an OTP code to",
+              "th": "ระบบได้ส่งรหัส OTP ไปที่",
+              "my": "စနစ်မှ OTP ကုဒ်တစ်ခု ပေးပို့လိုက်ပါပြီ။"
+            }
+          }
+        },
+        "resend_button": {
+          "$type": "unknown",
+          "$value": "Resend OTP",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/otp/resend_button",
+            "figmaId": "VariableID:16750:46159",
+            "modes": {
+              "en": "Resend OTP",
+              "th": "ส่ง OTP อีกครั้ง",
+              "my": "OTP ပြန်ပို့ပါ"
+            }
+          }
+        },
+        "comfirm_button": {
+          "$type": "unknown",
+          "$value": "Confirm",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "profile_display/otp/comfirm_button",
+            "figmaId": "VariableID:16750:46160",
+            "modes": {
+              "en": "Confirm",
+              "th": "ยืนยัน",
+              "my": "အတည်ပြုပါ"
+            }
+          }
+        },
+        "$error": {
+          "otp_expired": {
+            "$type": "unknown",
+            "$value": "OTP expired. Please request new OTP.",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "profile_display/otp/error/otp_expired",
+              "figmaId": "VariableID:16750:46161",
+              "modes": {
+                "en": "OTP expired. Please request new OTP.",
+                "th": "OTP หมดอายุแล้ว โปรดขอ OTP ใหม่",
+                "my": "OTP သက်တမ်းကုန်သွားပါပြီ။ ကျေးဇူးပြု၍ OTP အသစ် တောင်းဆိုပါ။"
+              }
+            }
+          },
+          "vaild_otp": {
+            "$type": "unknown",
+            "$value": "Please enter the valid OTP.",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "profile_display/otp/error/vaild_otp",
+              "figmaId": "VariableID:16750:46162",
+              "modes": {
+                "en": "Please enter the valid OTP.",
+                "th": "โปรดป้อน OTP ที่ถูกต้อง",
+                "my": "ကျေးဇူးပြု၍ မှန်ကန်သော OTP ကို ထည့်ပါ။"
+              }
+            }
+          },
+          "too_many_failed": {
+            "$type": "unknown",
+            "$value": "Too many failed attempts. Please try again later.",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "profile_display/otp/error/too_many_failed",
+              "figmaId": "VariableID:16750:46163",
+              "modes": {
+                "en": "Too many failed attempts. Please try again later.",
+                "th": "พยายามล้มเหลวมากเกินไป โปรดลองอีกครั้งในภายหลัง",
+                "my": "ကြိုးစားမှုများလွန်း၍ မအောင်မြင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+              }
+            }
+          }
+        }
+      }
+    },
+    "$help_settings": {
+      "title": {
+        "$type": "unknown",
+        "$value": "Help & Settings",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "help_settings/title",
+          "figmaId": "VariableID:10394:14894",
+          "modes": {
+            "en": "Help & Settings",
+            "th": "ความช่วยเหลือและการตั้งค่า",
+            "my": "အကူအညီနှင့် ဆက်တင်များ"
+          }
+        }
+      },
+      "title_description": {
+        "$type": "unknown",
+        "$value": "Manage your account and device preferences.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "help_settings/title_description",
+          "figmaId": "VariableID:10394:15051",
+          "modes": {
+            "en": "Manage your account and device preferences.",
+            "th": "จัดการบัญชีและการตั้งค่าของอุปกรณ์ของคุณ",
+            "my": "သင့်အကောင့်နှင့် စက်ဆိုင်ရာ ကြိုတင်သတ်မှတ်ချက်များကို စီမံခန့်ခွဲပါ။"
+          }
+        }
+      },
+      "account_settings": {
+        "$type": "unknown",
+        "$value": "Account Settings",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "help_settings/account_settings",
+          "figmaId": "VariableID:10394:14895",
+          "modes": {
+            "en": "Account Settings",
+            "th": "การตั้งค่าบัญชี",
+            "my": "အကောင့်ဆက်တင်များ"
+          }
+        }
+      },
+      "device": {
+        "$type": "unknown",
+        "$value": "Devices",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "help_settings/device",
+          "figmaId": "VariableID:10394:14902",
+          "modes": {
+            "en": "Devices",
+            "th": "อุปกรณ์",
+            "my": "စက်များ"
+          }
+        }
+      },
+      "terms_and_conditions": {
+        "$type": "unknown",
+        "$value": "Terms and Conditions",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "help_settings/terms_and_conditions",
+          "figmaId": "VariableID:10394:14909",
+          "modes": {
+            "en": "Terms and Conditions",
+            "th": "ข้อกำหนดและเงื่อนไข",
+            "my": "စည်းမျဥ်းများနဲ့ အခြေအနေများ"
+          }
+        }
+      },
+      "$account_settings": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Scan QR Code",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/account_settings/title",
+            "figmaId": "VariableID:10394:15128",
+            "modes": {
+              "en": "Scan QR Code",
+              "th": "สแกน QR Code",
+              "my": "QR ကုဒ်ကို စကင်ဖတ်ပါ။"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "Scan the QR code to manage your account on our website. Or visit https://myaccount.tvs.net",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/account_settings/title_description",
+            "figmaId": "VariableID:10394:15129",
+            "modes": {
+              "en": "Scan the QR code to manage your account on our website. Or visit https://myaccount.tvs.net",
+              "th": "สแกน QR code เพื่อจัดการบัญชีของคุณบนเว็บไซต์ของเรา หรือไปที่ https://myaccount.tvs.net",
+              "my": "ကျွန်ုပ်တို့၏ဝဘ်ဆိုဒ်တွင် သင့်အကောင့်ကို စီမံခန့်ခွဲရန် QR ကုဒ်ကို စကင်ဖတ်ပါ။ သို့မဟုတ် https://myaccount.tvs.net သို့ ဝင်ရောက်ကြည့်ရှုပါ။"
+            }
+          }
+        }
+      },
+      "$device": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Devices",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/device/title",
+            "figmaId": "VariableID:10394:15132",
+            "modes": {
+              "en": "Devices",
+              "th": "อุปกรณ์",
+              "my": "စက်များ"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "View details about your device and software versions.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/device/title_description",
+            "figmaId": "VariableID:10394:15133",
+            "modes": {
+              "en": "View details about your device and software versions.",
+              "th": "ดูรายละเอียดเกี่ยวกับอุปกรณ์และเวอร์ชันของซอฟต์แวร์ของคุณ",
+              "my": "သင့်စက်နှင့် ဆော့ဖ်ဝဲ ဗားရှင်းများ အကြောင်းအသေးစိတ် ကိုကြည့်ပါ။"
+            }
+          }
+        },
+        "software_version": {
+          "$type": "unknown",
+          "$value": "Software Version",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/device/software_version",
+            "figmaId": "VariableID:10394:15134",
+            "modes": {
+              "en": "Software Version",
+              "th": "เวอร์ชันซอฟต์แวร์",
+              "my": "ဆော့ဖ်ဝဲ ဗားရှင်း"
+            }
+          }
+        },
+        "platform_version": {
+          "$type": "unknown",
+          "$value": "Platform Version",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/device/platform_version",
+            "figmaId": "VariableID:10394:15135",
+            "modes": {
+              "en": "Platform Version",
+              "th": "เวอร์ชันแพลตฟอร์ม",
+              "my": "ပလက်ဖောင်းဗားရှင်း"
+            }
+          }
+        },
+        "device_model": {
+          "$type": "unknown",
+          "$value": "Device Model",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/device/device_model",
+            "figmaId": "VariableID:10394:15136",
+            "modes": {
+              "en": "Device Model",
+              "th": "รุ่นอุปกรณ์",
+              "my": "စက်အမျိုးအစား"
+            }
+          }
+        }
+      },
+      "$terms_and_conditions": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Terms and Conditions",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/terms_and_conditions/title",
+            "figmaId": "VariableID:10394:15140",
+            "modes": {
+              "en": "Terms and Conditions",
+              "th": "ข้อกำหนดและเงื่อนไข",
+              "my": "စည်းမျဥ်းများနဲ့ အခြေအနေများ"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "Usage terms for TrueVisions Now services.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/terms_and_conditions/title_description",
+            "figmaId": "VariableID:10394:15141",
+            "modes": {
+              "en": "Usage terms for TrueVisions Now services.",
+              "th": "ข้อกำหนดการใช้งานสำหรับบริการ TrueVisions NOW",
+              "my": "TrueVisions NOW ဝန်ဆောင်မှုများ အသုံးပြုခြင်းဆိုင်ရာ စည်းကမ်းများ"
+            }
+          }
+        }
+      },
+      "$button": {
+        "agree_button": {
+          "$type": "unknown",
+          "$value": "Agree",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/button/agree_button",
+            "figmaId": "VariableID:10394:15156",
+            "modes": {
+              "en": "Agree",
+              "th": "ยอมรับ",
+              "my": "သဘောတူသည်"
+            }
+          }
+        },
+        "decline_button": {
+          "$type": "unknown",
+          "$value": "Decline",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/button/decline_button",
+            "figmaId": "VariableID:10394:15159",
+            "modes": {
+              "en": "Decline",
+              "th": "ปฏิเสธ",
+              "my": "မလက်ခံပါ"
+            }
+          }
+        },
+        "logout_button": {
+          "$type": "unknown",
+          "$value": "Log out",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/button/logout_button",
+            "figmaId": "VariableID:10394:14916",
+            "modes": {
+              "en": "Log out",
+              "th": "ออกจากระบบ",
+              "my": "အကောင့်ထွက်ရန်"
+            }
+          }
+        },
+        "back_button": {
+          "$type": "unknown",
+          "$value": "Back",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "help_settings/button/back_button",
+            "figmaId": "VariableID:10394:15137",
+            "modes": {
+              "en": "Back",
+              "th": "ย้อนกลับ",
+              "my": "နောက်သို့"
+            }
+          }
+        }
+      }
+    },
+    "$content_detail": {
+      "watch_episode_button": {
+        "$type": "unknown",
+        "$value": "Watch Episode {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/watch_episode_button",
+          "figmaId": "VariableID:8131:94557",
+          "modes": {
+            "en": "Watch Episode {1}",
+            "th": "รับชมตอนที่ {1}",
+            "my": "အစိတ်အပိုင်း {1} ကိုကြည့်ရန်"
+          }
+        }
+      },
+      "watch_season_episode_button": {
+        "$type": "unknown",
+        "$value": "Watch S{1}, E{2}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/watch_season_episode_button",
+          "figmaId": "VariableID:11989:90471",
+          "modes": {
+            "en": "Watch S{1}, E{2}",
+            "th": "รับชม ซีซั่น {1}, ตอนที่ {2}",
+            "my": "အပိုင်း {1}၊ အပိုင်းခွဲ {2} ကိုကြည့်ရှုပါ။"
+          }
+        }
+      },
+      "watch_now": {
+        "$type": "unknown",
+        "$value": "Watch Now",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/watch_now",
+          "figmaId": "VariableID:8184:11680",
+          "modes": {
+            "en": "Watch Now",
+            "th": "รับชมตอนนี้",
+            "my": "အခုတင်ကြည့်ပါ"
+          }
+        }
+      },
+      "continue_watching_button": {
+        "$type": "unknown",
+        "$value": "Resume",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/continue_watching_button",
+          "figmaId": "VariableID:8131:94579",
+          "modes": {
+            "en": "Resume",
+            "th": "รับชมต่อ",
+            "my": "ဆက်လက်ကြည့်ရှုရန်"
+          }
+        }
+      },
+      "continue_episode_button": {
+        "$type": "unknown",
+        "$value": "Resume Episode {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/continue_episode_button",
+          "figmaId": "VariableID:8131:104735",
+          "modes": {
+            "en": "Resume Episode {1}",
+            "th": "รับชมตอนที่ {1} ต่อ",
+            "my": "အစိတ်အပိုင်း {1} ကို ဆက်လက်ကြည့်ရှုရန်"
+          }
+        }
+      },
+      "continue_season_episode_button": {
+        "$type": "unknown",
+        "$value": "Resume S{1}, E{2}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/continue_season_episode_button",
+          "figmaId": "VariableID:11989:90472",
+          "modes": {
+            "en": "Resume S{1}, E{2}",
+            "th": "รับชมต่อ ซีซั่น {1}, ตอนที่ {2}",
+            "my": "အပိုင်း {1}၊ အပိုင်းခွဲ {2} ကို ဆက်လက်ကြည့်ရှုပါ။"
+          }
+        }
+      },
+      "removed_continue_watching_button": {
+        "$type": "unknown",
+        "$value": "Remove from Continue Watching",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/removed_continue_watching_button",
+          "figmaId": "VariableID:8131:94583",
+          "modes": {
+            "en": "Remove from Continue Watching",
+            "th": "ลบออกจากรายการรับชมต่อ",
+            "my": "ဆက်လက်ကြည့်ရှုရန်မှ ဖယ်ရှားပါ"
+          }
+        }
+      },
+      "watched_from_beginning_button": {
+        "$type": "unknown",
+        "$value": "Watch From Beginning",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/watched_from_beginning_button",
+          "figmaId": "VariableID:8131:94580",
+          "modes": {
+            "en": "Watch From Beginning",
+            "th": "รับชมตั้งแต่ต้น",
+            "my": "အစမှကြည့်ရန်"
+          }
+        }
+      },
+      "more_episode_button": {
+        "$type": "unknown",
+        "$value": "More Episodes",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/more_episode_button",
+          "figmaId": "VariableID:8131:94562",
+          "modes": {
+            "en": "More Episodes",
+            "th": "ตอนเพิ่มเติม",
+            "my": "အစိတ်အပိုင်းများ ပိုမိုကြည့်ရှုရန်"
+          }
+        }
+      },
+      "more_like_this_button": {
+        "$type": "unknown",
+        "$value": "More like this",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/more_like_this_button",
+          "figmaId": "VariableID:8131:94563",
+          "modes": {
+            "en": "More like this",
+            "th": "คุณน่าจะชอบ",
+            "my": "ဒီလိုတူတဲ့အကြောင်းအရာများ"
+          }
+        }
+      },
+      "subtitles_button": {
+        "$type": "unknown",
+        "$value": "Audio & Subtitles",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/subtitles_button",
+          "figmaId": "VariableID:8131:94564",
+          "modes": {
+            "en": "Audio & Subtitles",
+            "th": "เสียงและคำบรรยาย",
+            "my": "အသံနှင့်စာတန်းထိုး"
+          }
+        }
+      },
+      "added_list_button": {
+        "$type": "unknown",
+        "$value": "Add to My List",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/added_list_button",
+          "figmaId": "VariableID:8131:94569",
+          "modes": {
+            "en": "Add to My List",
+            "th": "เพิ่มในรายการของฉัน",
+            "my": "စာရင်းထဲသို့ ထည့်ရန်"
+          }
+        }
+      },
+      "my_list_button": {
+        "$type": "unknown",
+        "$value": "My List",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/my_list_button",
+          "figmaId": "VariableID:13047:103278",
+          "modes": {
+            "en": "My List",
+            "th": "รายการของฉัน",
+            "my": "ကျွန်ုပ်၏စာရင်း"
+          }
+        }
+      },
+      "removed_list_button": {
+        "$type": "unknown",
+        "$value": "Remove from My List",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/removed_list_button",
+          "figmaId": "VariableID:8131:94588",
+          "modes": {
+            "en": "Remove from My List",
+            "th": "ลบออกจากรายการของฉัน",
+            "my": "စာရင်းထဲမှ ဖယ်ရှားရန်"
+          }
+        }
+      },
+      "credit_button": {
+        "$type": "unknown",
+        "$value": "Credit & More Info",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/credit_button",
+          "figmaId": "VariableID:8131:94574",
+          "modes": {
+            "en": "Credit & More Info",
+            "th": "เครดิตและข้อมูลเพิ่มเติม",
+            "my": "ချီးကျူးစာနှင့် အသေးစိတ်အချက်အလက်များ"
+          }
+        }
+      },
+      "partner": {
+        "$type": "unknown",
+        "$value": "Get the {1} app and start watching now",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/partner",
+          "figmaId": "VariableID:8131:94589",
+          "modes": {
+            "en": "Get the {1} app and start watching now",
+            "th": "ดาวน์โหลดแอป {1} และเริ่มรับชมได้เลยตอนนี้",
+            "my": "{1} အပ်ကိုဒေါင်းလုတ်ပြီး အခုတင်စပြီးကြည့်လိုက်ပါ"
+          }
+        }
+      },
+      "$more_info": {
+        "director": {
+          "$type": "unknown",
+          "$value": "Director",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/director",
+            "figmaId": "VariableID:8177:22508",
+            "modes": {
+              "en": "Director",
+              "th": "ผู้กำกับ",
+              "my": "ဒါရိုက်တာ"
+            }
+          }
+        },
+        "director_mobile": {
+          "$type": "unknown",
+          "$value": "Director:",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/director_mobile",
+            "figmaId": "VariableID:14160:96272",
+            "modes": {
+              "en": "Director:",
+              "th": "ผู้กำกับ:",
+              "my": "ဒါရိုက်တာ:"
+            }
+          }
+        },
+        "cast": {
+          "$type": "unknown",
+          "$value": "Cast",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/cast",
+            "figmaId": "VariableID:8177:22509",
+            "modes": {
+              "en": "Cast",
+              "th": "นักแสดง",
+              "my": "သရုပ်ဆောင်အဖွဲ့"
+            }
+          }
+        },
+        "cast_mobile": {
+          "$type": "unknown",
+          "$value": "Cast:",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/cast_mobile",
+            "figmaId": "VariableID:14160:96271",
+            "modes": {
+              "en": "Cast:",
+              "th": "นักแสดง:",
+              "my": "သရုပ်ဆောင်အဖွဲ့:"
+            }
+          }
+        },
+        "genres": {
+          "$type": "unknown",
+          "$value": "Genres",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/genres",
+            "figmaId": "VariableID:8177:22510",
+            "modes": {
+              "en": "Genres",
+              "th": "ประเภท",
+              "my": "အမျိုးအစားများ"
+            }
+          }
+        },
+        "marutiry_rating": {
+          "$type": "unknown",
+          "$value": "Maturity Rating",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/marutiry_rating",
+            "figmaId": "VariableID:8177:22511",
+            "modes": {
+              "en": "Maturity Rating",
+              "th": "ระดับความเหมาะสมของเนื้อหา",
+              "my": "အသက်အappropriateန်အစားသတ်မှတ်ချက်"
+            }
+          }
+        },
+        "more_button": {
+          "$type": "unknown",
+          "$value": "more",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/more_button",
+            "figmaId": "VariableID:14160:96273",
+            "modes": {
+              "en": "more",
+              "th": "เพิ่มเติม",
+              "my": "ပို"
+            }
+          }
+        },
+        "movie_rating_g": {
+          "$type": "unknown",
+          "$value": "General Audiences",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/movie_rating_g",
+            "figmaId": "VariableID:20282:80170",
+            "modes": {
+              "en": "General Audiences",
+              "th": "ทุกเพศทุกวัย",
+              "my": "လူအားလုံးအတွက်"
+            }
+          }
+        },
+        "movie_rating_pg": {
+          "$type": "unknown",
+          "$value": "Parental Guidance Suggested",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/movie_rating_pg",
+            "figmaId": "VariableID:20282:80171",
+            "modes": {
+              "en": "Parental Guidance Suggested",
+              "th": "ควรได้รับคำแนะนำจากผู้ปกครอง",
+              "my": "မိဘအကြံပြုလိုသည်"
+            }
+          }
+        },
+        "movie_rating_pg13": {
+          "$type": "unknown",
+          "$value": "Parents Strongly Cautioned",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/movie_rating_pg13",
+            "figmaId": "VariableID:20299:80253",
+            "modes": {
+              "en": "Parents Strongly Cautioned",
+              "th": "ไม่เหมาะสำหรับเด็กอายุต่ำกว่า 13 ปี",
+              "my": "၁၃နှစ်အောက် မသင့်တော်နိုင်"
+            }
+          }
+        },
+        "movie_rating_r": {
+          "$type": "unknown",
+          "$value": "Restricted",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/movie_rating_r",
+            "figmaId": "VariableID:20299:80254",
+            "modes": {
+              "en": "Restricted",
+              "th": "จำกัดอายุผู้ชม (ต่ำกว่า 17 ปีควรมีผู้ปกครอง)",
+              "my": "၁၇နှစ်အောက် မိဘလိုသည်"
+            }
+          }
+        },
+        "movie_rating_nc17": {
+          "$type": "unknown",
+          "$value": "Adults Only",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/more_info/movie_rating_nc17",
+            "figmaId": "VariableID:20299:80255",
+            "modes": {
+              "en": "Adults Only",
+              "th": "เฉพาะผู้ใหญ่เท่านั้น (18 ปีขึ้นไป)",
+              "my": "၁၈နှစ်အထက်သာ"
+            }
+          }
+        }
+      },
+      "related_list_tab": {
+        "$type": "unknown",
+        "$value": "Related List",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/related_list_tab",
+          "figmaId": "VariableID:12639:119085",
+          "modes": {
+            "en": "Related List",
+            "th": "เรื่องที่คล้ายกัน",
+            "my": "သက်ဆိုင်သောစာရင်း"
+          }
+        }
+      },
+      "trailer_and_more_tab": {
+        "$type": "unknown",
+        "$value": "Trailer and More",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/trailer_and_more_tab",
+          "figmaId": "VariableID:12639:119086",
+          "modes": {
+            "en": "Trailer and More",
+            "th": "ตัวอย่างและอื่นๆ",
+            "my": "ဇာတ်လမ်းနမူနာနှင့်အခြားများ"
+          }
+        }
+      },
+      "episode_tab": {
+        "$type": "unknown",
+        "$value": "Episode",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/episode_tab",
+          "figmaId": "VariableID:12639:119205",
+          "modes": {
+            "en": "Episode",
+            "th": "ตอน",
+            "my": "အပိုင်း "
+          }
+        }
+      },
+      "collection_tab": {
+        "$type": "unknown",
+        "$value": "Collection",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/collection_tab",
+          "figmaId": "VariableID:12639:119206",
+          "modes": {
+            "en": "Collection",
+            "th": "คอลเลกชัน",
+            "my": "စုစည်းမှုများ"
+          }
+        }
+      },
+      "event_tab": {
+        "$type": "unknown",
+        "$value": "Event",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/event_tab",
+          "figmaId": "VariableID:12639:119309",
+          "modes": {
+            "en": "Event",
+            "th": "อีเวนต์",
+            "my": "အဖြစ်အပျက်"
+          }
+        }
+      },
+      "watch_live_button": {
+        "$type": "unknown",
+        "$value": "Watch Live",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/watch_live_button",
+          "figmaId": "VariableID:12639:119352",
+          "modes": {
+            "en": "Watch Live",
+            "th": "รับชม Live",
+            "my": "တိုက်ရိုက်ကြည့်ရှုပါ"
+          }
+        }
+      },
+      "share_button": {
+        "$type": "unknown",
+        "$value": "Share",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/share_button",
+          "figmaId": "VariableID:12755:74991",
+          "modes": {
+            "en": "Share",
+            "th": "แชร์",
+            "my": "မျှဝေပါ"
+          }
+        }
+      },
+      "remind_me_button": {
+        "$type": "unknown",
+        "$value": "Remind Me",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/remind_me_button",
+          "figmaId": "VariableID:12755:107246",
+          "modes": {
+            "en": "Remind Me",
+            "th": "เตือนฉัน",
+            "my": "ကျွန်ုပ်ကို သတိပေးပါ"
+          }
+        }
+      },
+      "reminder_set_button": {
+        "$type": "unknown",
+        "$value": "Reminder Set",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/reminder_set_button",
+          "figmaId": "VariableID:12755:107247",
+          "modes": {
+            "en": "Reminder Set",
+            "th": "ตั้งการเตือนแล้ว",
+            "my": "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ"
+          }
+        }
+      },
+      "$my_lists": {
+        "added_to_your_list": {
+          "$type": "unknown",
+          "$value": "Added to Your List! Watch it whenever you’re ready.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/added_to_your_list",
+            "figmaId": "VariableID:16285:90102",
+            "modes": {
+              "en": "Added to Your List! Watch it whenever you’re ready.",
+              "th": "เพิ่มในรายการของคุณแล้ว!\nพร้อมเมื่อไหร่ก็ดูได้เลย",
+              "my": "သင်၏စာရင်းထဲသို့ ထည့်ပြီးပါပြီ။ သင်အဆင်သင့်ဖြစ်သည့်အခါတိုင်း ကြည့်ရှုနိုင်ပါသည်။"
+            }
+          }
+        },
+        "remove_your_list": {
+          "$type": "unknown",
+          "$value": "Removed from Your List! You can always add it back!",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/remove_your_list",
+            "figmaId": "VariableID:16285:90113",
+            "modes": {
+              "en": "Removed from Your List! You can always add it back!",
+              "th": "ลบออกจากรายการของคุณแล้ว!\nคุณสามารถเพิ่มกลับได้เสมอ!",
+              "my": "သင်၏စာရင်းမှ ဖယ်ရှားပြီးပါပြီ။ သင်အမြဲတမ်း ပြန်ထည့်နိုင်ပါသည်။"
+            }
+          }
+        },
+        "unable_to_remove": {
+          "$type": "unknown",
+          "$value": "Unable to remove from My List. Please try again.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/unable_to_remove",
+            "figmaId": "VariableID:16285:90118",
+            "modes": {
+              "en": "Unable to remove from My List. Please try again.",
+              "th": "ไม่สามารถลบออกจากรายการของฉันได้\nโปรดลองอีกครั้ง",
+              "my": "ကျွန်ုပ်၏စာရင်းမှ ဖယ်ရှား၍မရပါ။ နောက်တစ်ကြိမ် ထပ်ကြိုးစားပါ။"
+            }
+          }
+        },
+        "unable_to_add": {
+          "$type": "unknown",
+          "$value": "Unable to add to My List.  Please try again.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/unable_to_add",
+            "figmaId": "VariableID:16285:90123",
+            "modes": {
+              "en": "Unable to add to My List.  Please try again.",
+              "th": "ไม่สามารถเพิ่มลงในรายการของฉันได้\nโปรดลองอีกครั้ง",
+              "my": "ကျွန်ုပ်၏စာရင်းသို့ ထည့်၍မရပါ။ နောက်တစ်ကြိမ် ထပ်ကြိုးစားပါ။"
+            }
+          }
+        },
+        "reminder_set": {
+          "$type": "unknown",
+          "$value": "Reminder Set! We'll notify you on 5 May 2025",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/reminder_set",
+            "figmaId": "VariableID:16303:77888",
+            "modes": {
+              "en": "Reminder Set! We'll notify you on 5 May 2025",
+              "th": "ตั้งการเตือนแล้ว!\nเราจะแจ้งให้คุณทราบในวันที่ 5 พฤษภาคม 2568",
+              "my": "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ။ ၂၀၂၅ ခုနှစ် မေလ ၅ ရက်နေ့တွင် သင့်အား အကြောင်းကြားပါမည်။"
+            }
+          }
+        },
+        "reminder_set_live": {
+          "$type": "unknown",
+          "$value": "Reminder Set! We'll notify you on Sat 02:30",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/reminder_set_live",
+            "figmaId": "VariableID:16303:77902",
+            "modes": {
+              "en": "Reminder Set! We'll notify you on Sat 02:30",
+              "th": "ตั้งการเตือนแล้ว!\nเราจะแจ้งให้คุณทราบในวันเสาร์ 02:30",
+              "my": "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ။ စနေနေ့ မနက် ၂:၃၀ တွင် သင့်အား အကြောင်းကြားပါမည်။"
+            }
+          }
+        },
+        "reminder_canceled": {
+          "$type": "unknown",
+          "$value": "Reminder canceled. You can always set a reminder.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "content_detail/my_lists/reminder_canceled",
+            "figmaId": "VariableID:16303:77893",
+            "modes": {
+              "en": "Reminder canceled. You can always set a reminder.",
+              "th": "ยกเลิกการเตือนแล้ว\nคุณสามารถตั้งการเตือนได้เสมอ",
+              "my": "သတိပေးချက်ကို ပယ်ဖျက်လိုက်ပါသည်။ သင်အမြဲတမ်း သတိပေးချက်တစ်ခု သတ်မှတ်နိုင်ပါသည်။"
+            }
+          }
+        }
+      },
+      "seasons": {
+        "$type": "unknown",
+        "$value": "{1} Seasons",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/seasons",
+          "figmaId": "VariableID:17734:117265",
+          "modes": {
+            "en": "{1} Seasons",
+            "th": "{1} ซีซัน",
+            "my": "{1} ရာသီများ"
+          }
+        }
+      },
+      "remaining": {
+        "$type": "unknown",
+        "$value": "{1m} remaining",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/remaining",
+          "figmaId": "VariableID:17734:117275",
+          "modes": {
+            "en": "{1m} remaining",
+            "th": "เหลืออีก {1m}",
+            "my": "ကျန် {1m}"
+          }
+        }
+      },
+      "season": {
+        "$type": "unknown",
+        "$value": "Season {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "content_detail/season",
+          "figmaId": "VariableID:17734:117280",
+          "modes": {
+            "en": "Season {1}",
+            "th": "ซีซัน {1}",
+            "my": "ရာသီ {1}"
+          }
+        }
+      }
+    },
+    "$player": {
+      "text": {
+        "$type": "unknown",
+        "$value": "Watch Credits",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/Text",
+          "figmaId": "VariableID:11315:13518",
+          "modes": {
+            "en": "Watch Credits",
+            "th": "รับชมเครดิต",
+            "my": "ချီးမြှင့်စာများကို ကြည့်ရန်"
+          }
+        }
+      },
+      "text_1": {
+        "$type": "unknown",
+        "$value": "Watch Live",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/Text_1",
+          "figmaId": "VariableID:11315:13519",
+          "modes": {
+            "en": "Watch Live",
+            "th": "รับชม Live",
+            "my": "တိုက်ရိုက် ကြည့်ရန်"
+          }
+        }
+      },
+      "live": {
+        "$type": "unknown",
+        "$value": "Live",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/Live",
+          "figmaId": "VariableID:11315:13567",
+          "modes": {
+            "en": "Live",
+            "th": "Live",
+            "my": "တိုက်ရိုက်"
+          }
+        }
+      },
+      "text_2": {
+        "$type": "unknown",
+        "$value": "Next Episode",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/Text_2",
+          "figmaId": "VariableID:11315:13637",
+          "modes": {
+            "en": "Next Episode",
+            "th": "ตอนถัดไป",
+            "my": "နောက်တစ်ပိုင်း"
+          }
+        }
+      },
+      "nextepisodein5seconds": {
+        "$type": "unknown",
+        "$value": "Next Episode in {1} seconds..",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/nextepisodein5seconds",
+          "figmaId": "VariableID:11315:34397",
+          "modes": {
+            "en": "Next Episode in {1} seconds..",
+            "th": "ตอนถัดไปจะเริ่มใน {1} วินาที...",
+            "my": "နောက်တစ်ပိုင်း {1} စက္ကန့်အတွင်း..."
+          }
+        }
+      },
+      "length": {
+        "$type": "unknown",
+        "$value": "{1:35:21}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/length",
+          "figmaId": "VariableID:11315:34416",
+          "modes": {
+            "en": "{1:35:21}",
+            "th": "{1:35:21}",
+            "my": "{1:35:21}"
+          }
+        }
+      },
+      "length_1": {
+        "$type": "unknown",
+        "$value": "{2:14:00}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/length_1",
+          "figmaId": "VariableID:11315:34417",
+          "modes": {
+            "en": "{2:14:00}",
+            "th": "{2:14:00}",
+            "my": "{2:14:00}"
+          }
+        }
+      },
+      "skip_intro_button": {
+        "$type": "unknown",
+        "$value": "Skip Intro",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/skip_intro_button",
+          "figmaId": "VariableID:15152:177831",
+          "modes": {
+            "en": "Skip Intro",
+            "th": "ข้ามบทนำ",
+            "my": "နိဒါန်း ကျော်သွားပါ"
+          }
+        }
+      },
+      "skip_recap_button": {
+        "$type": "unknown",
+        "$value": "Skip Recap",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/skip_recap_button",
+          "figmaId": "VariableID:15152:177832",
+          "modes": {
+            "en": "Skip Recap",
+            "th": "ข้ามการสรุป",
+            "my": "ပြန်လည်သုံးသပ်ချက်ကို ကျော်သွားပါ"
+          }
+        }
+      },
+      "watch_live_button": {
+        "$type": "unknown",
+        "$value": "Watch Live",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/watch_live_button",
+          "figmaId": "VariableID:15152:177833",
+          "modes": {
+            "en": "Watch Live",
+            "th": "ดูสด",
+            "my": "တိုက်ရိုက် ကြည့်ရှုပါ"
+          }
+        }
+      },
+      "next_episode_button": {
+        "$type": "unknown",
+        "$value": "Next Episode",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "player/next_episode_button",
+          "figmaId": "VariableID:15152:177848",
+          "modes": {
+            "en": "Next Episode",
+            "th": "ตอนต่อไป",
+            "my": "နောက်တစ်ပိုင်း"
+          }
+        }
+      },
+      "$setting_menu": {
+        "speed": {
+          "$type": "unknown",
+          "$value": "Speed",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/speed",
+            "figmaId": "VariableID:14160:109016",
+            "modes": {
+              "en": "Speed",
+              "th": "ความเร็ว",
+              "my": "အမြန်နှုန်း"
+            }
+          }
+        },
+        "audio_subtitles": {
+          "$type": "unknown",
+          "$value": "Audio & Subtitles",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/audio_&_subtitles",
+            "figmaId": "VariableID:14171:109017",
+            "modes": {
+              "en": "Audio & Subtitles",
+              "th": "เสียงและคำบรรยาย",
+              "my": "အသံနှင့် စာတန်းထိုး"
+            }
+          }
+        },
+        "info": {
+          "$type": "unknown",
+          "$value": "Info",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/info",
+            "figmaId": "VariableID:14171:109034",
+            "modes": {
+              "en": "Info",
+              "th": "ข้อมูล",
+              "my": "အချက်အလက်"
+            }
+          }
+        },
+        "detail": {
+          "$type": "unknown",
+          "$value": "Detail",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/detail",
+            "figmaId": "VariableID:14171:109035",
+            "modes": {
+              "en": "Detail",
+              "th": "รายละเอียด",
+              "my": "အသေးစိတ်"
+            }
+          }
+        },
+        "episodes": {
+          "$type": "unknown",
+          "$value": "Episodes",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/episodes",
+            "figmaId": "VariableID:14171:109240",
+            "modes": {
+              "en": "Episodes",
+              "th": "ตอน",
+              "my": "အပိုင်းများ"
+            }
+          }
+        },
+        "episodes_2": {
+          "$type": "unknown",
+          "$value": "Episodes",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/episodes 2",
+            "figmaId": "VariableID:14171:109241",
+            "modes": {
+              "en": "Episodes",
+              "th": "ตอน 2",
+              "my": "အပိုင်းများ"
+            }
+          }
+        },
+        "next_ep": {
+          "$type": "unknown",
+          "$value": "Next Ep.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/setting_menu/next_ep",
+            "figmaId": "VariableID:14171:109246",
+            "modes": {
+              "en": "Next Ep.",
+              "th": "ตอนต่อไป",
+              "my": "နောက်အပိုင်း။"
+            }
+          }
+        },
+        "$speed_menu": {
+          "speed": {
+            "$type": "unknown",
+            "$value": "Speed",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "player/setting_menu/speed_menu/speed",
+              "figmaId": "VariableID:14367:141347",
+              "modes": {
+                "en": "Speed",
+                "th": "ความเร็ว",
+                "my": "အမြန်နှုန်း"
+              }
+            }
+          }
+        },
+        "$audio_subtitles_menu": {
+          "subtitles": {
+            "$type": "unknown",
+            "$value": "Subtitles",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "player/setting_menu/audio_subtitles_menu/subtitles",
+              "figmaId": "VariableID:14367:141348",
+              "modes": {
+                "en": "Subtitles",
+                "th": "คำบรรยาย",
+                "my": "စာတန်းထိုး"
+              }
+            }
+          },
+          "audio": {
+            "$type": "unknown",
+            "$value": "Audio",
+            "$description": "",
+            "$variable_metadata": {
+              "name": "player/setting_menu/audio_subtitles_menu/audio",
+              "figmaId": "VariableID:14367:141349",
+              "modes": {
+                "en": "Audio",
+                "th": "เสียง",
+                "my": "အသံ"
+              }
+            }
+          }
+        }
+      },
+      "$season": {
+        "season_title": {
+          "$type": "unknown",
+          "$value": "Season {1}",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/season/season_title",
+            "figmaId": "VariableID:14367:141430",
+            "modes": {
+              "en": "Season {1}",
+              "th": "ซีซัน {1}",
+              "my": "ရာသီ {1}"
+            }
+          }
+        },
+        "ep_number": {
+          "$type": "unknown",
+          "$value": "Ep. {1}",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/season/ep_number",
+            "figmaId": "VariableID:14367:141431",
+            "modes": {
+              "en": "Ep. {1}",
+              "th": "ตอนที่ {1}",
+              "my": "အပိုင်း {1}"
+            }
+          }
+        },
+        "min": {
+          "$type": "unknown",
+          "$value": "{1} m",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/season/min",
+            "figmaId": "VariableID:14367:141436",
+            "modes": {
+              "en": "{1} m",
+              "th": "{1} นาที",
+              "my": "{1} မိနစ်"
+            }
+          }
+        },
+        "select_season": {
+          "$type": "unknown",
+          "$value": "Select Season",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/season/select_season",
+            "figmaId": "VariableID:14367:141437",
+            "modes": {
+              "en": "Select Season",
+              "th": "เลือกซีซัน",
+              "my": "ရာသီ ရွေးချယ်ပါ"
+            }
+          }
+        }
+      },
+      "$cast": {
+        "select_a_device": {
+          "$type": "unknown",
+          "$value": "Select a Device to Cast",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/cast/select_a_device",
+            "figmaId": "VariableID:14367:141439",
+            "modes": {
+              "en": "Select a Device to Cast",
+              "th": "เลือกอุปกรณ์ที่จะแคสต์",
+              "my": "ကာစ်လုပ်ရန် စက်ပစ္စည်းတစ်ခုကို ရွေးချယ်ပါ"
+            }
+          }
+        }
+      },
+      "$end_credit": {
+        "watch_credits": {
+          "$type": "unknown",
+          "$value": "Watch Credits",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/end_credit/watch_credits",
+            "figmaId": "VariableID:14367:141440",
+            "modes": {
+              "en": "Watch Credits",
+              "th": "ดูเครดิต",
+              "my": "Credit များ ကြည့်ရှုရန်"
+            }
+          }
+        },
+        "next_episode_in": {
+          "$type": "unknown",
+          "$value": "Next Episode in",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/end_credit/next_episode_in",
+            "figmaId": "VariableID:14367:141441",
+            "modes": {
+              "en": "Next Episode in",
+              "th": "ตอนต่อไปใน",
+              "my": "နောက်အပိုင်း လာပါမည်"
+            }
+          }
+        },
+        "seconds": {
+          "$type": "unknown",
+          "$value": " seconds..",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "player/end_credit/seconds",
+            "figmaId": "VariableID:14367:141454",
+            "modes": {
+              "en": " seconds..",
+              "th": " วินาที..",
+              "my": " စက္ကန့်.."
+            }
+          }
+        }
+      }
+    },
+    "$modal": {
+      "$button": {
+        "cancel": {
+          "$type": "unknown",
+          "$value": "Cancel",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/button/cancel",
+            "figmaId": "VariableID:7288:42709",
+            "modes": {
+              "en": "Cancel",
+              "th": "ยกเลิก",
+              "my": "ဖျက်သိမ်းပါ"
+            }
+          }
+        },
+        "close": {
+          "$type": "unknown",
+          "$value": "Close",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/button/close",
+            "figmaId": "VariableID:8200:90281",
+            "modes": {
+              "en": "Close",
+              "th": "ปิด",
+              "my": "ပိတ်ရန်"
+            }
+          }
+        },
+        "back": {
+          "$type": "unknown",
+          "$value": "Back",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/button/back",
+            "figmaId": "VariableID:20091:14127",
+            "modes": {
+              "en": "Back",
+              "th": "ย้อนกลับ",
+              "my": "နောက်သို့"
+            }
+          }
+        },
+        "try_again": {
+          "$type": "unknown",
+          "$value": "Try Again",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/button/try_again",
+            "figmaId": "VariableID:11307:181048",
+            "modes": {
+              "en": "Try Again",
+              "th": "ลองอีกครั้ง",
+              "my": "ထပ်ကြိုးစားပါ"
+            }
+          }
+        },
+        "log_in": {
+          "$type": "unknown",
+          "$value": "Log in",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/button/log_in",
+            "figmaId": "VariableID:11307:181057",
+            "modes": {
+              "en": "Log in",
+              "th": "เข้าสู่ระบบ",
+              "my": "လော့ဂ်အင်"
+            }
+          }
+        },
+        "refresh": {
+          "$type": "unknown",
+          "$value": "Refresh",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/button/refresh",
+            "figmaId": "VariableID:20091:11219",
+            "modes": {
+              "en": "Refresh",
+              "th": "รีเฟรซ",
+              "my": "ပြန်လည်စတင်ပါ။"
+            }
+          }
+        }
+      },
+      "$scan_qr": {
+        "title_logged_in_succe": {
+          "$type": "unknown",
+          "$value": "Your TV is now logged in successfully!",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/scan_qr/title_logged_in_succe",
+            "figmaId": "VariableID:16571:39543",
+            "modes": {
+              "en": "Your TV is now logged in successfully!",
+              "th": "ทีวีของคุณเข้าสู่ระบบเรียบร้อยแล้ว!",
+              "my": "သင်၏ တီဗီကို အောင်မြင်စွာ လော့ဂ်အင်ဝင်ပြီးပါပြီ။"
+            }
+          }
+        },
+        "des_logged_in_succe": {
+          "$type": "unknown",
+          "$value": "You can now continue on your TV screen.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/scan_qr/des_logged_in_succe",
+            "figmaId": "VariableID:16571:39544",
+            "modes": {
+              "en": "You can now continue on your TV screen.",
+              "th": "คุณสามารถดำเนินการต่อบนหน้าจอทีวีของคุณได้แล้ว",
+              "my": "ယခု သင်သည် သင်၏ တီဗီဖန်သားပြင်ပေါ်တွင် ဆက်လက်လုပ်ဆောင်နိုင်ပြီဖြစ်သည်။"
+            }
+          }
+        },
+        "title_qr_error": {
+          "$type": "unknown",
+          "$value": "QR code Error",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/scan_qr/title_qr_error",
+            "figmaId": "VariableID:16571:45367",
+            "modes": {
+              "en": "QR code Error",
+              "th": "ข้อผิดพลาดของรหัส QR",
+              "my": "QR ကုဒ် အမှားအယွင်း"
+            }
+          }
+        },
+        "des_qr_error": {
+          "$type": "unknown",
+          "$value": "This QR code has expired or has already been used. Please scan a new QR code by refreshing.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/scan_qr/des_qr_error",
+            "figmaId": "VariableID:16571:45368",
+            "modes": {
+              "en": "This QR code has expired or has already been used. Please scan a new QR code by refreshing.",
+              "th": "รหัส QR นี้หมดอายุแล้วหรือถูกใช้ไปแล้ว โปรดสแกนรหัส QR ใหม่โดยการรีเฟรช",
+              "my": "ဤ QR ကုဒ်သည် သက်တမ်းကုန်သွားပြီ သို့မဟုတ် အသုံးပြုပြီးသားဖြစ်သည်။ ကျေးဇူးပြု၍ ပြန်လည်စတင်ခြင်းဖြင့် QR ကုဒ်အသစ်တစ်ခုကို စကင်ဖတ်ပါ။"
+            }
+          }
+        }
+      },
+      "$subscribe": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Subscription Package",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/subscribe/title",
+            "figmaId": "VariableID:8200:90279",
+            "modes": {
+              "en": "Subscription Package",
+              "th": "แพ็กเกจการสมัครสมาชิก",
+              "my": "subscription ပက်ကေ့ချ်"
+            }
+          }
+        },
+        "desc": {
+          "$type": "unknown",
+          "$value": "The ultimate live sports streaming package and the hottest entertainment channels in Thailand",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/subscribe/desc",
+            "figmaId": "VariableID:8200:90280",
+            "modes": {
+              "en": "The ultimate live sports streaming package and the hottest entertainment channels in Thailand",
+              "th": "แพ็กเกจสตรีมมิ่งกีฬาสดสุดพิเศษและช่องความบันเทิงที่ร้อนแรงที่สุดในประเทศไทย",
+              "my": "အကောင်းဆုံးတိုက်ရိုက်အားကစားစ့်ထရီးမင်းပက်ကေ့ချ်နှင့် ထိုင်းနိုင်ငံရှိ အပူချိန်အမြင့်ဆုံးဖျော်ဖြေပေးသောချန်နယ်များ"
+            }
+          }
+        },
+        "error": {
+          "$type": "unknown",
+          "$value": "An error occurred.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/subscribe/error",
+            "figmaId": "VariableID:17753:10337",
+            "modes": {
+              "en": "An error occurred.",
+              "th": "เกิดข้อผิดพลาด",
+              "my": "အမှားအယွင်းတစ်ခု ဖြစ်ပွားခဲ့သည်။"
+            }
+          }
+        }
+      },
+      "$language": {
+        "title_modal": {
+          "$type": "unknown",
+          "$value": "Language",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/language/title_modal",
+            "figmaId": "VariableID:7288:42697",
+            "modes": {
+              "en": "Language",
+              "th": "ภาษา",
+              "my": "ဘာသာစကားပြောင်းရန်"
+            }
+          }
+        }
+      },
+      "$closed_app": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Close TrueVisions NOW",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/closed_app/title",
+            "figmaId": "VariableID:7288:42706",
+            "modes": {
+              "en": "Close TrueVisions NOW",
+              "th": "ปิดแอป TrueVisions NOW",
+              "my": "TrueVisions NOW ကိုပိတ်ပါ။"
+            }
+          }
+        },
+        "desc": {
+          "$type": "unknown",
+          "$value": "Are you sure to close this app?",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/closed_app/desc",
+            "figmaId": "VariableID:7288:42707",
+            "modes": {
+              "en": "Are you sure to close this app?",
+              "th": "คุณแน่ใจหรือไม่ว่าต้องการปิดแอปนี้?",
+              "my": "ဤအပ်ကိုပိတ်ရန် သေချာပြီလား?"
+            }
+          }
+        },
+        "closed_app_button": {
+          "$type": "unknown",
+          "$value": "Close App",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/closed_app/closed_app_button",
+            "figmaId": "VariableID:7288:42708",
+            "modes": {
+              "en": "Close App",
+              "th": "ปิดแอป",
+              "my": "အပ်ပိတ်ရန်"
+            }
+          }
+        }
+      },
+      "$delete_profile": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Delete {Maya} profile?",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/delete_profile/title",
+            "figmaId": "VariableID:10340:99666",
+            "modes": {
+              "en": "Delete {Maya} profile?",
+              "th": "ต้องการลบโปรไฟล์ {Maya} หรือไม่?",
+              "my": "{Maya} ပရိုဖိုင်ကို ဖျက်မလား?"
+            }
+          }
+        },
+        "title_description": {
+          "$type": "unknown",
+          "$value": "This will permanently delete all settings and preferences for this profile, including My List and Continue Watching.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/delete_profile/title_description",
+            "figmaId": "VariableID:10340:99667",
+            "modes": {
+              "en": "This will permanently delete all settings and preferences for this profile, including My List and Continue Watching.",
+              "th": "การดำเนินการนี้จะลบการตั้งค่าและความชอบทั้งหมดของโปรไฟล์นี้อย่างถาวร รวมถึงรายการของฉันและประวัติการรับชม",
+              "my": "ဤလုပ်ဆောင်ချက်သည် ကျွန်ုပ်၏စာရင်းနှင့် ဆက်လက်ကြည့်ရှုခြင်း အပါအဝင် ဤပရိုဖိုင်အတွက် ဆက်တင်များနှင့် ဦးစားပေးမှုများအားလုံးကို အပြီးတိုင် ဖျက်ပစ်မည်ဖြစ်သည်။"
+            }
+          }
+        },
+        "delete_profile_button": {
+          "$type": "unknown",
+          "$value": "Delete Profile",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/delete_profile/delete_profile_button",
+            "figmaId": "VariableID:10340:99668",
+            "modes": {
+              "en": "Delete Profile",
+              "th": "ลบโปรไฟล์",
+              "my": "ပရိုဖိုင် ဖျက်ရန်"
+            }
+          }
+        }
+      },
+      "$something_went_wrong": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Something went wrong.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/something_went_wrong/title",
+            "figmaId": "VariableID:10394:19172",
+            "modes": {
+              "en": "Something went wrong.",
+              "th": "เกิดข้อผิดพลาดบางอย่าง",
+              "my": "တစ်ခုခု မှားယွင်းသွားပါသည်။"
+            }
+          }
+        },
+        "load_settings": {
+          "$type": "unknown",
+          "$value": "We couldn’t load this page right now.. Please try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/something_went_wrong/load_settings",
+            "figmaId": "VariableID:10394:19173",
+            "modes": {
+              "en": "We couldn’t load this page right now.. Please try again later.",
+              "th": "เราไม่สามารถโหลดหน้านี้ได้ในขณะนี้.. โปรดลองอีกครั้งในภายหลัง",
+              "my": "ယခုအချိန်တွင် သင့်ဆက်တင်များကို လုပ်ဆောင်၍ မရနိုင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+            }
+          }
+        },
+        "search_desc": {
+          "$type": "unknown",
+          "$value": "We couldn't load your search results\nPlease try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/something_went_wrong/search_desc",
+            "figmaId": "VariableID:19085:3901",
+            "modes": {
+              "en": "We couldn't load your search results\nPlease try again later.",
+              "th": "เราไม่สามารถโหลดผลการค้นหาของคุณได้\nโปรดลองอีกครั้งในภายหลัง",
+              "my": "သင်၏ရှာဖွေမှုရလဒ်များကို ကျွန်ုပ်တို့ မဖွင့်နိုင်ပါ\nကျေးဇူးပြု၍ နောက်မှ ထပ်ကြိုးစားပါ။"
+            }
+          }
+        },
+        "try_again_later": {
+          "$type": "unknown",
+          "$value": "Please try again later.",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/something_went_wrong/try_again_later",
+            "figmaId": "VariableID:20091:19218",
+            "modes": {
+              "en": "Please try again later.",
+              "th": "กรุณาลองใหม่อีกครั้ง",
+              "my": "ကျေးဇူးပြု၍ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+            }
+          }
+        }
+      },
+      "$logout": {
+        "title": {
+          "$type": "unknown",
+          "$value": "Log out?",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/logout/title",
+            "figmaId": "VariableID:10394:19223",
+            "modes": {
+              "en": "Log out?",
+              "th": "ออกจากระบบหรือไม่?",
+              "my": "အကောင့်ထွက်မလား?"
+            }
+          }
+        },
+        "desc": {
+          "$type": "unknown",
+          "$value": "Are you sure you want to log out?",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/logout/desc",
+            "figmaId": "VariableID:10394:19224",
+            "modes": {
+              "en": "Are you sure you want to log out?",
+              "th": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+              "my": "အကောင့်ထွက်ရန် သေချာပြီလား?"
+            }
+          }
+        },
+        "logout_button": {
+          "$type": "unknown",
+          "$value": "Log out",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/logout/logout_button",
+            "figmaId": "VariableID:10394:19225",
+            "modes": {
+              "en": "Log out",
+              "th": "ออกจากระบบ",
+              "my": "အကောင့်ထွက်ရန်"
+            }
+          }
+        }
+      },
+      "$subtitles_audio": {
+        "subtitle": {
+          "$type": "unknown",
+          "$value": "Subtitle",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/subtitles_audio/subtitle",
+            "figmaId": "VariableID:11309:61642",
+            "modes": {
+              "en": "Subtitle",
+              "th": "คำบรรยาย",
+              "my": "စာတန်းထိုး"
+            }
+          }
+        },
+        "audio": {
+          "$type": "unknown",
+          "$value": "Audio",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "modal/subtitles_audio/audio",
+            "figmaId": "VariableID:11315:13397",
+            "modes": {
+              "en": "Audio",
+              "th": "เสียง",
+              "my": "အသံ"
+            }
+          }
+        }
+      }
+    },
+    "$subtitles_and_audio": {
+      "subtitles": {
+        "$type": "unknown",
+        "$value": "Subtitles",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/subtitles",
+          "figmaId": "VariableID:8177:22516",
+          "modes": {
+            "en": "Subtitles",
+            "th": "คำบรรยาย",
+            "my": "စာတန်းထိုးများ"
+          }
+        }
+      },
+      "off_button": {
+        "$type": "unknown",
+        "$value": "Off",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/off_button",
+          "figmaId": "VariableID:8177:22517",
+          "modes": {
+            "en": "Off",
+            "th": "ปิด",
+            "my": "ပိတ်ထားသည်"
+          }
+        }
+      },
+      "audio": {
+        "$type": "unknown",
+        "$value": "Audio",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/audio",
+          "figmaId": "VariableID:8177:22518",
+          "modes": {
+            "en": "Audio",
+            "th": "เสียง",
+            "my": "အသံ"
+          }
+        }
+      },
+      "original": {
+        "$type": "unknown",
+        "$value": "(Original)",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/original",
+          "figmaId": "VariableID:8336:12957",
+          "modes": {
+            "en": "(Original)",
+            "th": "(ต้นฉบับ)",
+            "my": "(မူရင်း)"
+          }
+        }
+      },
+      "th": {
+        "$type": "unknown",
+        "$value": "Thai",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/th",
+          "figmaId": "VariableID:8336:24530",
+          "modes": {
+            "en": "Thai",
+            "th": "ไทย",
+            "my": "ထိုင်း"
+          }
+        }
+      },
+      "en": {
+        "$type": "unknown",
+        "$value": "English",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/en",
+          "figmaId": "VariableID:8336:24531",
+          "modes": {
+            "en": "English",
+            "th": "อังกฤษ",
+            "my": "အင်္ဂလိပ်"
+          }
+        }
+      },
+      "en_cc": {
+        "$type": "unknown",
+        "$value": "English (CC)",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/en_cc",
+          "figmaId": "VariableID:15152:177846",
+          "modes": {
+            "en": "English (CC)",
+            "th": "อังกฤษ (CC)",
+            "my": "အင်္ဂလိပ် (CC)"
+          }
+        }
+      },
+      "en_original": {
+        "$type": "unknown",
+        "$value": "English (Original)",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/en_original",
+          "figmaId": "VariableID:15152:177847",
+          "modes": {
+            "en": "English (Original)",
+            "th": "อังกฤษ (ดังเดิม)",
+            "my": "အင်္ဂလိပ် (Original)"
+          }
+        }
+      },
+      "en_audio": {
+        "$type": "unknown",
+        "$value": "English (Audio Description)",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/en_audio",
+          "figmaId": "VariableID:17734:137537",
+          "modes": {
+            "en": "English (Audio Description)",
+            "th": "ภาษาอังกฤษ (เสียงบรรยาย)",
+            "my": "အင်္ဂလိပ် (အသံဖော်ပြချက်)"
+          }
+        }
+      },
+      "cn": {
+        "$type": "unknown",
+        "$value": "Chinese",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/cn",
+          "figmaId": "VariableID:8336:31794",
+          "modes": {
+            "en": "Chinese",
+            "th": "จีน",
+            "my": "တရုတ်"
+          }
+        }
+      },
+      "id": {
+        "$type": "unknown",
+        "$value": "Indonesian",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/id",
+          "figmaId": "VariableID:8336:31795",
+          "modes": {
+            "en": "Indonesian",
+            "th": "อินโดนีเซีย",
+            "my": "အင်ဒိုနီးရှား"
+          }
+        }
+      },
+      "ph_filipino": {
+        "$type": "unknown",
+        "$value": "Filipino",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/ph_filipino",
+          "figmaId": "VariableID:8336:31796",
+          "modes": {
+            "en": "Filipino",
+            "th": "ฟิลิปิโน",
+            "my": "ဖိလစ်ပိုင်"
+          }
+        }
+      },
+      "ph_cebuano": {
+        "$type": "unknown",
+        "$value": "Cebuano",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/ph_cebuano",
+          "figmaId": "VariableID:8336:31797",
+          "modes": {
+            "en": "Cebuano",
+            "th": "ซีบัวโน",
+            "my": "စီဘူအာနို (ဖိလစ်ပိုင်ဒေသဘာသာတစ်ခု)"
+          }
+        }
+      },
+      "kh": {
+        "$type": "unknown",
+        "$value": "Khmer",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/kh",
+          "figmaId": "VariableID:8336:31798",
+          "modes": {
+            "en": "Khmer",
+            "th": "กัมพูชา",
+            "my": "ခမာ (ကမ္ဘောဒီးယား)"
+          }
+        }
+      },
+      "my": {
+        "$type": "unknown",
+        "$value": "Myanmar",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/my",
+          "figmaId": "VariableID:8336:31799",
+          "modes": {
+            "en": "Myanmar",
+            "th": "เมียนมา",
+            "my": "မြန်မာ"
+          }
+        }
+      },
+      "vn": {
+        "$type": "unknown",
+        "$value": "Vietnamese",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/vn",
+          "figmaId": "VariableID:8336:31800",
+          "modes": {
+            "en": "Vietnamese",
+            "th": "เวียดนาม",
+            "my": "ဗီယက်နမ်"
+          }
+        }
+      },
+      "ko": {
+        "$type": "unknown",
+        "$value": "Korean",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/ko",
+          "figmaId": "VariableID:8336:31801",
+          "modes": {
+            "en": "Korean",
+            "th": "เกาหลี",
+            "my": "ကိုရီးယား"
+          }
+        }
+      },
+      "jp": {
+        "$type": "unknown",
+        "$value": "Japanese",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/jp",
+          "figmaId": "VariableID:8336:31802",
+          "modes": {
+            "en": "Japanese",
+            "th": "ญี่ปุ่น",
+            "my": "ဂျပန်"
+          }
+        }
+      },
+      "other": {
+        "$type": "unknown",
+        "$value": "Other",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/other",
+          "figmaId": "VariableID:8336:31803",
+          "modes": {
+            "en": "Other",
+            "th": "อื่นๆ",
+            "my": "အခြားဘာသာများ"
+          }
+        }
+      },
+      "gm": {
+        "$type": "unknown",
+        "$value": "Germany",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "subtitles_and_audio/gm",
+          "figmaId": "VariableID:15152:177835",
+          "modes": {
+            "en": "Germany",
+            "th": "เยอรมนี",
+            "my": "ဂျာမနီ"
+          }
+        }
+      }
+    },
+    "$language": {
+      "th": {
+        "$type": "unknown",
+        "$value": "ไทย",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "language/th",
+          "figmaId": "VariableID:7288:42699",
+          "modes": {
+            "en": "ไทย",
+            "th": "ไทย",
+            "my": "ไทย"
+          }
+        }
+      },
+      "my": {
+        "$type": "unknown",
+        "$value": "မြန်မာ",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "language/my",
+          "figmaId": "VariableID:7288:42700",
+          "modes": {
+            "en": "မြန်မာ",
+            "th": "မြန်မာ",
+            "my": "မြန်မာ"
+          }
+        }
+      },
+      "en": {
+        "$type": "unknown",
+        "$value": "English",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "language/en",
+          "figmaId": "VariableID:7288:42698",
+          "modes": {
+            "en": "English",
+            "th": "English",
+            "my": "English"
+          }
+        }
+      }
+    },
+    "$badge": {
+      "new": {
+        "$type": "unknown",
+        "$value": "New",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "badge/new",
+          "figmaId": "VariableID:8131:94556",
+          "modes": {
+            "en": "New",
+            "th": "ใหม่",
+            "my": "အသစ်"
+          }
+        }
+      },
+      "live": {
+        "$type": "unknown",
+        "$value": "Live",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "badge/live",
+          "figmaId": "VariableID:8200:90324",
+          "modes": {
+            "en": "Live",
+            "th": "สด",
+            "my": "တိုက်ရိုက်"
+          }
+        }
+      }
+    },
+    "$prefix": {
+      "episode": {
+        "$type": "unknown",
+        "$value": "Episode {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "prefix/episode",
+          "figmaId": "VariableID:8172:22508",
+          "modes": {
+            "en": "Episode {1}",
+            "th": "ตอนที่ {1}",
+            "my": "အစိတ်အပိုင်း {1}"
+          }
+        }
+      },
+      "season": {
+        "$type": "unknown",
+        "$value": "Season {1}",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "prefix/season",
+          "figmaId": "VariableID:8172:22510",
+          "modes": {
+            "en": "Season {1}",
+            "th": "ซีซัน {1}",
+            "my": "ရာသီ {1}"
+          }
+        }
+      }
+    },
+    "$suffix": {
+      "episode": {
+        "$type": "unknown",
+        "$value": "{1} Episode",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "suffix/episode",
+          "figmaId": "VariableID:8131:104733",
+          "modes": {
+            "en": "{1} Episode",
+            "th": "{1} ตอน",
+            "my": "အစိတ်အပိုင်း {1}"
+          }
+        }
+      },
+      "episodes": {
+        "$type": "unknown",
+        "$value": "{1} Episodes",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "suffix/episodes",
+          "figmaId": "VariableID:8131:94554",
+          "modes": {
+            "en": "{1} Episodes",
+            "th": "{1} ตอน",
+            "my": "အစိတ်အပိုင်း {1}"
+          }
+        }
+      },
+      "season": {
+        "$type": "unknown",
+        "$value": "{1} Season",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "suffix/season",
+          "figmaId": "VariableID:8131:104734",
+          "modes": {
+            "en": "{1} Season",
+            "th": "{1} ซีซัน",
+            "my": "ရာသီ {1}"
+          }
+        }
+      },
+      "seasons": {
+        "$type": "unknown",
+        "$value": "{1} Seasons",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "suffix/seasons",
+          "figmaId": "VariableID:8131:94555",
+          "modes": {
+            "en": "{1} Seasons",
+            "th": "{1} ซีซัน",
+            "my": "ရာသီ {1}"
+          }
+        }
+      },
+      "title": {
+        "$type": "unknown",
+        "$value": "{1} Title",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "suffix/title",
+          "figmaId": "VariableID:8172:22512",
+          "modes": {
+            "en": "{1} Title",
+            "th": "{1} เรื่อง",
+            "my": "ခေါင်းစဉ် {1}"
+          }
+        }
+      },
+      "titles": {
+        "$type": "unknown",
+        "$value": "{1} Titles",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "suffix/titles",
+          "figmaId": "VariableID:8172:22513",
+          "modes": {
+            "en": "{1} Titles",
+            "th": "{1} เรื่อง",
+            "my": "ခေါင်းစဉ် {1}"
+          }
+        }
+      }
+    },
+    "$_backlog": {
+      "menu_categories": {
+        "$type": "unknown",
+        "$value": "Categories",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "_backlog/menu_categories",
+          "figmaId": "VariableID:7353:158454",
+          "modes": {
+            "en": "Categories",
+            "th": "หมวดหมู่",
+            "my": "အမျိုးအစားများ"
+          }
+        }
+      }
+    },
+    "$on_boarding": {
+      "login_button": {
+        "$type": "unknown",
+        "$value": "Login or Register",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "on_boarding/login_button",
+          "figmaId": "VariableID:11307:147062",
+          "modes": {
+            "en": "Login or Register",
+            "th": "เข้าสู่ระบบหรือลงทะเบียน",
+            "my": "လော့ဂ်အင် သို့မဟုတ် မှတ်ပုံတင်ပါ။"
+          }
+        }
+      }
+    },
+    "$terms_and_condition": {
+      "title": {
+        "$type": "unknown",
+        "$value": "Terms and Conditions",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/title",
+          "figmaId": "VariableID:12424:192032",
+          "modes": {
+            "en": "Terms and Conditions",
+            "th": "ข้อกำหนดและเงื่อนไข",
+            "my": "စည်းမျဥ်းများနဲ့ အခြေအနေများ"
+          }
+        }
+      },
+      "scrooll_button": {
+        "$type": "unknown",
+        "$value": "Scroll to the bottom",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/scrooll_button",
+          "figmaId": "VariableID:12424:192033",
+          "modes": {
+            "en": "Scroll to the bottom",
+            "th": "เลื่อนลงไปด้านล่างสุด",
+            "my": "အောက်ဆုံးထိ လှိမ့်ချပါ"
+          }
+        }
+      },
+      "accpet_button": {
+        "$type": "unknown",
+        "$value": "Accept",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/accpet_button",
+          "figmaId": "VariableID:12424:192039",
+          "modes": {
+            "en": "Accept",
+            "th": "ยอมรับ",
+            "my": "လက်ခံရန်"
+          }
+        }
+      },
+      "personal_data": {
+        "$type": "unknown",
+        "$value": "Personal Data Management",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/personal_data",
+          "figmaId": "VariableID:12424:192056",
+          "modes": {
+            "en": "Personal Data Management",
+            "th": "การจัดการข้อมูลส่วนบุคคล",
+            "my": "ကိုယ်ရေးအချက်အလက် စီမံခန့်ခွဲမှု"
+          }
+        }
+      },
+      "title_marketing_consent": {
+        "$type": "unknown",
+        "$value": "Marketing Consent",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/title_marketing_consent",
+          "figmaId": "VariableID:12424:192057",
+          "modes": {
+            "en": "Marketing Consent",
+            "th": "ความยินยอมด้านการตลาด",
+            "my": "စျေးကွက်ရှာဖွေရေး သဘောတူညီချက်"
+          }
+        }
+      },
+      "accept_button": {
+        "$type": "unknown",
+        "$value": "Accept",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/accept_button",
+          "figmaId": "VariableID:12424:192058",
+          "modes": {
+            "en": "Accept",
+            "th": "ยอมรับ",
+            "my": "လက်ခံသည်"
+          }
+        }
+      },
+      "decline_button": {
+        "$type": "unknown",
+        "$value": "Decline",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/decline_button",
+          "figmaId": "VariableID:12424:192059",
+          "modes": {
+            "en": "Decline",
+            "th": "ปฏิเสธ",
+            "my": "မလက်ခံပါ"
+          }
+        }
+      },
+      "title_privacy_policy": {
+        "$type": "unknown",
+        "$value": "Privacy Policy",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/title_privacy_policy",
+          "figmaId": "VariableID:12424:192060",
+          "modes": {
+            "en": "Privacy Policy",
+            "th": "นโยบายความเป็นส่วนตัว",
+            "my": "ကိုယ်ရေးအချက်အလက် မူဝါဒ"
+          }
+        }
+      },
+      "title_subscription": {
+        "$type": "unknown",
+        "$value": "Subscription to our newsletter",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/title_subscription",
+          "figmaId": "VariableID:12424:192061",
+          "modes": {
+            "en": "Subscription to our newsletter",
+            "th": "สมัครรับจดหมายข่าวของเรา",
+            "my": "ကျွန်ုပ်တို့၏ သတင်းလွှာကို စာရင်းသွင်းပါ။"
+          }
+        }
+      },
+      "input_enter_email": {
+        "$type": "unknown",
+        "$value": "Enter Email",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/input_enter_email",
+          "figmaId": "VariableID:12424:192062",
+          "modes": {
+            "en": "Enter Email",
+            "th": "กรอกอีเมล",
+            "my": "အီးမေးလ် ထည့်ပါ"
+          }
+        }
+      },
+      "confirm": {
+        "$type": "unknown",
+        "$value": "Confirm",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/confirm",
+          "figmaId": "VariableID:12424:192063",
+          "modes": {
+            "en": "Confirm",
+            "th": "ยืนยัน",
+            "my": "အတည်ပြုရန်"
+          }
+        }
+      },
+      "checkbox_accpet_all": {
+        "$type": "unknown",
+        "$value": "Accept All ",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "terms_and_condition/checkbox_accpet_all",
+          "figmaId": "VariableID:12424:192064",
+          "modes": {
+            "en": "Accept All ",
+            "th": "ยอมรับทั้งหมด",
+            "my": "အားလုံးကို လက်ခံရန်"
+          }
+        }
+      }
+    },
+    "$new_on_now": {
+      "remind_me_button": {
+        "$type": "unknown",
+        "$value": "Remind Me",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "new_on_now/remind_me_button",
+          "figmaId": "VariableID:13047:118245",
+          "modes": {
+            "en": "Remind Me",
+            "th": "เตือนฉัน",
+            "my": "ကျွန်ုပ်ကို သတိပေးပါ"
+          }
+        }
+      },
+      "reminder_set_button": {
+        "$type": "unknown",
+        "$value": "Reminder Set",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "new_on_now/reminder_set_button",
+          "figmaId": "VariableID:13047:135295",
+          "modes": {
+            "en": "Reminder Set",
+            "th": "ตั้งค่าการเตือนแล้ว",
+            "my": "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ"
+          }
+        }
+      },
+      "watch_now_button": {
+        "$type": "unknown",
+        "$value": "Watch Now",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "new_on_now/watch_now_button",
+          "figmaId": "VariableID:13047:135296",
+          "modes": {
+            "en": "Watch Now",
+            "th": "รับชมตอนนี้",
+            "my": "ယခု ကြည့်ရှုပါ။"
+          }
+        }
+      },
+      "my_list_button": {
+        "$type": "unknown",
+        "$value": "My List",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "new_on_now/my_list_button",
+          "figmaId": "VariableID:13047:135297",
+          "modes": {
+            "en": "My List",
+            "th": "รายการของฉัน",
+            "my": "ကျွန်ုပ်၏စာရင်း"
+          }
+        }
+      }
+    },
+    "$live_tv": {
+      "recently_watched": {
+        "$type": "unknown",
+        "$value": "Recently Watched",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "live_tv/recently_watched",
+          "figmaId": "VariableID:14422:23523",
+          "modes": {
+            "en": "Recently Watched",
+            "th": "รับชมล่าสุด",
+            "my": "လတ်တလော ကြည့်ရှုခဲ့သည်"
+          }
+        }
+      },
+      "sports": {
+        "$type": "unknown",
+        "$value": "Sports",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "live_tv/sports",
+          "figmaId": "VariableID:14424:97400",
+          "modes": {
+            "en": "Sports",
+            "th": "กีฬา",
+            "my": "အားကစား"
+          }
+        }
+      },
+      "digital_tv": {
+        "$type": "unknown",
+        "$value": "Digital TV",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "live_tv/digital_tv",
+          "figmaId": "VariableID:14424:97401",
+          "modes": {
+            "en": "Digital TV",
+            "th": "ทีวีดิจิทัล",
+            "my": "ဒစ်ဂျစ်တယ် တီဗီ"
+          }
+        }
+      },
+      "shopping": {
+        "$type": "unknown",
+        "$value": "Shopping",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "live_tv/shopping",
+          "figmaId": "VariableID:14424:97406",
+          "modes": {
+            "en": "Shopping",
+            "th": "ช้อปปิ้ง",
+            "my": "စျေးဝယ်ခြင်း"
+          }
+        }
+      },
+      "today": {
+        "$type": "unknown",
+        "$value": "Today",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "live_tv/today",
+          "figmaId": "VariableID:14485:64843",
+          "modes": {
+            "en": "Today",
+            "th": "วันนี้",
+            "my": "ယနေ့"
+          }
+        }
+      },
+      "$live_player": {
+        "schedules_tab": {
+          "$type": "unknown",
+          "$value": "Schedules",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/schedules_tab",
+            "figmaId": "VariableID:14424:97411",
+            "modes": {
+              "en": "Schedules",
+              "th": "ตารางเวลา",
+              "my": "အချိန်ဇယားများ"
+            }
+          }
+        },
+        "catchup_tab": {
+          "$type": "unknown",
+          "$value": "Catchup",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/catchup_tab",
+            "figmaId": "VariableID:14424:97417",
+            "modes": {
+              "en": "Catchup",
+              "th": "ดูย้อนหลัง",
+              "my": "ပြန်လည်ကြည့်ရှုရန်"
+            }
+          }
+        },
+        "episodes_tab": {
+          "$type": "unknown",
+          "$value": "Episodes",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/episodes_tab",
+            "figmaId": "VariableID:14424:97437",
+            "modes": {
+              "en": "Episodes",
+              "th": "ตอน",
+              "my": "အပိုင်းများ"
+            }
+          }
+        },
+        "catchup_badge": {
+          "$type": "unknown",
+          "$value": "Catchup",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/catchup_badge",
+            "figmaId": "VariableID:14424:97438",
+            "modes": {
+              "en": "Catchup",
+              "th": "ดูย้อนหลัง",
+              "my": "ပြန်လည်ကြည့်ရှုရန်"
+            }
+          }
+        },
+        "live_badge": {
+          "$type": "unknown",
+          "$value": "Live",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/live_badge",
+            "figmaId": "VariableID:14424:97422",
+            "modes": {
+              "en": "Live",
+              "th": "สด",
+              "my": "တိုက်ရိုက်"
+            }
+          }
+        },
+        "processing_status": {
+          "$type": "unknown",
+          "$value": "Processing",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/processing_status",
+            "figmaId": "VariableID:14424:97423",
+            "modes": {
+              "en": "Processing",
+              "th": "กำลังประมวลผล",
+              "my": "ဆောင်ရွက်နေဆဲ"
+            }
+          }
+        },
+        "subscribe_to_watch_button": {
+          "$type": "unknown",
+          "$value": "Subscribe to Watch",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/subscribe_to_watch_button",
+            "figmaId": "VariableID:14424:97436",
+            "modes": {
+              "en": "Subscribe to Watch",
+              "th": "สมัครสมาชิกเพื่อรับชม",
+              "my": "ကြည့်ရှုရန် စာရင်းသွင်းပါ"
+            }
+          }
+        },
+        "no_program_data": {
+          "$type": "unknown",
+          "$value": "No Program Data",
+          "$description": "",
+          "$variable_metadata": {
+            "name": "live_tv/live_player/no_program_data",
+            "figmaId": "VariableID:14578:24334",
+            "modes": {
+              "en": "No Program Data",
+              "th": "ไม่มีข้อมูลโปรแกรม",
+              "my": "ပရိုဂရမ်ဒေတာ မရှိပါ"
+            }
+          }
+        }
+      }
+    },
+    "$maturity_rating": {
+      "trailer": {
+        "$type": "unknown",
+        "$value": "Trailer",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/trailer",
+          "figmaId": "VariableID:17539:39666",
+          "modes": {
+            "en": "Trailer",
+            "th": "ตัวอย่างภาพยนตร์",
+            "my": "ဇာတ်လမ်းနမူနာ"
+          }
+        }
+      },
+      "text": {
+        "$type": "unknown",
+        "$value": "Done",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/Text",
+          "figmaId": "VariableID:17539:39667",
+          "modes": {
+            "en": "Done",
+            "th": "เสร็จสิ้น",
+            "my": "ပြီးပါပြီ"
+          }
+        }
+      },
+      "title": {
+        "$type": "unknown",
+        "$value": "Maturity Rating",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/title",
+          "figmaId": "VariableID:17539:39668",
+          "modes": {
+            "en": "Maturity Rating",
+            "th": "ระดับความเหมาะสมของเนื้อหา",
+            "my": "အသက်သင့်လျော်မှု အဆင့်သတ်မှတ်ချက်"
+          }
+        }
+      },
+      "description": {
+        "$type": "unknown",
+        "$value": "Only titles with the selected ratings will be shown on this profile. ",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/description",
+          "figmaId": "VariableID:17539:39669",
+          "modes": {
+            "en": "Only titles with the selected ratings will be shown on this profile. ",
+            "th": "จะแสดงเฉพาะเรื่องที่มีเรตติ้งตามที่เลือกเท่านั้น",
+            "my": "ရွေးချယ်ထားသော အဆင့်သတ်မှတ်ချက်နှင့် ကိုက်ညီသည့် ခေါင်းစဉ်များသာ ပြသမည်။"
+          }
+        }
+      },
+      "rate_kids": {
+        "$type": "unknown",
+        "$value": "Kids",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/rate_kids",
+          "figmaId": "VariableID:17539:39670",
+          "modes": {
+            "en": "Kids",
+            "th": "เด็ก",
+            "my": "ကလေးများ"
+          }
+        }
+      },
+      "desc_kids": {
+        "$type": "unknown",
+        "$value": "Gentle and age-appropriate content for early school-age kids. May include fun and educational themes.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/desc_kids",
+          "figmaId": "VariableID:17539:39671",
+          "modes": {
+            "en": "Gentle and age-appropriate content for early school-age kids. May include fun and educational themes.",
+            "th": "เนื้อหาอ่อนโยนและเหมาะสมกับเด็กวัยประถม อาจมีธีมสนุกและให้ความรู้",
+            "my": "ကျောင်းစတင်ဝင်သည့် ကလေးများအတွက် သင့်တော်၍ သဘောထားပေါ့ပါးသော အကြောင်းအရာများ ဖြစ်သည်။ ပညာပေးနှင့် ပျော်ရွှင်ဖွယ် သဘောတရားများ ပါဝင်နိုင်သည်။"
+          }
+        }
+      },
+      "rate_teen": {
+        "$type": "unknown",
+        "$value": "Teen",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/rate_teen",
+          "figmaId": "VariableID:17539:39672",
+          "modes": {
+            "en": "Teen",
+            "th": "วัยรุ่น",
+            "my": "ဆယ်ကျော်သက်"
+          }
+        }
+      },
+      "desc_teen": {
+        "$type": "unknown",
+        "$value": "For Teens aged. May contain mild violence or complex themes, but remains age-appropriate",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/desc_teen",
+          "figmaId": "VariableID:17539:39673",
+          "modes": {
+            "en": "For Teens aged. May contain mild violence or complex themes, but remains age-appropriate",
+            "th": "สำหรับวัยรุ่น อาจมีความรุนแรงเล็กน้อยหรือเนื้อหาซับซ้อน แต่ยังเหมาะสมตามวัย",
+            "my": "ရင့်ကျက်မီအရွယ်သူငယ်များအတွက် ဖြစ်ပြီး အကြမ်းအနည်းငယ် သို့မဟုတ် ရှုပ်ထွေးသော အကြောင်းအရာများ ပါဝင်နိုင်သော်လည်း အသက်အရွယ်နှင့် လိုက်လျောကန်တယ်။"
+          }
+        }
+      },
+      "rate_adult": {
+        "$type": "unknown",
+        "$value": "Adult",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/rate_adult",
+          "figmaId": "VariableID:17539:39674",
+          "modes": {
+            "en": "Adult",
+            "th": "ผู้ใหญ่",
+            "my": "လူကြီး"
+          }
+        }
+      },
+      "desc_adult": {
+        "$type": "unknown",
+        "$value": "Intense or explicit content. Viewer discretion strongly advised.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "maturity_rating/desc_adult",
+          "figmaId": "VariableID:17539:39675",
+          "modes": {
+            "en": "Intense or explicit content. Viewer discretion strongly advised.",
+            "th": "มีเนื้อหารุนแรงหรือโจ่งแจ้ง ควรใช้วิจารณญาณอย่างสูง",
+            "my": "ပြင်းထန် သို့မဟုတ် ပွတ်ပြားသည့် အကြောင်းအရာများ ပါဝင်နိုင်သည်။ ကြည့်ရှုသူအနေဖြင့် ထိထိရောက်ရောက် သိပြုကြည့်ရှုရန် အကြံပြုပါသည်။"
+          }
+        }
+      }
+    },
+    "$date": {
+      "tomorrow": {
+        "$type": "unknown",
+        "$value": "Tomorrow",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "date/tomorrow",
+          "figmaId": "VariableID:17860:42207",
+          "modes": {
+            "en": "Tomorrow",
+            "th": "พรุ่งนี้",
+            "my": "မနက်ဖြန်"
+          }
+        }
+      },
+      "today": {
+        "$type": "unknown",
+        "$value": "Today",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "date/today",
+          "figmaId": "VariableID:17860:42208",
+          "modes": {
+            "en": "Today",
+            "th": "วันนี้",
+            "my": "ယနေ့"
+          }
+        }
+      }
+    },
+    "$search": {
+      "input_placeholder": {
+        "$type": "unknown",
+        "$value": "Search movies, shows and more...",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "search/input_placeholder",
+          "figmaId": "VariableID:19003:7072",
+          "modes": {
+            "en": "Search movies, shows and more...",
+            "th": "ค้นหาภาพยนตร์ รายการ และอื่นๆ...",
+            "my": "ရုပ်ရှင်များ၊ ရှိုးများနှင့် အခြားအရာများကို ရှာဖွေပါ..."
+          }
+        }
+      },
+      "empty_desc": {
+        "$type": "unknown",
+        "$value": "Try adjusting your search for better result.",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "search/empty_desc",
+          "figmaId": "VariableID:19085:3900",
+          "modes": {
+            "en": "Try adjusting your search for better result.",
+            "th": "ลองปรับการค้นหาของคุณเพื่อผลลัพธ์ที่ดีขึ้น",
+            "my": "ပိုမိုကောင်းမွန်သောရလဒ်အတွက် သင်၏ရှာဖွေမှုကို ချိန်ညှိကြည့်ပါ။"
+          }
+        }
+      },
+      "empty_title": {
+        "$type": "unknown",
+        "$value": "No result found",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "search/empty_title",
+          "figmaId": "VariableID:19085:3899",
+          "modes": {
+            "en": "No result found",
+            "th": "ไม่พบผลลัพธ์",
+            "my": "ရလဒ်မတွေ့ပါ"
+          }
+        }
+      },
+      "clear_button": {
+        "$type": "unknown",
+        "$value": "Clear",
+        "$description": "",
+        "$variable_metadata": {
+          "name": "search/clear_button",
+          "figmaId": "VariableID:19085:3902",
+          "modes": {
+            "en": "Clear",
+            "th": "ล้าง",
+            "my": "ရှင်းလင်းပါ"
+          }
+        }
+      }
+    }
+  }
+}
