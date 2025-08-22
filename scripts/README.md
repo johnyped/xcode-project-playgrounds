@@ -1,58 +1,62 @@
-# Localized Decoder
+# Gen Localize - Localization Generator
 
-A Swift-based tool for decoding and extracting localized strings from JSON files with configurable input and output paths.
+A Swift-based localization tool that processes JSON files and generates:
+1. **Localized.swift** - Swift structs with localization keys
+2. **Localizable.xcstrings** - Xcode localization file with format placeholder conversion
 
-## Overview
+## Features
 
-This tool reads a JSON file (default: `variables.json`) and extracts:
-1. Available language keys from the collection metadata
-2. All localized key paths with their corresponding translations
+- **Automatic Format Conversion**: Converts format placeholders like `{1}`, `{2}` to `%@` for `.xcstrings` compatibility
+- **Nested Struct Generation**: Creates nested structs with proper CamelCase naming
+- **Multi-language Support**: Supports multiple languages (en, th, my)
+- **Complex JSON Handling**: Handles complex nested JSON structures
+- **Xcode Ready**: Generates files that work seamlessly with Xcode
 
-## Requirements
+## Quick Start
 
-- macOS with Swift installed
-- JSON file with the required structure (default: `variables.json`)
-
-## Usage
-
-### Option 1: Run the shell script (Recommended)
-
-```bash
-# Use default configuration
-./run_decoder.sh
-
-# Customize input and output files
-./run_decoder.sh -i custom_variables.json -s CustomLocalized.swift -x CustomLocalizable.xcstrings
-
-# Show help
-./run_decoder.sh --help
-```
-
-### Option 2: Run the Swift script directly
+### Using the Shell Script (Recommended)
 
 ```bash
-# Use default configuration
-swift run_localize_decoder.swift
+# Basic usage with default files
+./gen_localize.sh
 
-# Customize input and output files
-swift run_localize_decoder.swift -i custom_variables.json -s CustomLocalized.swift -x CustomLocalizable.xcstrings
+# Custom input file
+./gen_localize.sh -i custom_variables.json
+
+# Custom output files
+./gen_localize.sh -s CustomLocalized.swift -x CustomLocalizable.xcstrings
 
 # Show help
-swift run_localize_decoder.swift --help
+./gen_localize.sh --help
 ```
 
-## Configuration Options
+### Using the Swift Script Directly
 
-Both the shell script and Swift script support the following options:
+```bash
+# Basic usage
+swift gen_localize.swift
 
-- `-i, --input <file>` - Input JSON file path (default: `variables.json`)
-- `-s, --swift <file>` - Output Localized.swift file path (default: `Localized.swift`)
-- `-x, --xcstrings <file>` - Output Localizable.xcstrings file path (default: `Localizable.xcstrings`)
-- `-h, --help` - Show help message
+# Custom configuration
+swift gen_localize.swift -i variables.json -s Localized.swift -x Localizable.xcstrings
+
+# Show help
+swift gen_localize.swift --help
+```
+
+## File Structure
+
+```
+scripts/
+├── gen_localize.sh          # Main shell script runner
+├── gen_localize.swift       # Swift localization generator
+├── variables.json           # Input JSON file (place your file here)
+├── Localized.swift          # Generated Swift structs
+└── Localizable.xcstrings   # Generated Xcode localization file
+```
 
 ## Input Format
 
-The tool expects a `variables.json` file with the following structure:
+The tool expects a JSON file with the following structure:
 
 ```json
 {
@@ -65,12 +69,12 @@ The tool expects a `variables.json` file with the following structure:
       ]
     },
     "$section_name": {
-      "item_name": {
+      "key_name": {
         "$variable_metadata": {
           "modes": {
             "en": "English text",
             "th": "Thai text",
-            "my": "Myanmar text"
+            "my": "Burmese text"
           }
         }
       }
@@ -79,47 +83,87 @@ The tool expects a `variables.json` file with the following structure:
 }
 ```
 
-## Output Format
+## Output Examples
 
-The tool outputs:
-
-1. **Available Languages**: List of language keys found in the collection metadata
-2. **Localized Key Paths**: Each localized item with its path and translations
-
-Example output:
-```
-=== Localized Decoder Results ===
-
-Available Languages:
-allAvailableKeys = ["en", "th", "my"]
-
-Localized Key Paths:
-localizedKeyPath[0].paths = ["$tv_navigation_drawer", "switch_profile"]
-localizedKeyPath[0].modes = Modes(modes: ["en": "Switch Profile", "th": "สลับโปรไฟล์", "my": "ပရိုဖိုင်ပြောင်းရန်"])
+### Localized.swift
+```swift
+struct Localized {
+   struct TvNavigationDrawer {
+        static let switchProfile = "tv_navigation_drawer.switch_profile"
+        static let searchMenu = "tv_navigation_drawer.search_menu"
+   }
+   
+   struct TvHomepage {
+        static let premiumTv = "tv_homepage.premium_tv"
+   }
+}
 ```
 
-## Files
+### Localizable.xcstrings
+```json
+{
+  "tv_navigation_drawer.switch_profile": {
+    "extractionState": "manual",
+    "localizations": {
+      "en": {
+        "stringUnit": {
+          "state": "translated",
+          "value": "Switch Profile"
+        }
+      },
+      "th": {
+        "stringUnit": {
+          "state": "translated",
+          "value": "สลับโปรไฟล์"
+        }
+      }
+    }
+  }
+}
+```
 
-- `run_localize_decoder.swift` - Main Swift script
-- `run_decoder.sh` - Shell script wrapper
-- `variables.json` - Input JSON file (you need to provide this)
-- `README.md` - This documentation
+## Format Placeholder Conversion
 
-## How It Works
+The tool automatically converts format placeholders:
+- `"{1} นาที"` → `"%@ นาที"`
+- `"Next Episode in {2} seconds.."` → `"Next Episode in %@ seconds.."`
+- `"Live Time {1}"` → `"Live Time %@"`
 
-1. **JSON Parsing**: Uses native Swift JSONSerialization to parse the input file
-2. **Metadata Extraction**: Extracts language information from collection metadata
-3. **Recursive Traversal**: Walks through the JSON structure to find all localized items
-4. **Path Building**: Constructs the full path to each localized item
-5. **Output Generation**: Formats and displays the results
+This ensures compatibility with Xcode's localization system.
 
-## Error Handling
+## Requirements
 
-The tool includes comprehensive error handling for:
-- Missing `variables.json` file
-- Invalid JSON structure
-- Missing required fields in the JSON
+- macOS with Swift 5.0+
+- Bash shell
+- Input JSON file in the same directory as the scripts
 
-## Integration with iOS Projects
+## Usage Examples
 
-The `LocalizeDecoder.swift` file in the iOS project provides the same functionality as a reusable class that can be integrated into iOS applications.
+### Basic Generation
+```bash
+cd scripts
+./gen_localize.sh
+```
+
+### Custom File Names
+```bash
+./gen_localize.sh -i my_variables.json -s MyLocalized.swift -x MyLocalizable.xcstrings
+```
+
+### Batch Processing
+```bash
+# Process multiple JSON files
+for file in *.json; do
+    ./gen_localize.sh -i "$file" -s "${file%.json}_Localized.swift" -x "${file%.json}_Localizable.xcstrings"
+done
+```
+
+## Troubleshooting
+
+- **File not found**: Ensure `variables.json` is in the same directory as the scripts
+- **Permission denied**: Run `chmod +x gen_localize.sh` to make the script executable
+- **Swift errors**: Ensure you have Swift 5.0+ installed (`swift --version`)
+
+## License
+
+This tool is part of the xcode-project-playgrounds project.

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Localized Decoder Runner Script
-# This script runs the Swift-based localized decoder
+# Gen Localize - Localization Generator Script
+# This script runs the Swift-based localization generator
 
-echo "=== Localized Decoder Runner ==="
+echo "=== Gen Localize - Localization Generator ==="
 echo "Current directory: $(pwd)"
 echo ""
 
@@ -66,7 +66,7 @@ echo "Found $INPUT_FILE, running decoder..."
 echo ""
 
 # Run the Swift script with configuration
-swift run_localize_decoder.swift -i "$INPUT_FILE" -s "$SWIFT_OUTPUT" -x "$XCSTRINGS_OUTPUT"
+swift gen_localize.swift -i "$INPUT_FILE" -s "$SWIFT_OUTPUT" -x "$XCSTRINGS_OUTPUT"
 
 echo ""
-echo "=== Decoder completed ==="
+echo "=== Localization generation completed ==="

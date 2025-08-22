@@ -46,13 +46,13 @@ struct LocalizedData {
     init(from jsonData: Data) throws {
         guard let json = try JSONSerialization.jsonObject(with: jsonData) as? [String: Any],
               let localized = json["@localized"] as? [String: Any] else {
-            throw LocalizedDecoderError.invalidJSONStructure
+            throw GenLocalizeError.invalidJSONStructure
         }
         self.localized = localized
     }
 }
 
-// MARK: - LocalizedDecoder Class
+// MARK: - GenLocalize Class
 /// A Swift-based localization tool that processes JSON files and generates:
 /// 1. Localized.swift - Swift structs with localization keys
 /// 2. Localizable.xcstrings - Xcode localization file with format placeholder conversion
@@ -62,7 +62,7 @@ struct LocalizedData {
 /// - Generates nested structs with proper CamelCase naming
 /// - Supports multiple languages (en, th, my)
 /// - Handles complex nested JSON structures
-class LocalizedDecoder {
+class GenLocalize {
     
     // MARK: - Configuration
     struct Config {
@@ -105,13 +105,13 @@ class LocalizedDecoder {
               let localized = json["@localized"] as? [String: Any],
               let collectionMetadata = localized["$collection_metadata"] as? [String: Any],
               let modesData = collectionMetadata["modes"] as? [[String: Any]] else {
-            throw LocalizedDecoderError.invalidJSONStructure
+            throw GenLocalizeError.invalidJSONStructure
         }
         
         let modes = try modesData.map { modeDict -> LanguageMode in
             guard let key = modeDict["key"] as? String,
                   let name = modeDict["name"] as? String else {
-                throw LocalizedDecoderError.invalidModeStructure
+                throw GenLocalizeError.invalidModeStructure
             }
             return LanguageMode(key: key, name: name)
         }
@@ -132,7 +132,7 @@ class LocalizedDecoder {
     private func extractLocalizedKeyPaths(from jsonData: Data) throws -> [LocalizedKeyPath] {
         guard let json = try JSONSerialization.jsonObject(with: jsonData) as? [String: Any],
               let localized = json["@localized"] as? [String: Any] else {
-            throw LocalizedDecoderError.invalidJSONStructure
+            throw GenLocalizeError.invalidJSONStructure
         }
         
         var keyPaths: [LocalizedKeyPath] = []
@@ -460,7 +460,7 @@ class LocalizedDecoder {
 }
 
 // MARK: - Error Types
-enum LocalizedDecoderError: Error, LocalizedError {
+enum GenLocalizeError: Error, LocalizedError {
     case invalidJSONStructure
     case invalidModeStructure
     case fileNotFound
@@ -480,10 +480,10 @@ enum LocalizedDecoderError: Error, LocalizedError {
 // MARK: - Main Entry Point
 func printUsage() {
     print("""
-    LocalizeDecoder - Swift-based localization tool
+    Gen Localize - Swift-based localization tool
     
     Usage:
-        swift run_localize_decoder.swift [options]
+        swift gen_localize.swift [options]
     
     Options:
         -i, --input <path>           Input JSON file path (default: variables.json)
@@ -492,14 +492,14 @@ func printUsage() {
         -h, --help                   Show this help message
     
     Examples:
-        swift run_localize_decoder.swift
-        swift run_localize_decoder.swift -i custom_variables.json
-        swift run_localize_decoder.swift -s CustomLocalized.swift -x CustomLocalizable.xcstrings
-        swift run_localize_decoder.swift --input /path/to/variables.json --swift /path/to/output.swift
+        swift gen_localize.swift
+        swift gen_localize.swift -i custom_variables.json
+        swift gen_localize.swift -s CustomLocalized.swift -x CustomLocalizable.xcstrings
+        swift gen_localize.swift --input /path/to/variables.json --swift /path/to/output.swift
     """)
 }
 
-func parseArguments() -> LocalizedDecoder.Config {
+func parseArguments() -> GenLocalize.Config {
     var inputPath = "variables.json"
     var swiftPath = "Localized.swift"
     var xcstringsPath = "Localizable.xcstrings"
@@ -548,7 +548,7 @@ func parseArguments() -> LocalizedDecoder.Config {
         }
     }
     
-    return LocalizedDecoder.Config(
+    return GenLocalize.Config(
         inputFilePath: inputPath,
         localizedSwiftOutputPath: swiftPath,
         xcstringsOutputPath: xcstringsPath
@@ -557,5 +557,5 @@ func parseArguments() -> LocalizedDecoder.Config {
 
 // Parse command line arguments and create decoder
 let config = parseArguments()
-let decoder = LocalizedDecoder(config: config)
+let decoder = GenLocalize(config: config)
 decoder.run()
