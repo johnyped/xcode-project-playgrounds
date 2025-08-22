@@ -368,7 +368,30 @@ localizedKeyPath[i].modes = Modes(modes: ["en": "Switch Profile", "th": "สล�
 - nest struct name is CamelCase format // result: "TvNavigationDrawer"
 - property key name is camelCase format // result: "switchProfile"
 - Localized is store of localize key use for mapping within Localizable.xcstrings's key
+5. when we have multiple keys that share the same path prefix , we're creating single struct and add new property key name
+example:
 ```
+struct Player {
+   static let length1 = "player.length_1"
+   // ... more properties
+}
+struct Player {
+   struct Cast {
+      static let selectADevice = "player.cast.select_a_device"
+   }
+}
+
+we should have 
+struct Player {
+   static let length1 = "player.length_1"
+   // ... more properties
+   
+   struct Cast {
+      static let selectADevice = "player.cast.select_a_device"
+   }
+}
+```
+
 struct Localized {
    struct TvNavigationDrawer {
         static let switchProfile = "tv_navigation_drawer.switch_profile" // key 
@@ -383,6 +406,11 @@ struct Localized {
 ```
 ## Step 3: Generate xcode localized file (Localizable.xcstrings)
 - user can config expected output file at path for "Localizable.xcstrings" 
+- when localize value is contain with format {1} , {2} or {n} , we will replace with %@
+example :
+"{1} นาที" -> "%@ นาที"
+"Next Episode in {2} seconds.." -> "Next Episode in %@ seconds.."
+
 # Requirement for Generating Localizable.xcstrings
 
 1. **File Format**:  

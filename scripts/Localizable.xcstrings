@@ -1,0 +1,6516 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+
+    "search.clear_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้าง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရှင်းလင်းပါ"
+          }
+        }
+      }
+    },
+    "search.input_placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search movies, shows and more..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาภาพยนตร์ รายการ และอื่นๆ..."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရုပ်ရှင်များ၊ ရှိုးများနှင့် အခြားအရာများကို ရှာဖွေပါ..."
+          }
+        }
+      }
+    },
+    "search.empty_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try adjusting your search for better result."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองปรับการค้นหาของคุณเพื่อผลลัพธ์ที่ดีขึ้น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပိုမိုကောင်းမွန်သောရလဒ်အတွက် သင်၏ရှာဖွေမှုကို ချိန်ညှိကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "search.empty_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No result found"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่พบผลลัพธ์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရလဒ်မတွေ့ပါ"
+          }
+        }
+      }
+    },
+    "language.my" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မြန်မာ"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မြန်မာ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မြန်မာ"
+          }
+        }
+      }
+    },
+    "language.th" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทย"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทย"
+          }
+        }
+      }
+    },
+    "language.en" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.movies_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Movies"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพยนตร์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရုပ်ရှင်များ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.series_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Series"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซีรีส์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စီးရီးများ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.setting_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help & Settings"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วยเหลือ และ ตั้งค่า"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကူအညီနှင့် ဆက်တင်များ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.search_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရှာဖွေရန်"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.live_tv_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live TV"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีวีออนไลน์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက်ထုတ်လွှင့်တီဗီ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.profile_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.my_lists_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Lists"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รายการของฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်၏စာရင်းများ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.home_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าหลัก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မူလစာမျက်နှာ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.sports_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กีฬา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အားကစားများ"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.exit_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exit App"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกจากแอป"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အက်ပ်မှထွက်ရန်"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.new_on_now_menu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New on NOW"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหม่บน NOW"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသစ်ဆုံး"
+          }
+        }
+      }
+    },
+    "tv_navigation_drawer.switch_profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch Profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สลับโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ပြောင်းရန်"
+          }
+        }
+      }
+    },
+    "profile_display.otp.resend_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resend OTP"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่ง OTP อีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OTP ပြန်ပို့ပါ"
+          }
+        }
+      }
+    },
+    "profile_display.otp.title_otp" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter OTP"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่ OTP"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OTP ထည့်ပါ"
+          }
+        }
+      }
+    },
+    "profile_display.otp.des_otp" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The system has sent an OTP code to"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระบบได้ส่งรหัส OTP ไปที่"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စနစ်မှ OTP ကုဒ်တစ်ခု ပေးပို့လိုက်ပါပြီ။"
+          }
+        }
+      }
+    },
+    "profile_display.otp.comfirm_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အတည်ပြုပါ"
+          }
+        }
+      }
+    },
+    "profile_display.otp.error.too_many_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too many failed attempts. Please try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พยายามล้มเหลวมากเกินไป โปรดลองอีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကြိုးစားမှုများလွန်း၍ မအောင်မြင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.otp.error.vaild_otp" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter the valid OTP."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรดป้อน OTP ที่ถูกต้อง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျေးဇူးပြု၍ မှန်ကန်သော OTP ကို ထည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.otp.error.otp_expired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OTP expired. Please request new OTP."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OTP หมดอายุแล้ว โปรดขอ OTP ใหม่"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OTP သက်တမ်းကုန်သွားပါပြီ။ ကျေးဇူးပြု၍ OTP အသစ် တောင်းဆိုပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.pin_error_api" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong. Please try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တစ်ခုခု မှားယွင်းသွားပါသည်။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.display_language_update_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t change display language. Try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถเปลี่ยนภาษาสำหรับการแสดงผลได้ กรุณาลองใหม่อีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြသဘာသာစကား ပြောင်းလဲမရပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.remove_profile_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to remove profile. Please try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถลบโปรไฟล์ได้ กรุณาลองใหม่อีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ကို မဖယ်ရှားနိုင်ပါ။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.created_profile_success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{Maya} profile has been created."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างโปรไฟล์ {Maya} เรียบร้อยแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{Maya} ပရိုဖိုင်ကို ဖန်တီးပြီးပါပြီ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.created_profile_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to create profile. Please try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถสร้างโปรไฟล์ได้ กรุณาลองใหม่อีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ကို မဖန်တီးနိုင်ပါ။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.remove_profile_success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{Maya} profile has been removed."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรไฟล์ {Maya} ถูกลบเรียบร้อยแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{Maya} ပရိုဖိုင်ကို ဖယ်ရှားပြီးပါပြီ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.profile_name_update_success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile name updated successfully."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดตชื่อโปรไฟล์เรียบร้อยแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်ကို အောင်မြင်စွာ အပ်ဒိတ်ပြီးပါပြီ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.profile_name_update_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to update profile name. Please try again."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถอัปเดตชื่อโปรไฟล์ได้ กรุณาลองใหม่อีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်ကို မအပ်ဒိတ်နိုင်ပါ။ ထပ်ကြိုးစားကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.profile_avatar_update_success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile avatar updated successfully."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดตรูปโปรไฟล์เรียบร้อยแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ပုံကို အောင်မြင်စွာ အပ်ဒိတ်ပြီးပါပြီ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.display_language_update_success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display language updated successfully."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดตภาษาสำหรับการแสดงผลเรียบร้อยแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြသဘာသာစကားကို အောင်မြင်စွာ ပြောင်းလဲပြီးပါပြီ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.profile_avatar_update_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile avatar update failed. Please try again."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถอัปเดตรูปโปรไฟล์ได้ กรุณาลองใหม่อีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ပုံကို အပ်ဒိတ်မလုပ်နိုင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.snack_bar.something_went_wrong" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong. Please try again."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တစ်ခုခု မှားယွင်းသွားပါသည်။ ထပ်ကြိုးစားကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.pin.pin_error_profile_locked" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The profile is temporarily locked, you can try again in 5 minutes."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรไฟล์ถูกล็อกชั่วคราว คุณสามารถลองอีกครั้งในอีก 5 นาที"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ကို ယာယီလော့ခ်ချထားသည်၊ သင် ၅ မိနစ်အတွင်း ထပ်မံကြိုးစားနိုင်သည်။"
+          }
+        }
+      }
+    },
+    "profile_display.pin.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep your profile private and secure with a simple PIN."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งรหัส PIN ง่าย ๆ เพื่อให้โปรไฟล์ของคุณเป็นส่วนตัวและปลอดภัย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရိုးရှင်းသော PIN တစ်ခုဖြင့် သင့်ပရိုဖိုင်ကို ကိုယ်ရေးလုံခြုံ သောလုံခြုံမှု ရှိစေပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.pin.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter PIN"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ป้อนหรัส PIN"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN ထည့်ပါ"
+          }
+        }
+      }
+    },
+    "profile_display.pin.pin_not_valid" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter the valid PIN."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณาใส่รหัส PIN ที่ถูกต้อง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မှန်ကန်သော PIN ကို ထည့်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.kids_badge" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Who’s Watching?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกผู้ชม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဘယ်သူ ကြည့်နေလဲ?"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.edit_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไข"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တည်းဖြတ်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.done_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จสิ้น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြီးပါပြီ"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.add_profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ထည့်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.kids_profile_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรไฟล์เด็ก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကလေးများ"
+          }
+        }
+      }
+    },
+    "profile_display.profile_selection.title_switch_profiles" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch Profiles"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สลับโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်များ ပြောင်းရန်"
+          }
+        }
+      }
+    },
+    "profile_display.button.create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้าง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဖန်တီးရန်"
+          }
+        }
+      }
+    },
+    "profile_display.button.cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပယ်ဖျက်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.button.delete_profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင် ဖျက်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.kids_mode_status_off" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပိတ်ထား"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.profile_name_input_label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Name"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.profile_name_input_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile name can't include special characters like @, #, %, or /."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อโปรไฟล์ต้องไม่มีอักขระพิเศษ เช่น @, #, % หรือ /"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်တွင် @, #, % သို့မဟုတ် / ကဲ့သို့သော အထူးအက္ခရာများ မပါရ။"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.kids_mode_status_on" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဖွင့်ထား"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.display_language.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display Language"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาการแสดงผล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြသဘာသာစကား"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.display_language.title_discription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your preferred language to customize menus, audio, and subtitles across TrueVisions NOW."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกภาษาที่คุณต้องการเพื่อปรับแต่งเมนู เสียง และคำบรรยายทั่วทั้ง TrueVisions NOW"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TrueVisions NOW တစ်လျှောက် မီနူး၊ အသံနှင့် စာတန်းထိုးများကို ပြင်ဆင်ရန် သင်နှစ်သက်သော ဘာသာစကားကို ရွေးချယ်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update this profile’s name or language for a personalized viewing experience on TrueVisions NOW."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดตชื่อโปรไฟล์หรือภาษาสำหรับประสบการณ์รับชมแบบเฉพาะบุคคลบน TrueVisions NOW"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TrueVisions NOW တွင် ပုဂ္ဂိုလ်ရေး လိုက်ဖက်သည့် ကြည့်ရှုမှုအတွေ့အကြုံအတွက် ဤပရိုဖိုင်၏ အမည် သို့မဟုတ် ဘာသာစကားကို ပြင်ဆင်ပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไขโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင် တည်းဖြတ်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.kids_mode_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visit TrueVisions NOW on your mobile to continue."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปที่ TrueVisions NOW บนมือถือของคุณเพื่อดำเนินการต่อ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆက်လုပ်ရန် သင့်မိုဘိုင်းတွင် TrueVisions NOW သို့ သွားပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.kids_mode_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids Mode"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มุมเด็ก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကလေးမုဒ်"
+          }
+        }
+      }
+    },
+    "profile_display.edit_profile.display_language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display Language"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาการแสดงผล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြသဘာသာစကား"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.input_label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Name"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.kids_mode_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids Mode"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มุมเด็ก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကလေးမုဒ်"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.create_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้าง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဖန်တီးရန်"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.input_placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Name"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.input_error_empty" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile name can't be empty or contain spaces."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อโปรไฟล์ต้องไม่เว้นว่างหรือมีช่องว่าง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်ကို လွတ်နေခြင်း သို့မဟုတ် အကွာအဝေးများ ပါဝင်ခြင်း မဖြစ်ရပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.input_error_characters" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile name can't include special characters like @, #, %, or /."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อโปรไฟล์ต้องไม่มีอักขระพิเศษ เช่น @, #, % หรือ /"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်အမည်တွင် @, #, % သို့မဟုတ် / ကဲ့သို့သော အထူးအက္ခရာများ မပါရ။"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a profile for another person watching TrueVisions NOW"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มโปรไฟล์สำหรับผู้ใช้อีกคนที่รับชม TrueVisions NOW"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TrueVisions NOW ကိုကြည့်နေသူ အခြားသူတစ်ဦးအတွက် ပရိုဖိုင်ထည့်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.kids_mode_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only show kids-friendly TV Show and Movie."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดงเฉพาะรายการทีวีและภาพยนตร์ที่เหมาะสำหรับเด็กเท่านั้น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကလေးများအတွက် သင့်လျော်သော တီဗွီရှိုးနှင့် ရုပ်ရှင်များသာ ပြပါ။"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.title_profile_settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Settings"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งค่าโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ဆက်တင်များ"
+          }
+        }
+      }
+    },
+    "profile_display.add_profile.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်တစ်ခုထည့်ရန်"
+          }
+        }
+      }
+    },
+    "profile_display.change_avatar.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your profile avatar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกรูปโปรไฟล์ของคุณ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင့်ပရိုဖိုင်အာဗတာကို ရွေးချယ်ပါ"
+          }
+        }
+      }
+    },
+    "profile_display.change_avatar.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Avatar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนรูปโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင်ပုံ ပြောင်းရန်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.ko" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korean"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกาหลี"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကိုရီးယား"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.gm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Germany"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เยอรมนี"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဂျာမနီ"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.cn" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chinese"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จีน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တရုတ်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.other" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อื่นๆ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အခြားဘာသာများ"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.my" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myanmar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมียนมา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မြန်မာ"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.kh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khmer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กัมพูชา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ခမာ (ကမ္ဘောဒီးယား)"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.en_audio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English (Audio Description)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาอังกฤษ (เสียงบรรยาย)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်္ဂလိပ် (အသံဖော်ပြချက်)"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.original" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Original)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(ต้นฉบับ)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(မူရင်း)"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.ph_filipino" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filipino"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟิลิปิโน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဖိလစ်ပိုင်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.audio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသံ"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.ph_cebuano" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cebuano"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซีบัวโน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စီဘူအာနို (ဖိလစ်ပိုင်ဒေသဘာသာတစ်ခု)"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.en_original" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English (Original)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อังกฤษ (ดังเดิม)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်္ဂလိပ် (Original)"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.jp" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japanese"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ญี่ปุ่น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဂျပန်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.subtitles" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtitles"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำบรรยาย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာတန်းထိုးများ"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.id" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indonesian"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อินโดนีเซีย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်ဒိုနီးရှား"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.vn" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietnamese"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวียดนาม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဗီယက်နမ်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.off_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပိတ်ထားသည်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.en" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อังกฤษ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်္ဂလိပ်"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.en_cc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English (CC)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อังกฤษ (CC)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်္ဂလိပ် (CC)"
+          }
+        }
+      }
+    },
+    "subtitles_and_audio.th" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thai"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ထိုင်း"
+          }
+        }
+      }
+    },
+    "suffix.episodes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Episodes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ตอน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစိတ်အပိုင်း %@"
+          }
+        }
+      }
+    },
+    "suffix.seasons" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Seasons"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ซีซัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရာသီ %@"
+          }
+        }
+      }
+    },
+    "suffix.titles" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Titles"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ เรื่อง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ခေါင်းစဉ် %@"
+          }
+        }
+      }
+    },
+    "suffix.season" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Season"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ซีซัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရာသီ %@"
+          }
+        }
+      }
+    },
+    "suffix.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Title"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ เรื่อง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ခေါင်းစဉ် %@"
+          }
+        }
+      }
+    },
+    "suffix.episode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Episode"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ตอน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစိတ်အပိုင်း %@"
+          }
+        }
+      }
+    },
+    "prefix.season" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Season %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซีซัน %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရာသီ %@"
+          }
+        }
+      }
+    },
+    "prefix.episode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Episode %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนที่ %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစိတ်အပိုင်း %@"
+          }
+        }
+      }
+    },
+    "scan_qr.scan_qr_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan QR"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สแกน QR"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR စကင်ဖတ်ပါ"
+          }
+        }
+      }
+    },
+    "terms_and_condition.input_enter_email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter Email"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรอกอีเมล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အီးမေးလ် ထည့်ပါ"
+          }
+        }
+      }
+    },
+    "terms_and_condition.accpet_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accept"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยอมรับ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လက်ခံရန်"
+          }
+        }
+      }
+    },
+    "terms_and_condition.title_subscription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscription to our newsletter"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมัครรับจดหมายข่าวของเรา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်တို့၏ သတင်းလွှာကို စာရင်းသွင်းပါ။"
+          }
+        }
+      }
+    },
+    "terms_and_condition.scrooll_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scroll to the bottom"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลื่อนลงไปด้านล่างสุด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အောက်ဆုံးထိ လှိမ့်ချပါ"
+          }
+        }
+      }
+    },
+    "terms_and_condition.accept_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accept"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยอมรับ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လက်ခံသည်"
+          }
+        }
+      }
+    },
+    "terms_and_condition.confirm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အတည်ပြုရန်"
+          }
+        }
+      }
+    },
+    "terms_and_condition.personal_data" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personal Data Management"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การจัดการข้อมูลส่วนบุคคล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကိုယ်ရေးအချက်အလက် စီမံခန့်ခွဲမှု"
+          }
+        }
+      }
+    },
+    "terms_and_condition.title_marketing_consent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marketing Consent"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความยินยอมด้านการตลาด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စျေးကွက်ရှာဖွေရေး သဘောတူညီချက်"
+          }
+        }
+      }
+    },
+    "terms_and_condition.checkbox_accpet_all" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accept All "
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยอมรับทั้งหมด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အားလုံးကို လက်ခံရန်"
+          }
+        }
+      }
+    },
+    "terms_and_condition.title_privacy_policy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นโยบายความเป็นส่วนตัว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကိုယ်ရေးအချက်အလက် မူဝါဒ"
+          }
+        }
+      }
+    },
+    "terms_and_condition.decline_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decline"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปฏิเสธ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မလက်ခံပါ"
+          }
+        }
+      }
+    },
+    "terms_and_condition.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms and Conditions"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อกำหนดและเงื่อนไข"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စည်းမျဥ်းများနဲ့ အခြေအနေများ"
+          }
+        }
+      }
+    },
+    "date.tomorrow" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomorrow"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พรุ่งนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မနက်ဖြန်"
+          }
+        }
+      }
+    },
+    "date.today" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ယနေ့"
+          }
+        }
+      }
+    },
+    "badge.live" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက်"
+          }
+        }
+      }
+    },
+    "badge.new" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหม่"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသစ်"
+          }
+        }
+      }
+    },
+    "live_tv.digital_tv" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digital TV"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีวีดิจิทัล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဒစ်ဂျစ်တယ် တီဗီ"
+          }
+        }
+      }
+    },
+    "live_tv.sports" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กีฬา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အားကစား"
+          }
+        }
+      }
+    },
+    "live_tv.shopping" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shopping"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช้อปปิ้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စျေးဝယ်ခြင်း"
+          }
+        }
+      }
+    },
+    "live_tv.today" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ယနေ့"
+          }
+        }
+      }
+    },
+    "live_tv.recently_watched" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recently Watched"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมล่าสุด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လတ်တလော ကြည့်ရှုခဲ့သည်"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.processing_status" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังประมวลผล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆောင်ရွက်နေဆဲ"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.episodes_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Episodes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်းများ"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.schedules_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schedules"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตารางเวลา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အချိန်ဇယားများ"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.catchup_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catchup"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูย้อนหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြန်လည်ကြည့်ရှုရန်"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.catchup_badge" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catchup"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูย้อนหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြန်လည်ကြည့်ရှုရန်"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.subscribe_to_watch_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscribe to Watch"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมัครสมาชิกเพื่อรับชม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကြည့်ရှုရန် စာရင်းသွင်းပါ"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.live_badge" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက်"
+          }
+        }
+      }
+    },
+    "live_tv.live_player.no_program_data" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Program Data"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีข้อมูลโปรแกรม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဂရမ်ဒေတာ မရှိပါ"
+          }
+        }
+      }
+    },
+    "modal.subtitles_audio.audio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသံ"
+          }
+        }
+      }
+    },
+    "modal.subtitles_audio.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtitle"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำบรรยาย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာတန်းထိုး"
+          }
+        }
+      }
+    },
+    "modal.subscribe.error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An error occurred."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အမှားအယွင်းတစ်ခု ဖြစ်ပွားခဲ့သည်။"
+          }
+        }
+      }
+    },
+    "modal.subscribe.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscription Package"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แพ็กเกจการสมัครสมาชิก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "subscription ပက်ကေ့ချ်"
+          }
+        }
+      }
+    },
+    "modal.subscribe.desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The ultimate live sports streaming package and the hottest entertainment channels in Thailand"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แพ็กเกจสตรีมมิ่งกีฬาสดสุดพิเศษและช่องความบันเทิงที่ร้อนแรงที่สุดในประเทศไทย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကောင်းဆုံးတိုက်ရိုက်အားကစားစ့်ထရီးမင်းပက်ကေ့ချ်နှင့် ထိုင်းနိုင်ငံရှိ အပူချိန်အမြင့်ဆုံးဖျော်ဖြေပေးသောချန်နယ်များ"
+          }
+        }
+      }
+    },
+    "modal.delete_profile.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete {Maya} profile?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องการลบโปรไฟล์ {Maya} หรือไม่?"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{Maya} ပရိုဖိုင်ကို ဖျက်မလား?"
+          }
+        }
+      }
+    },
+    "modal.delete_profile.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This will permanently delete all settings and preferences for this profile, including My List and Continue Watching."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การดำเนินการนี้จะลบการตั้งค่าและความชอบทั้งหมดของโปรไฟล์นี้อย่างถาวร รวมถึงรายการของฉันและประวัติการรับชม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဤလုပ်ဆောင်ချက်သည် ကျွန်ုပ်၏စာရင်းနှင့် ဆက်လက်ကြည့်ရှုခြင်း အပါအဝင် ဤပရိုဖိုင်အတွက် ဆက်တင်များနှင့် ဦးစားပေးမှုများအားလုံးကို အပြီးတိုင် ဖျက်ပစ်မည်ဖြစ်သည်။"
+          }
+        }
+      }
+    },
+    "modal.delete_profile.delete_profile_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Profile"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบโปรไฟล์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပရိုဖိုင် ဖျက်ရန်"
+          }
+        }
+      }
+    },
+    "modal.language.title_modal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဘာသာစကားပြောင်းရန်"
+          }
+        }
+      }
+    },
+    "modal.something_went_wrong.try_again_later" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณาลองใหม่อีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျေးဇူးပြု၍ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "modal.something_went_wrong.load_settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We couldn’t load this page right now.. Please try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เราไม่สามารถโหลดหน้านี้ได้ในขณะนี้.. โปรดลองอีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ယခုအချိန်တွင် သင့်ဆက်တင်များကို လုပ်ဆောင်၍ မရနိုင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "modal.something_went_wrong.search_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We couldn't load your search results\nPlease try again later."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เราไม่สามารถโหลดผลการค้นหาของคุณได้\nโปรดลองอีกครั้งในภายหลัง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင်၏ရှာဖွေမှုရလဒ်များကို ကျွန်ုပ်တို့ မဖွင့်နိုင်ပါ\nကျေးဇူးပြု၍ နောက်မှ ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "modal.something_went_wrong.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาดบางอย่าง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တစ်ခုခု မှားယွင်းသွားပါသည်။"
+          }
+        }
+      }
+    },
+    "modal.button.close" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပိတ်ရန်"
+          }
+        }
+      }
+    },
+    "modal.button.back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ย้อนกลับ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်သို့"
+          }
+        }
+      }
+    },
+    "modal.button.log_in" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လော့ဂ်အင်"
+          }
+        }
+      }
+    },
+    "modal.button.cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဖျက်သိမ်းပါ"
+          }
+        }
+      }
+    },
+    "modal.button.try_again" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองอีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ထပ်ကြိုးစားပါ"
+          }
+        }
+      }
+    },
+    "modal.button.refresh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเฟรซ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြန်လည်စတင်ပါ။"
+          }
+        }
+      }
+    },
+    "modal.scan_qr.title_qr_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR code Error"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อผิดพลาดของรหัส QR"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR ကုဒ် အမှားအယွင်း"
+          }
+        }
+      }
+    },
+    "modal.scan_qr.title_logged_in_succe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your TV is now logged in successfully!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีวีของคุณเข้าสู่ระบบเรียบร้อยแล้ว!"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင်၏ တီဗီကို အောင်မြင်စွာ လော့ဂ်အင်ဝင်ပြီးပါပြီ။"
+          }
+        }
+      }
+    },
+    "modal.scan_qr.des_logged_in_succe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can now continue on your TV screen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถดำเนินการต่อบนหน้าจอทีวีของคุณได้แล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ယခု သင်သည် သင်၏ တီဗီဖန်သားပြင်ပေါ်တွင် ဆက်လက်လုပ်ဆောင်နိုင်ပြီဖြစ်သည်။"
+          }
+        }
+      }
+    },
+    "modal.scan_qr.des_qr_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This QR code has expired or has already been used. Please scan a new QR code by refreshing."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รหัส QR นี้หมดอายุแล้วหรือถูกใช้ไปแล้ว โปรดสแกนรหัส QR ใหม่โดยการรีเฟรช"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဤ QR ကုဒ်သည် သက်တမ်းကုန်သွားပြီ သို့မဟုတ် အသုံးပြုပြီးသားဖြစ်သည်။ ကျေးဇူးပြု၍ ပြန်လည်စတင်ခြင်းဖြင့် QR ကုဒ်အသစ်တစ်ခုကို စကင်ဖတ်ပါ။"
+          }
+        }
+      }
+    },
+    "modal.logout.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log out?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกจากระบบหรือไม่?"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကောင့်ထွက်မလား?"
+          }
+        }
+      }
+    },
+    "modal.logout.logout_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log out"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกจากระบบ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကောင့်ထွက်ရန်"
+          }
+        }
+      }
+    },
+    "modal.logout.desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to log out?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကောင့်ထွက်ရန် သေချာပြီလား?"
+          }
+        }
+      }
+    },
+    "modal.closed_app.closed_app_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close App"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดแอป"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပ်ပိတ်ရန်"
+          }
+        }
+      }
+    },
+    "modal.closed_app.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close TrueVisions NOW"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดแอป TrueVisions NOW"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TrueVisions NOW ကိုပိတ်ပါ။"
+          }
+        }
+      }
+    },
+    "modal.closed_app.desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure to close this app?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณแน่ใจหรือไม่ว่าต้องการปิดแอปนี้?"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဤအပ်ကိုပိတ်ရန် သေချာပြီလား?"
+          }
+        }
+      }
+    },
+    "maturity_rating.rate_adult" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adult"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้ใหญ่"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လူကြီး"
+          }
+        }
+      }
+    },
+    "maturity_rating.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จสิ้น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြီးပါပြီ"
+          }
+        }
+      }
+    },
+    "maturity_rating.desc_adult" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intense or explicit content. Viewer discretion strongly advised."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีเนื้อหารุนแรงหรือโจ่งแจ้ง ควรใช้วิจารณญาณอย่างสูง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြင်းထန် သို့မဟုတ် ပွတ်ပြားသည့် အကြောင်းအရာများ ပါဝင်နိုင်သည်။ ကြည့်ရှုသူအနေဖြင့် ထိထိရောက်ရောက် သိပြုကြည့်ရှုရန် အကြံပြုပါသည်။"
+          }
+        }
+      }
+    },
+    "maturity_rating.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only titles with the selected ratings will be shown on this profile. "
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จะแสดงเฉพาะเรื่องที่มีเรตติ้งตามที่เลือกเท่านั้น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရွေးချယ်ထားသော အဆင့်သတ်မှတ်ချက်နှင့် ကိုက်ညီသည့် ခေါင်းစဉ်များသာ ပြသမည်။"
+          }
+        }
+      }
+    },
+    "maturity_rating.desc_teen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For Teens aged. May contain mild violence or complex themes, but remains age-appropriate"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำหรับวัยรุ่น อาจมีความรุนแรงเล็กน้อยหรือเนื้อหาซับซ้อน แต่ยังเหมาะสมตามวัย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရင့်ကျက်မီအရွယ်သူငယ်များအတွက် ဖြစ်ပြီး အကြမ်းအနည်းငယ် သို့မဟုတ် ရှုပ်ထွေးသော အကြောင်းအရာများ ပါဝင်နိုင်သော်လည်း အသက်အရွယ်နှင့် လိုက်လျောကန်တယ်။"
+          }
+        }
+      }
+    },
+    "maturity_rating.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maturity Rating"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระดับความเหมาะสมของเนื้อหา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသက်သင့်လျော်မှု အဆင့်သတ်မှတ်ချက်"
+          }
+        }
+      }
+    },
+    "maturity_rating.rate_teen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teen"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วัยรุ่น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆယ်ကျော်သက်"
+          }
+        }
+      }
+    },
+    "maturity_rating.rate_kids" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เด็ก"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကလေးများ"
+          }
+        }
+      }
+    },
+    "maturity_rating.trailer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trailer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวอย่างภาพยนตร์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဇာတ်လမ်းနမူနာ"
+          }
+        }
+      }
+    },
+    "maturity_rating.desc_kids" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gentle and age-appropriate content for early school-age kids. May include fun and educational themes."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เนื้อหาอ่อนโยนและเหมาะสมกับเด็กวัยประถม อาจมีธีมสนุกและให้ความรู้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျောင်းစတင်ဝင်သည့် ကလေးများအတွက် သင့်တော်၍ သဘောထားပေါ့ပါးသော အကြောင်းအရာများ ဖြစ်သည်။ ပညာပေးနှင့် ပျော်ရွှင်ဖွယ် သဘောတရားများ ပါဝင်နိုင်သည်။"
+          }
+        }
+      }
+    },
+    "player.skip_recap_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip Recap"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้ามการสรุป"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြန်လည်သုံးသပ်ချက်ကို ကျော်သွားပါ"
+          }
+        }
+      }
+    },
+    "player.season.min" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ m"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ นาที"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ မိနစ်"
+          }
+        }
+      }
+    },
+    "player.season.season_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Season %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซีซัน %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရာသီ %@"
+          }
+        }
+      }
+    },
+    "player.season.select_season" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Season"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกซีซัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရာသီ ရွေးချယ်ပါ"
+          }
+        }
+      }
+    },
+    "player.season.ep_number" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ep. %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนที่ %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်း %@"
+          }
+        }
+      }
+    },
+    "player.text_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next Episode"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนถัดไป"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်တစ်ပိုင်း"
+          }
+        }
+      }
+    },
+    "player.setting_menu.speed_menu.speed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speed"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความเร็ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အမြန်နှုန်း"
+          }
+        }
+      }
+    },
+    "player.setting_menu.episodes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Episodes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်းများ"
+          }
+        }
+      }
+    },
+    "player.setting_menu.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รายละเอียด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသေးစိတ်"
+          }
+        }
+      }
+    },
+    "player.setting_menu.audio_subtitles_menu.audio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသံ"
+          }
+        }
+      }
+    },
+    "player.setting_menu.audio_subtitles_menu.subtitles" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtitles"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำบรรยาย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာတန်းထိုး"
+          }
+        }
+      }
+    },
+    "player.setting_menu.episodes_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Episodes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอน 2"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်းများ"
+          }
+        }
+      }
+    },
+    "player.setting_menu.audio_subtitles" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio & Subtitles"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียงและคำบรรยาย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသံနှင့် စာတန်းထိုး"
+          }
+        }
+      }
+    },
+    "player.setting_menu.info" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูล"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အချက်အလက်"
+          }
+        }
+      }
+    },
+    "player.setting_menu.speed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speed"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความเร็ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အမြန်နှုန်း"
+          }
+        }
+      }
+    },
+    "player.setting_menu.next_ep" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next Ep."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนต่อไป"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်အပိုင်း။"
+          }
+        }
+      }
+    },
+    "player.skip_intro_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip Intro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้ามบทนำ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နိဒါန်း ကျော်သွားပါ"
+          }
+        }
+      }
+    },
+    "player.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Credits"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมเครดิต"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ချီးမြှင့်စာများကို ကြည့်ရန်"
+          }
+        }
+      }
+    },
+    "player.length_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{2:14:00}"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{2:14:00}"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{2:14:00}"
+          }
+        }
+      }
+    },
+    "player.nextepisodein5seconds" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next Episode in %@ seconds.."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนถัดไปจะเริ่มใน %@ วินาที..."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်တစ်ပိုင်း %@ စက္ကန့်အတွင်း..."
+          }
+        }
+      }
+    },
+    "player.text_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Live"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชม Live"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက် ကြည့်ရန်"
+          }
+        }
+      }
+    },
+    "player.end_credit.watch_credits" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Credits"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูเครดิต"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credit များ ကြည့်ရှုရန်"
+          }
+        }
+      }
+    },
+    "player.end_credit.next_episode_in" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next Episode in"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนต่อไปใน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်အပိုင်း လာပါမည်"
+          }
+        }
+      }
+    },
+    "player.end_credit.seconds" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " seconds.."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " วินาที.."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " စက္ကန့်.."
+          }
+        }
+      }
+    },
+    "player.cast.select_a_device" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a Device to Cast"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกอุปกรณ์ที่จะแคสต์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကာစ်လုပ်ရန် စက်ပစ္စည်းတစ်ခုကို ရွေးချယ်ပါ"
+          }
+        }
+      }
+    },
+    "player.next_episode_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next Episode"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนต่อไป"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်တစ်ပိုင်း"
+          }
+        }
+      }
+    },
+    "player.watch_live_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Live"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูสด"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက် ကြည့်ရှုပါ"
+          }
+        }
+      }
+    },
+    "player.length" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{1:35:21}"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{1:35:21}"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{1:35:21}"
+          }
+        }
+      }
+    },
+    "player.live" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက်"
+          }
+        }
+      }
+    },
+    "help_settings.device.device_model" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device Model"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รุ่นอุปกรณ์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စက်အမျိုးအစား"
+          }
+        }
+      }
+    },
+    "help_settings.device.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View details about your device and software versions."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูรายละเอียดเกี่ยวกับอุปกรณ์และเวอร์ชันของซอฟต์แวร์ของคุณ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင့်စက်နှင့် ဆော့ဖ်ဝဲ ဗားရှင်းများ အကြောင်းအသေးစိတ် ကိုကြည့်ပါ။"
+          }
+        }
+      }
+    },
+    "help_settings.device.software_version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Software Version"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชันซอฟต์แวร์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆော့ဖ်ဝဲ ဗားရှင်း"
+          }
+        }
+      }
+    },
+    "help_settings.device.platform_version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platform Version"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชันแพลตฟอร์ม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပလက်ဖောင်းဗားရှင်း"
+          }
+        }
+      }
+    },
+    "help_settings.device.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devices"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุปกรณ์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စက်များ"
+          }
+        }
+      }
+    },
+    "help_settings.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage your account and device preferences."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จัดการบัญชีและการตั้งค่าของอุปกรณ์ของคุณ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင့်အကောင့်နှင့် စက်ဆိုင်ရာ ကြိုတင်သတ်မှတ်ချက်များကို စီမံခန့်ခွဲပါ။"
+          }
+        }
+      }
+    },
+    "help_settings.button.agree_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agree"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยอมรับ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သဘောတူသည်"
+          }
+        }
+      }
+    },
+    "help_settings.button.logout_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log out"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกจากระบบ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကောင့်ထွက်ရန်"
+          }
+        }
+      }
+    },
+    "help_settings.button.decline_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decline"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปฏิเสธ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မလက်ခံပါ"
+          }
+        }
+      }
+    },
+    "help_settings.button.back_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ย้อนกลับ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နောက်သို့"
+          }
+        }
+      }
+    },
+    "help_settings.account_settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account Settings"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่าบัญชี"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကောင့်ဆက်တင်များ"
+          }
+        }
+      }
+    },
+    "help_settings.terms_and_conditions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms and Conditions"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อกำหนดและเงื่อนไข"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စည်းမျဥ်းများနဲ့ အခြေအနေများ"
+          }
+        }
+      }
+    },
+    "help_settings.device" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devices"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุปกรณ์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စက်များ"
+          }
+        }
+      }
+    },
+    "help_settings.terms_and_conditions.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usage terms for TrueVisions Now services."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อกำหนดการใช้งานสำหรับบริการ TrueVisions NOW"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TrueVisions NOW ဝန်ဆောင်မှုများ အသုံးပြုခြင်းဆိုင်ရာ စည်းကမ်းများ"
+          }
+        }
+      }
+    },
+    "help_settings.terms_and_conditions.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms and Conditions"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อกำหนดและเงื่อนไข"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စည်းမျဥ်းများနဲ့ အခြေအနေများ"
+          }
+        }
+      }
+    },
+    "help_settings.account_settings.title_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan the QR code to manage your account on our website. Or visit https://myaccount.tvs.net"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สแกน QR code เพื่อจัดการบัญชีของคุณบนเว็บไซต์ของเรา หรือไปที่ https://myaccount.tvs.net"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်တို့၏ဝဘ်ဆိုဒ်တွင် သင့်အကောင့်ကို စီမံခန့်ခွဲရန် QR ကုဒ်ကို စကင်ဖတ်ပါ။ သို့မဟုတ် https://myaccount.tvs.net သို့ ဝင်ရောက်ကြည့်ရှုပါ။"
+          }
+        }
+      }
+    },
+    "help_settings.account_settings.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan QR Code"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สแกน QR Code"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR ကုဒ်ကို စကင်ဖတ်ပါ။"
+          }
+        }
+      }
+    },
+    "help_settings.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help & Settings"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความช่วยเหลือและการตั้งค่า"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကူအညီနှင့် ဆက်တင်များ"
+          }
+        }
+      }
+    },
+    "on_boarding.login_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login or Register"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบหรือลงทะเบียน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လော့ဂ်အင် သို့မဟုတ် မှတ်ပုံတင်ပါ။"
+          }
+        }
+      }
+    },
+    "_backlog.menu_categories" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categories"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมวดหมู่"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အမျိုးအစားများ"
+          }
+        }
+      }
+    },
+    "tv_homepage.premium_tv" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscribe to TrueVisions Now to enjoy this content"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมัครสมาชิกทรูวิชั่นส์ตอนนี้ เพื่อรับชมคอนเทนต์นี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဤအကြောင်းအရာကိုကြည့်ရှုရန် TrueVisions သို့ စာရင်းသွင်းပါ။"
+          }
+        }
+      }
+    },
+    "tv_homepage.live_time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live Time %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายทอดสดเป็นเวลา %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက်ထုတ်လွှင့်ချိန် %@"
+          }
+        }
+      }
+    },
+    "tv_homepage.reminded_set_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder set"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งการแจ้งเตือนแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မေ့မသွားအောင် မှတ်ပေးပါ"
+          }
+        }
+      }
+    },
+    "tv_homepage.streaming" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streaming %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สตรีมมิ่ง %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စ့်ထရီးမင်း %@"
+          }
+        }
+      }
+    },
+    "tv_homepage.reminded_me_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remind me"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เตือนฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မှတ်မိစေပါ"
+          }
+        }
+      }
+    },
+    "tv_homepage.watch_now_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Now"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมตอนนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အခုကြည့်ပါ "
+          }
+        }
+      }
+    },
+    "new_on_now.reminder_set_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder Set"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งค่าการเตือนแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ"
+          }
+        }
+      }
+    },
+    "new_on_now.remind_me_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remind Me"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เตือนฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်ကို သတိပေးပါ"
+          }
+        }
+      }
+    },
+    "new_on_now.my_list_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My List"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รายการของฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်၏စာရင်း"
+          }
+        }
+      }
+    },
+    "new_on_now.watch_now_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Now"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมตอนนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ယခု ကြည့်ရှုပါ။"
+          }
+        }
+      }
+    },
+    "sign_in_qr.log_in_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Open the TrueVisions NOW app on your device. 2. Navigate to Settings and select Scan QR Code. 3. Use your phone to scan this QR code to confirm your login."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. เปิดแอป TrueVisions NOW บนอุปกรณ์ของคุณ\n2. ไปที่ “การตั้งค่า” และเลือก “สแกน QR Code”\n3. ใช้โทรศัพท์ของคุณสแกน QR Code นี้เพื่อยืนยันการเข้าสู่ระบบ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. သင့်စက်တွင် TrueVisions NOW အက်ပ်ကိုဖွင့်ပါ။\n2. ဆက်တင်များသို့ သွားပြီး QR ကုဒ်ကို စကင်န်ဖတ်ရန် ရွေးချယ်ပါ။\n3. သင်၏လော့ဂ်အင်ကို အတည်ပြုရန် ဤ QR ကုဒ်ကို သင့်ဖုန်းဖြင့် စကင်န်ဖတ်ပါ။"
+          }
+        }
+      }
+    },
+    "sign_in_qr.qr_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An error occurred, Refresh QR Code."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาด\nรีเฟรช QR Code"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အမှားအယွင်းတစ်ခု ဖြစ်ပွားခဲ့သည်၊ QR ကုဒ်ကို ပြန်လည်စတင်ပါ။"
+          }
+        }
+      }
+    },
+    "sign_in_qr.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in with QR Code"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย QR Code"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Code ဖြင့် 로그인 ဝင်ရောက်ပါ။"
+          }
+        }
+      }
+    },
+    "sign_in_qr.qr_session_expired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session Expired, Please refresh QR Code."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เซสชันหมดอายุ\nกรุณารีเฟรช QR Code"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စက်ရှင်သက်တမ်းကုန်သွားပါပြီ၊ ကျေးဇူးပြု၍ QR ကုဒ်ကို ပြန်လည်စတင်ပါ။"
+          }
+        }
+      }
+    },
+    "sign_in_qr.language_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนภาษา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဘာသာစကားပြောင်းရန်"
+          }
+        }
+      }
+    },
+    "content_detail.event_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Event"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อีเวนต์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အဖြစ်အပျက်"
+          }
+        }
+      }
+    },
+    "content_detail.removed_continue_watching_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove from Continue Watching"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบออกจากรายการรับชมต่อ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆက်လက်ကြည့်ရှုရန်မှ ဖယ်ရှားပါ"
+          }
+        }
+      }
+    },
+    "content_detail.share_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မျှဝေပါ"
+          }
+        }
+      }
+    },
+    "content_detail.removed_list_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove from My List"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบออกจากรายการของฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာရင်းထဲမှ ဖယ်ရှားရန်"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.unable_to_add" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to add to My List.  Please try again."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถเพิ่มลงในรายการของฉันได้\nโปรดลองอีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်၏စာရင်းသို့ ထည့်၍မရပါ။ နောက်တစ်ကြိမ် ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.remove_your_list" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Removed from Your List! You can always add it back!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบออกจากรายการของคุณแล้ว!\nคุณสามารถเพิ่มกลับได้เสมอ!"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင်၏စာရင်းမှ ဖယ်ရှားပြီးပါပြီ။ သင်အမြဲတမ်း ပြန်ထည့်နိုင်ပါသည်။"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.added_to_your_list" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Added to Your List! Watch it whenever you’re ready."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มในรายการของคุณแล้ว!\nพร้อมเมื่อไหร่ก็ดูได้เลย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင်၏စာရင်းထဲသို့ ထည့်ပြီးပါပြီ။ သင်အဆင်သင့်ဖြစ်သည့်အခါတိုင်း ကြည့်ရှုနိုင်ပါသည်။"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.reminder_set" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder Set! We'll notify you on 5 May 2025"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งการเตือนแล้ว!\nเราจะแจ้งให้คุณทราบในวันที่ 5 พฤษภาคม 2568"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ။ ၂၀၂၅ ခုနှစ် မေလ ၅ ရက်နေ့တွင် သင့်အား အကြောင်းကြားပါမည်။"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.reminder_canceled" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder canceled. You can always set a reminder."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิกการเตือนแล้ว\nคุณสามารถตั้งการเตือนได้เสมอ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သတိပေးချက်ကို ပယ်ဖျက်လိုက်ပါသည်။ သင်အမြဲတမ်း သတိပေးချက်တစ်ခု သတ်မှတ်နိုင်ပါသည်။"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.unable_to_remove" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to remove from My List. Please try again."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถลบออกจากรายการของฉันได้\nโปรดลองอีกครั้ง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်၏စာရင်းမှ ဖယ်ရှား၍မရပါ။ နောက်တစ်ကြိမ် ထပ်ကြိုးစားပါ။"
+          }
+        }
+      }
+    },
+    "content_detail.my_lists.reminder_set_live" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder Set! We'll notify you on Sat 02:30"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งการเตือนแล้ว!\nเราจะแจ้งให้คุณทราบในวันเสาร์ 02:30"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ။ စနေနေ့ မနက် ၂:၃၀ တွင် သင့်အား အကြောင်းကြားပါမည်။"
+          }
+        }
+      }
+    },
+    "content_detail.remaining" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{1m} remaining"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหลืออีก {1m}"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျန် {1m}"
+          }
+        }
+      }
+    },
+    "content_detail.added_list_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add to My List"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มในรายการของฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာရင်းထဲသို့ ထည့်ရန်"
+          }
+        }
+      }
+    },
+    "content_detail.episode_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Episode"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်း "
+          }
+        }
+      }
+    },
+    "content_detail.continue_episode_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume Episode %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมตอนที่ %@ ต่อ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစိတ်အပိုင်း %@ ကို ဆက်လက်ကြည့်ရှုရန်"
+          }
+        }
+      }
+    },
+    "content_detail.watch_live_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Live"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชม Live"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တိုက်ရိုက်ကြည့်ရှုပါ"
+          }
+        }
+      }
+    },
+    "content_detail.more_like_this_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More like this"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณน่าจะชอบ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဒီလိုတူတဲ့အကြောင်းအရာများ"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.movie_rating_g" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General Audiences"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกเพศทุกวัย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လူအားလုံးအတွက်"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.marutiry_rating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maturity Rating"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระดับความเหมาะสมของเนื้อหา"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသက်အappropriateန်အစားသတ်မှတ်ချက်"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.movie_rating_pg13" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parents Strongly Cautioned"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่เหมาะสำหรับเด็กอายุต่ำกว่า 13 ปี"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "၁၃နှစ်အောက် မသင့်တော်နိုင်"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.more_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "more"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มเติม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပို"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.movie_rating_r" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restricted"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จำกัดอายุผู้ชม (ต่ำกว่า 17 ปีควรมีผู้ปกครอง)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "၁၇နှစ်အောက် မိဘလိုသည်"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.director" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Director"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้กำกับ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဒါရိုက်တာ"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.movie_rating_pg" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parental Guidance Suggested"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ควรได้รับคำแนะนำจากผู้ปกครอง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မိဘအကြံပြုလိုသည်"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.director_mobile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Director:"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้กำกับ:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဒါရိုက်တာ:"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.genres" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genres"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประเภท"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အမျိုးအစားများ"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.cast_mobile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cast:"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักแสดง:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သရုပ်ဆောင်အဖွဲ့:"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.cast" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cast"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักแสดง"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သရုပ်ဆောင်အဖွဲ့"
+          }
+        }
+      }
+    },
+    "content_detail.more_info.movie_rating_nc17" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adults Only"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฉพาะผู้ใหญ่เท่านั้น (18 ปีขึ้นไป)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "၁၈နှစ်အထက်သာ"
+          }
+        }
+      }
+    },
+    "content_detail.continue_season_episode_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume S%@, E%@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมต่อ ซีซั่น %@, ตอนที่ %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်း %@၊ အပိုင်းခွဲ %@ ကို ဆက်လက်ကြည့်ရှုပါ။"
+          }
+        }
+      }
+    },
+    "content_detail.trailer_and_more_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trailer and More"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวอย่างและอื่นๆ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဇာတ်လမ်းနမူနာနှင့်အခြားများ"
+          }
+        }
+      }
+    },
+    "content_detail.related_list_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Related List"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่องที่คล้ายกัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သက်ဆိုင်သောစာရင်း"
+          }
+        }
+      }
+    },
+    "content_detail.watch_episode_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Episode %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมตอนที่ %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစိတ်အပိုင်း %@ ကိုကြည့်ရန်"
+          }
+        }
+      }
+    },
+    "content_detail.seasons" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Seasons"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ซีซัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ရာသီများ"
+          }
+        }
+      }
+    },
+    "content_detail.more_episode_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More Episodes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนเพิ่มเติม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစိတ်အပိုင်းများ ပိုမိုကြည့်ရှုရန်"
+          }
+        }
+      }
+    },
+    "content_detail.watch_season_episode_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch S%@, E%@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชม ซีซั่น %@, ตอนที่ %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အပိုင်း %@၊ အပိုင်းခွဲ %@ ကိုကြည့်ရှုပါ။"
+          }
+        }
+      }
+    },
+    "content_detail.watch_now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch Now"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมตอนนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အခုတင်ကြည့်ပါ"
+          }
+        }
+      }
+    },
+    "content_detail.reminder_set_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder Set"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งการเตือนแล้ว"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သတိပေးချက် သတ်မှတ်ပြီးပါပြီ"
+          }
+        }
+      }
+    },
+    "content_detail.collection_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collection"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คอลเลกชัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စုစည်းမှုများ"
+          }
+        }
+      }
+    },
+    "content_detail.subtitles_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio & Subtitles"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียงและคำบรรยาย"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသံနှင့်စာတန်းထိုး"
+          }
+        }
+      }
+    },
+    "content_detail.my_list_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My List"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รายการของฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်၏စာရင်း"
+          }
+        }
+      }
+    },
+    "content_detail.credit_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credit & More Info"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เครดิตและข้อมูลเพิ่มเติม"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ချီးကျူးစာနှင့် အသေးစိတ်အချက်အလက်များ"
+          }
+        }
+      }
+    },
+    "content_detail.season" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Season %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซีซัน %@"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရာသီ %@"
+          }
+        }
+      }
+    },
+    "content_detail.watched_from_beginning_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch From Beginning"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมตั้งแต่ต้น"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အစမှကြည့်ရန်"
+          }
+        }
+      }
+    },
+    "content_detail.partner" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get the %@ app and start watching now"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลดแอป %@ และเริ่มรับชมได้เลยตอนนี้"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ အပ်ကိုဒေါင်းလုတ်ပြီး အခုတင်စပြီးကြည့်လိုက်ပါ"
+          }
+        }
+      }
+    },
+    "content_detail.continue_watching_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับชมต่อ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆက်လက်ကြည့်ရှုရန်"
+          }
+        }
+      }
+    },
+    "content_detail.remind_me_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remind Me"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เตือนฉัน"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကျွန်ုပ်ကို သတိပေးပါ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

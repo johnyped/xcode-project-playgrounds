@@ -53,6 +53,15 @@ struct LocalizedData {
 }
 
 // MARK: - LocalizedDecoder Class
+/// A Swift-based localization tool that processes JSON files and generates:
+/// 1. Localized.swift - Swift structs with localization keys
+/// 2. Localizable.xcstrings - Xcode localization file with format placeholder conversion
+/// 
+/// Features:
+/// - Automatically converts format placeholders like {1}, {2} to %@ for .xcstrings compatibility
+/// - Generates nested structs with proper CamelCase naming
+/// - Supports multiple languages (en, th, my)
+/// - Handles complex nested JSON structures
 class LocalizedDecoder {
     
     // MARK: - Configuration
@@ -210,42 +219,13 @@ class LocalizedDecoder {
         
         """
         
-        // Group keyPaths by their paths
-        var groupedPaths: [String: [LocalizedKeyPath]] = [:]
+        // Build the tree structure
+        let rootNodes = buildTree(from: keyPaths)
         
-        for keyPath in keyPaths {
-            let pathKey = keyPath.paths.joined(separator: ".")
-            if groupedPaths[pathKey] == nil {
-                groupedPaths[pathKey] = []
-            }
-            groupedPaths[pathKey]?.append(keyPath)
-        }
-        
-        // Generate nested structs
-        for (pathKey, paths) in groupedPaths {
-            let pathComponents = pathKey.components(separatedBy: ".")
-            var indent = "   "
-            
-            // Generate nested structs
-            for (index, component) in pathComponents.enumerated() {
-                let pascalCaseName = toPascalCase(component)
-                swiftCode += "\(indent)struct \(pascalCaseName) {\n"
-                indent += "   "
-                
-                // If this is the last level, add the keys
-                if index == pathComponents.count - 1 {
-                    for keyPath in paths {
-                        let keyName = toCamelCase(keyPath.key.components(separatedBy: ".").last ?? "")
-                        swiftCode += "\(indent)static let \(keyName) = \"\(keyPath.key)\"\n"
-                    }
-                }
-            }
-            
-            // Close all the nested structs
-            for _ in pathComponents {
-                indent = String(indent.dropLast(3))
-                swiftCode += "\(indent)}\n"
-            }
+        // Generate Swift code from the tree
+        for (_, rootNode) in rootNodes.sorted(by: { $0.key < $1.key }) {
+            swiftCode += "\n"
+            swiftCode += generateSwiftCode(from: rootNode, indent: "   ")
         }
         
         swiftCode += "}\n"
@@ -266,6 +246,48 @@ class LocalizedDecoder {
         let components = string.components(separatedBy: "_")
         let pascalCase = components.map { $0.prefix(1).uppercased() + $0.dropFirst() }.joined()
         return pascalCase
+    }
+    
+    /// Converts format placeholders like {1}, {2}, {n} to %@ format for .xcstrings compatibility
+    /// Examples:
+    /// - "{1} นาที" → "%@ นาที"
+    /// - "Next Episode in {2} seconds.." → "Next Episode in %@ seconds.."
+    /// - "Live Time {1}" → "Live Time %@"
+    private func convertFormatPlaceholders(_ string: String) -> String {
+        // Convert format placeholders like {1}, {2}, {n} to %@
+        // This regex matches { followed by one or more digits followed by }
+        let pattern = "\\{\\d+\\}"
+        
+        do {
+            let regex = try NSRegularExpression(pattern: pattern, options: [])
+            let range = NSRange(location: 0, length: string.utf16.count)
+            let converted = regex.stringByReplacingMatches(in: string, options: [], range: range, withTemplate: "%@")
+            
+            // Log conversion if any placeholders were found and converted
+            if converted != string {
+                print("   🔄 Format conversion: \"\(string)\" → \"\(converted)\"")
+            }
+            
+            return converted
+        } catch {
+            print("   ⚠️  Warning: Failed to convert format placeholders in \"\(string)\": \(error)")
+            return string
+        }
+    }
+    
+    // MARK: - Tree Structure for Nested Structs
+    private class LocalizedNode {
+        let name: String
+        var properties: [String: String] = [:]
+        var children: [String: LocalizedNode] = [:]
+        
+        init(name: String) {
+            self.name = name
+        }
+        
+        var hasContent: Bool {
+            return !properties.isEmpty || !children.isEmpty
+        }
     }
     
     // MARK: - Generate Localizable.xcstrings
@@ -289,7 +311,9 @@ class LocalizedDecoder {
             // Add each language
             for (langIndex, language) in languages.enumerated() {
                 let value = keyPath.modes[language] ?? ""
-                let escapedValue = value.replacingOccurrences(of: "\"", with: "\\\"")
+                // Convert format placeholders like {1}, {2} to %@
+                let convertedValue = convertFormatPlaceholders(value)
+                let escapedValue = convertedValue.replacingOccurrences(of: "\"", with: "\\\"")
                     .replacingOccurrences(of: "\n", with: "\\n")
                 
                 xcstrings += """
@@ -317,6 +341,76 @@ class LocalizedDecoder {
         """
         
         return xcstrings
+    }
+    
+    // MARK: - Tree Building and Code Generation
+    private func buildTree(from keyPaths: [LocalizedKeyPath]) -> [String: LocalizedNode] {
+        var rootNodes: [String: LocalizedNode] = [:]
+        
+        for keyPath in keyPaths {
+            let paths = keyPath.paths
+            let key = keyPath.key
+            
+            // Handle edge case: if paths is empty, insert "Other"
+            let finalPaths = paths.isEmpty ? ["Other"] : paths
+            
+            // Build the tree structure
+            var currentNode: LocalizedNode?
+            
+            for (index, pathComponent) in finalPaths.enumerated() {
+                let cleanPathComponent = pathComponent.hasPrefix("$") ? String(pathComponent.dropFirst()) : pathComponent
+                let pascalCaseName = toPascalCase(cleanPathComponent)
+                
+                if index == 0 {
+                    // Root level - work directly with rootNodes
+                    if let existingNode = rootNodes[pascalCaseName] {
+                        currentNode = existingNode
+                    } else {
+                        let newNode = LocalizedNode(name: pascalCaseName)
+                        rootNodes[pascalCaseName] = newNode
+                        currentNode = newNode
+                    }
+                } else {
+                    // Deeper level - work with children
+                    if let existingNode = currentNode?.children[pascalCaseName] {
+                        currentNode = existingNode
+                    } else {
+                        let newNode = LocalizedNode(name: pascalCaseName)
+                        currentNode?.children[pascalCaseName] = newNode
+                        currentNode = newNode
+                    }
+                }
+                
+                // If this is the last path component, add the property
+                if index == finalPaths.count - 1 {
+                    let keyName = toCamelCase(key.components(separatedBy: ".").last ?? "")
+                    currentNode?.properties[keyName] = key
+                }
+            }
+        }
+        
+        return rootNodes
+    }
+    
+    private func generateSwiftCode(from node: LocalizedNode, indent: String = "") -> String {
+        var swiftCode = ""
+        
+        // Generate struct declaration
+        swiftCode += "\(indent)struct \(node.name) {\n"
+        
+        // Generate properties first
+        for (propertyName, keyValue) in node.properties.sorted(by: { $0.key < $1.key }) {
+            swiftCode += "\(indent)   static let \(propertyName) = \"\(keyValue)\"\n"
+        }
+        
+        // Generate nested structs
+        for (_, childNode) in node.children.sorted(by: { $0.key < $1.key }) {
+            swiftCode += "\n"
+            swiftCode += generateSwiftCode(from: childNode, indent: indent + "   ")
+        }
+        
+        swiftCode += "\(indent)}\n"
+        return swiftCode
     }
     
     // MARK: - Main Function for Shell Script
@@ -349,10 +443,11 @@ class LocalizedDecoder {
             let localizedSwift = generateLocalizedSwift(keyPaths: keyPaths)
             let swiftFilePath = "\(currentDirectory)/\(config.localizedSwiftOutputPath)"
             try localizedSwift.write(toFile: swiftFilePath, atomically: true, encoding: .utf8)
-            print("✅ Localized.swift generated successfully at: \(swiftFilePath)")
+            print("✅ Localized.swift generated successfully at: \(swiftFilePath)")            
             
             // Generate Localizable.xcstrings file
             print("\n=== Generating Localizable.xcstrings ===")
+            print("📝 Converting format placeholders (e.g., {1}, {2} → %@)...")
             let xcstrings = generateLocalizableXcstrings(keyPaths: keyPaths, languages: languages)
             let xcstringsFilePath = "\(currentDirectory)/\(config.xcstringsOutputPath)"
             try xcstrings.write(toFile: xcstringsFilePath, atomically: true, encoding: .utf8)
